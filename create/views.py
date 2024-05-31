@@ -5,5 +5,5 @@ from django.views import View
 
 
 class MainView(View):
-    def create(request):
-        return render(request, 'create_account/create.html')
+    def showCreatePage(request):
+        return render(request, 'create/index.html')

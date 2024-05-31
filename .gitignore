@@ -6,11 +6,11 @@ db.sqlite3
 
 # Pycache files
 FakeNewsDetection/__pycache__
-create_account/__pycache__
+create/__pycache__
 home/__pycache__
 login/__pycache__
 
 # Migration files
-create_account/migrations
+create/migrations
 home/migrations
 login/migrations

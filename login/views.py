@@ -3,5 +3,5 @@ from django.views import View
 # Create your views here.
 
 class MainView(View):
-    def login(request):
+    def showLoginPage(request):
         return render(request, 'login/index.html')

@@ -3,5 +3,5 @@ from django.views import View
 # Create your views here.
 
 class MainView(View):
-    def home(request):
+    def showHomePage(request):
         return render(request, 'home/index.html')
