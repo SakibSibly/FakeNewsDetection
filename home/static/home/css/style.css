@@ -275,3 +275,58 @@ input[type = "checkbox"]:checked ~ .toggle-icon > .bar-bottom{
     opacity: 1;
     pointer-events: auto;
 }
+
+
+
+
+/* -------------------Main Page--------------------- */
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid green;
+    height: 100vh;
+
+}
+
+
+
+
+/* -------------------Three div Area------------------- */
+
+.area{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 33vh;
+}
+
+.two,.three{
+    flex-direction: column;
+}
+
+
+
+
+
+/* -------------------Text Area--------------------- */
+
+.box{
+    width: 50vw;
+    height: 20vh;
+    resize: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+
+
+
+
+/* -------------------Button--------------------- */
+
+.btn{
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+}

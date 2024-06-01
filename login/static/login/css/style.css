@@ -32,12 +32,15 @@
 
 .extension{
     flex: 2;
-    border: 1px solid red;
     background: var(--noman3) url(login\static\login\images\fake.png);
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
+
+
 
 .tv{
     position: relative;
@@ -47,7 +50,6 @@
 
 .extension2{
     flex: 1;
-    border: 1px solid blue;
     background: var(--noman2);
 }
 
