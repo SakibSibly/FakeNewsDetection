@@ -23,9 +23,9 @@ function pass() {
 
     if (passInput.type === "password") {
         passInput.type = "text";
-        passIcon.className = "fa-solid fa-eye";
+        passIcon.className = "fa-solid fa-eye-slash";
     } else {
         passInput.type = "password";
-        passIcon.className = "fa-solid fa-eye-slash";
+        passIcon.className = "fa-solid fa-eye";
     }
 }
