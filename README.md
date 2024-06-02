@@ -4,7 +4,7 @@
 
 Python 3.9 or higher is recommended to run the proejct.
 
-Move to the project directory and install the requirements for the project in a virtual envirionment:
+Move to the project directory and install the requirements for the project in a virtual environment:
 ```
 pip install -r requirements.txt
 ```
