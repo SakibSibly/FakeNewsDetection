@@ -2,9 +2,9 @@
 
 ## How to use the project locally:
 
-Python 3.9 or higher is required to run the proejct.
+Python 3.9 or higher is recommended to run the proejct.
 
-Move to the project directory and install the requirements for the project:
+Move to the project directory and install the requirements for the project in a virtual envirionment:
 ```
 pip install -r requirements.txt
 ```
