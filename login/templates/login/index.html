@@ -1,64 +1,93 @@
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign in</title>
+
     <link rel="stylesheet" href="{% static 'login/css/style.css' %}">
+
+    <!-- <link rel="stylesheet" href="/login/static/login/css/style.css"> -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
+
 <body>
+    
+    <div id="fixbar">
+        <div id="logo"></div>
+        <div id="help"></div>
+    </div>
 
-    <div class="container">
-        
-        <div class="extension"> 
-            <img class="noman tv" src="{% static 'login/images/fake.png' %}" alt="" srcset="">
-            <p class = "not-account">Fake news can have significant consequences, from undermining public trust and democracy to causing real-world harm. Misinformation spreads rapidly, 
-                influencing public opinion, 
-                exacerbating social tensions, 
+    <div class="containers">
+
+        <div class="container extension1">
+
+            <img class="content" src="{% static 'login/images/fake.png' %}" alt="" srcset="">
+
+            <!-- <p class="not-account">Fake news can have significant consequences, from undermining public trust and
+                democracy to causing real-world harm. Misinformation spreads rapidly,
+                influencing public opinion,
+                exacerbating social tensions,
                 and potentially leading to dangerous actions based on false beliefs.
-            </p>
+            </p> -->
+
         </div>
 
-        <div class="extension2">
+        <div class="container extension2">
 
-        <div class="form-box">
-            
-        <h1>Sign in</h1>
-        <div class="underline"></div>
-        <form method="get" action="{% url 'home' %}" onsubmit="return signinn()">
-            <div class="input-group">
+            <div class="section1">
+
+                <h1>Sign in</h1>
+                <div class="underline"></div>
+
+                <form method="POST" action="{% url 'home' %}" onsubmit="return signinn()">
+
+                    <div class="input-group">
+
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" id="mail" name="email" placeholder="Email Address" >
+                        </div>
+
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" id="pass" name="password" placeholder="Password" >
+                            <i id="pass-icon" onclick="pass()" class="fa-solid fa-eye-slash"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="Btn-field">
+                        <button type="submit" class="btn signin">Sign in</button>
+                    </div>
+
+                </form>
                 
-                <div class="input-field">
-                <i class="fa-solid fa-envelope"></i>
-                <input type="email" id="mail" name="mail" placeholder="Email Address">
-                </div>
-                
-                <div class="input-field">
-                <i class="fa-solid fa-lock"></i>
-                <input type="password" id="pass" name="pass" placeholder="Password">
-                <i id="pass-icon" onclick="pass()" class="fa-solid fa-eye-slash"></i>
-                </div>
+                <!-- <div class="not-account">
+                    <p>Don't have Account?
+                        <a href="{% url 'create' %}"> sign up</a>
+                    </p>
+                </div> -->
             </div>
-    
-            <div class = "Btn-field">
-                <button type="submit" class="signinbtn">Sign in</button>
+
+            <div class="section2">
+                <div class="continueWith"></div>
+                <div class="brands"></div>
+                <div class="policy"></div>
+                <div class="createAcount"></div>
+
             </div>
-        </form>
-        <div class = "not-account">
-            <p>Don't have Account? 
-                <a href="{% url 'create' %}"> sign up</a>
-            </p>
-            </div>
-        </div>
 
         </div>
-    
-        </div> <!-- end container -->
-        <script src="{% static 'login/js/signin.js' %}" ></script>
-    
+
+    </div> <!-- end container -->
+    <script src="{% static 'login/js/signin.js' %}"></script>
+
 </body>
+
 </html>

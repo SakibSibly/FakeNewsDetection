@@ -8,11 +8,96 @@
     --noman3: rgb(172, 192, 192);
 }
 
-@media (max-width: 900px) {
-    .container {
+@media (max-width: 1000px) {
+    .containers {
         flex-direction: column-reverse;
+        height: 200vh;
     }
 }
+
+body{
+    background: gray;
+}
+
+#fixbar{
+    height: 100px;
+    width: 100%;
+    background: rgb(235, 233, 233);
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    /* filter: blur(15px); */
+}
+
+#logo,#help{
+    height: 100%;
+    width: 150px;
+    border: 1px solid red;
+}
+
+.containers{
+    display: flex;
+    overflow: hidden;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.extension1{
+    background: var(--noman3);
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.extension2{
+    background: var(--noman2);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field{
+    background: white;
+    border: 1px solid rgb(167, 216, 175);
+    margin: 12px;
+    border-radius: 15px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.input-field > i{
+    width: 20px;
+    margin: 10px;
+}
+
+input{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+
+
+
+/*
+.input-group{border: 1px solid red;}
 
 .container,.extension2{
     width: 100%;
@@ -54,15 +139,14 @@
 }
 
 .form-box{
-    /* width: 90%; */
-    /* height: 70%;  */
+    width: 90%; 
     max-width: 450px;
     min-width: 450px;
     background: var(--noman2);
     padding: 55px;
     text-align: center;
     border-radius: 10px;
-    /* box-shadow: -2px 2px 15px rgba(0,0,0,0.5); */
+     box-shadow: -2px 2px 15px rgba(0,0,0,0.5); 
 }
 
 
@@ -102,12 +186,17 @@
     color: grey;
 }
 
+*/
+
 .Btn-field{
     width: 100%;
     display: flex;
     align-items: center;
-    /* margin-top: -10%; */
+    justify-content: center;
+    margin-top: 12px;
 }
+
+
 .Btn-field button{
     flex-basis: 100%;
     background: var(--noman);
@@ -131,7 +220,7 @@
     outline: 0; 
     cursor: pointer;
     transition: background 1s;
-} */
+}
 
 .input-group{
     height: 170px;
@@ -145,4 +234,4 @@
     position: relative;
     right: 10px;
     cursor: pointer;
-}
+} */
