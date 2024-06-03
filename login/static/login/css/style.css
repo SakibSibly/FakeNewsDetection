@@ -36,9 +36,20 @@ body{
 
 #logo,#help{
     height: 100%;
-    width: 150px;
-    border: 1px solid rgb(255, 0, 0);
+    width: 125px;
+    display: flex;
 }
+
+#help{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.extra-large{
+    font-size: 40px;
+}
+
+
 
 .containers{
     display: flex;
@@ -113,6 +124,10 @@ input{
     border: none;
     outline: none;
     background: transparent;
+}
+
+.hidden{
+    display: none;
 }
 
 .section2{

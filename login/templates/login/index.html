@@ -18,10 +18,13 @@
 
 <body>
     
-    <div id="fixbar">
+    <!-- <div id="fixbar">
         <div id="logo"></div>
-        <div id="help"></div>
-    </div>
+        <div id="help">
+            <i class="fa fa-question-circle extra-large" aria-hidden="true"></i>
+            <i class="fa fa-globe extra-large"  aria-hidden="true" ></i>
+        </div>
+    </div> -->
 
     <div class="containers">
 
@@ -45,7 +48,7 @@
                 <h1>Sign in</h1>
                 <div class="underline"></div>
 
-                <form method="POST" action="{% url 'home' %}" onsubmit="return signinn()">
+                <form method="POST" action="{% url 'home' %}">
 
                     <div class="input-group">
 
@@ -53,12 +56,14 @@
                             <i class="fa-solid fa-envelope"></i>
                             <input type="email" id="mail" name="email" placeholder="Email Address" >
                         </div>
+                        <span id="error-message" class="hidden">Error: Invalid Email!</span>
 
                         <div class="input-field">
                             <i class="fa-solid fa-lock"></i>
                             <input type="password" id="pass" name="password" placeholder="Password" >
                             <i id="pass-icon" onclick="pass()" class="fa-solid fa-eye-slash"></i>
                         </div>
+                        <span id="error-message" class="hidden">Error: Invalid Password!</span>
 
                     </div>
 
