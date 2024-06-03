@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="{% static 'login/css/style.css' %}">
 
-    <!-- <link rel="stylesheet" href="/login/static/login/css/style.css"> -->
+    <link rel="stylesheet" href="/login/static/login/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -76,10 +76,30 @@
             </div>
 
             <div class="section2">
-                <div class="continueWith"></div>
-                <div class="brands"></div>
-                <div class="policy"></div>
-                <div class="createAcount"></div>
+
+                <div id="continueWith"> _Continue With_ </div>
+
+                <div class="brands">
+
+                    <button type="button">
+                        <i class="fa-brands fa-google large"></i>
+                        <i class="large">oogle</i>
+                    </button>
+
+                    <button type="button">
+                        <i class="fa-brands fa-github large"></i>
+                        <i class="large">Github</i>
+                    </button>
+
+                </div>
+
+                <div id="policy">
+                    <p>By creating an FNDS account, you agree to the <span id="t&c"> FNDS Terms & Conditions </span> and confirm you have been informed about our <span id="policies">Privacy Policy</span> .</p>
+                </div>
+
+                <div id="createAccount">
+                    <p>Don't have an account? <span>Create Account</span> </p>
+                </div>
 
             </div>
 
@@ -87,6 +107,7 @@
 
     </div> <!-- end container -->
     <script src="{% static 'login/js/signin.js' %}"></script>
+
 
 </body>
 

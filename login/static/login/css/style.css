@@ -16,25 +16,28 @@
 }
 
 body{
-    background: gray;
+    background: rgb(236, 225, 225);
+    height: 120vh;
 }
 
 #fixbar{
     height: 100px;
     width: 100%;
-    background: rgb(235, 233, 233);
-    position: sticky;
+    background: transparent;
+    position: absolute;
     top:0;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-content: space-between;
     /* filter: blur(15px); */
+    /* transition: background 0.3 ease; */
 }
 
 #logo,#help{
     height: 100%;
     width: 150px;
-    border: 1px solid red;
+    border: 1px solid rgb(255, 0, 0);
 }
 
 .containers{
@@ -43,8 +46,8 @@ body{
 }
 
 .container{
-    height: 100vh;
-    width: 100vw;
+    height: 120vh;
+    width: 100%;
 }
 
 .extension1{
@@ -59,10 +62,29 @@ body{
     background: var(--noman2);
     flex: 1;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     min-width: 400px;
     
+}
+
+.section1{
+    margin-top: 200px;
+}
+
+
+.section1 h1{ 
+    font-size: 30px;
+    color: var(--noman);
+    text-align: center;
+}
+
+.section1 .underline{
+    width: 30px;
+    height: 4px;
+    background: var(--noman);
+    margin: 10px auto 15px auto;
 }
 
 .input-group{
@@ -93,8 +115,57 @@ input{
     background: transparent;
 }
 
+.section2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    
+}
 
+#continueWith,#policy,#createAccount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
 
+.brands{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brands > *{
+    margin: 15px;
+    padding: 7px;
+    border-radius: 30px;
+    border: 1px solid rgb(167, 216, 175);
+    /* width: 20vw; */
+    max-width: 100%;
+    background: white;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.large{
+    font-size: 20px;
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+}
 
 /*
 .input-group{border: 1px solid red;}
