@@ -1,51 +1,119 @@
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign in</title>
+
     <link rel="stylesheet" href="{% static 'login/css/style.css' %}">
+
+    <link rel="stylesheet" href="/login/static/login/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
-<body>
 
-    <div class="container" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)), url({% static 'login/images/background.jpg' %});">
-        
-        <div class="form-box">
-            
-        <h1>Sign in</h1>
-        <div class="underline"></div>
-        <form method="get" action="{% url 'home' %}" onsubmit="return signinn()">
-            <div class="input-group">
-                
-                <div class="input-field">
-                <i class="fa-solid fa-envelope"></i>
-                <input type="email" id="mail" name="mail" placeholder="Email Address">
-                </div>
-                
-                <div class="input-field">
-                <i class="fa-solid fa-lock"></i>
-                <input type="password" id="pass" name="pass" placeholder="Password">
-                <i id="pass-icon" onclick="pass()" class="fa-solid fa-eye-slash"></i>
-                </div>
-            </div>
+<body>
     
-            <div class = "Btn-field">
-                <button type="submit" class="signinbtn">Sign in</button>
-            </div>
-        </form>
-        <div class = "not-account">
-            <p>Don't have Account? 
-                <a href="{% url 'create' %}"> sign up</a>
-            </p>
-            </div>
+    <!-- <div id="fixbar">
+        <div id="logo"></div>
+        <div id="help">
+            <i class="fa fa-question-circle extra-large" aria-hidden="true"></i>
+            <i class="fa fa-globe extra-large"  aria-hidden="true" ></i>
         </div>
-    
-        </div> <!-- end container -->
-        <script src="{% static 'login/js/signin.js' %}" ></script>
-    
+    </div> -->
+
+    <div class="containers">
+
+        <div class="container extension1">
+
+            <img class="content" src="{% static 'login/images/fake.png' %}" alt="" srcset="">
+
+            <!-- <p class="not-account">Fake news can have significant consequences, from undermining public trust and
+                democracy to causing real-world harm. Misinformation spreads rapidly,
+                influencing public opinion,
+                exacerbating social tensions,
+                and potentially leading to dangerous actions based on false beliefs.
+            </p> -->
+
+        </div>
+
+        <div class="container extension2">
+
+            <div class="section1">
+
+                <h1>Sign in</h1>
+                <div class="underline"></div>
+
+                <form method="POST" action="{% url 'home' %}">
+
+                    <div class="input-group">
+
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" id="mail" name="email" placeholder="Email Address" >
+                        </div>
+                        <span id="error-message" class="hidden">Error: Invalid Email!</span>
+
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" id="pass" name="password" placeholder="Password" >
+                            <i id="pass-icon" onclick="pass()" class="fa-solid fa-eye-slash"></i>
+                        </div>
+                        <span id="error-message" class="hidden">Error: Invalid Password!</span>
+
+                    </div>
+
+                    <div class="Btn-field">
+                        <button type="submit" class="btn signin">Sign in</button>
+                    </div>
+
+                </form>
+                
+                <!-- <div class="not-account">
+                    <p>Don't have Account?
+                        <a href="{% url 'create' %}"> sign up</a>
+                    </p>
+                </div> -->
+            </div>
+
+            <div class="section2">
+
+                <div id="continueWith"> _Continue With_ </div>
+
+                <div class="brands">
+
+                    <button type="button">
+                        <i class="fa-brands fa-google large"></i>
+                        <i class="large">oogle</i>
+                    </button>
+
+                    <button type="button">
+                        <i class="fa-brands fa-github large"></i>
+                        <i class="large">Github</i>
+                    </button>
+
+                </div>
+
+                <div id="policy">
+                    <p>By creating an FNDS account, you agree to the <span id="t&c"> FNDS Terms & Conditions </span> and confirm you have been informed about our <span id="policies">Privacy Policy</span> .</p>
+                </div>
+
+                <div id="createAccount">
+                    <p>Don't have an account? <span>Create Account</span> </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div> <!-- end container -->
+    <script src="{% static 'login/js/signin.js' %}"></script>
+
+
 </body>
+
 </html>
