@@ -35,40 +35,11 @@
         </form>
         
         <div class="not-account">
-            <p>Don't have Account?
-                <a href="{% url 'register' %}"> sign up</a>
+            <p>Already have an account?
+                <a class="adjustable-links" href="{% url 'login' %}"> Login</a>
             </p>
         </div>
     </div>
-
-    <div class="section2">
-
-        <div id="continueWith"> _Continue With_ </div>
-
-        <div class="brands">
-
-            <button type="button">
-                <i class="fa-brands fa-google large"></i>
-                <i class="large">oogle</i>
-            </button>
-
-            <button type="button">
-                <i class="fa-brands fa-github large"></i>
-                <i class="large">Github</i>
-            </button>
-
-        </div>
-
-        <div id="policy">
-            <p>By creating an FNDS account, you agree to the <span id="t&c"> FNDS Terms & Conditions </span> and confirm you have been informed about our <span id="policies">Privacy Policy</span> .</p>
-        </div>
-
-        <div id="createAccount">
-            <p>Don't have an account? <span>Create Account</span> </p>
-        </div>
-
-    </div>
-
 </div>
 
 {% endblock %}

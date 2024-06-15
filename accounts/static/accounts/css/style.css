@@ -140,13 +140,22 @@ input{
     
 }
 
-#continueWith,#policy,#createAccount{
+#continueWith,#policy,#create-account{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin: 10px;
     padding: 10px;
+}
+
+.adjustable-links {
+    text-decoration: none;
+}
+
+.adjustable-links:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .brands{
