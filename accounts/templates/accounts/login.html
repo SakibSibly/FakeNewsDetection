@@ -1,0 +1,68 @@
+{% extends "accounts/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container extension2">
+
+    <div class="section1">
+
+        <h1>Sign in</h1>
+        <div class="underline"></div>
+
+        <form method="POST" action="{% url 'home' %}">
+
+            <div class="input-group">
+
+                <div class="input-field">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" id="mail" name="email" placeholder="Email Address" >
+                </div>
+                <span id="error-message" class="hidden">Error: Invalid Email!</span>
+
+                <div class="input-field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="pass" name="password" placeholder="Password" >
+                    <i id="pass-icon" onclick="pass()" class="fa-solid fa-eye"></i>
+                </div>
+                <span id="error-message" class="hidden">Error: Invalid Password!</span>
+
+            </div>
+
+            <div class="Btn-field">
+                <button type="submit" class="btn signin">Sign in</button>
+            </div>
+
+        </form>
+    </div>
+
+    <div class="section2">
+
+        <div id="continueWith"> ------- Continue With -------- </div>
+
+        <div class="brands">
+
+            <button type="button">
+                <i class="fa-brands fa-google large"></i>
+                <i class="large">oogle</i>
+            </button>
+
+            <button type="button">
+                <i class="fa-brands fa-github large"></i>
+                <i class="large">Github</i>
+            </button>
+
+        </div>
+
+        <div id="policy">
+            <p>By creating an FNDS account, you agree to the <span id="t&c"> FNDS Terms & Conditions </span> and confirm you have been informed about our <span id="policies">Privacy Policy</span> .</p>
+        </div>
+
+        <div id="create-account">
+            <p>Don't have an account? <b><a class="adjustable-links" href="{% url 'register' %}">Create Account</a></b> </p>
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

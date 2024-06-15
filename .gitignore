@@ -6,11 +6,9 @@ db.sqlite3
 
 # Pycache files
 FakeNewsDetection/__pycache__
-create/__pycache__
+accounts/__pycache__
 home/__pycache__
-login/__pycache__
 
 # Migration files
-create/migrations
+accounts/migrations
 home/migrations
-login/migrations
