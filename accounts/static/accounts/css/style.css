@@ -304,6 +304,10 @@ span{
     transition: background 1s;
 }
 
+.not-account {
+    margin-top: 8%;
+}
+
 /* .not-account button{
     flex-basis: 100%;
     background: var(--noman);

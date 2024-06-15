@@ -14,6 +14,18 @@
             <div class="input-group">
 
                 <div class="input-field">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" >
+                </div>
+                <span id="error-message" class="hidden">Error: Invalid Name!</span>
+
+                <div class="input-field">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" id="user-name" name="user-name" placeholder="Enter your username" >
+                </div>
+                <span id="error-message" class="hidden">Error: Invalid username!</span>
+
+                <div class="input-field">
                     <i class="fa-solid fa-envelope"></i>
                     <input type="email" id="mail" name="email" placeholder="Email Address" >
                 </div>
@@ -29,14 +41,14 @@
             </div>
 
             <div class="Btn-field">
-                <button type="submit" class="btn signin">Sign in</button>
+                <button type="submit" class="btn create-new-account">Create new Account</button>
             </div>
 
         </form>
         
         <div class="not-account">
             <p>Already have an account?
-                <a class="adjustable-links" href="{% url 'login' %}"> Login</a>
+                <b> <a class="adjustable-links" href="{% url 'login' %}"> Login</a> </b>
             </p>
         </div>
     </div>
