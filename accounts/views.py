@@ -5,6 +5,16 @@ from accounts.models import User
 
 class MainView(View):
     def showLoginPage(request):
+        if request.method == 'POST':
+            data = request.POST
+            email = data.get('email')
+            password = data.get('password')
+
+            database = User.objects.all()
+            for user in database:
+                if user.email == email and user.password == password:
+                    return render(request,'home/index.html')
+
         return render(request, 'accounts/login.html')
     
     def showRegisterPage(request):
@@ -22,7 +32,7 @@ class MainView(View):
                 password = password,
             )
             newUser.save()
-            return render(request, 'accounts/success.html',context={'data':data})
+            return render(request, 'accounts/success.html')
 
         return render(request, 'accounts/register.html')
     
