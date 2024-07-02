@@ -1,4 +1,4 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render, HttpResponse,redirect
 from django.views import View
 from accounts.models import User
 # Create your views here.
@@ -13,7 +13,7 @@ class MainView(View):
             database = User.objects.all()
             for user in database:
                 if user.email == email and user.password == password:
-                    return render(request,'home/index.html')
+                    return redirect('home')
 
         return render(request, 'accounts/login.html')
     
