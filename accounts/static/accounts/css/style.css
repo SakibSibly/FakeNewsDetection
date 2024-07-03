@@ -151,11 +151,13 @@ input{
 
 .adjustable-links {
     text-decoration: none;
+    color: blue;
 }
 
 .adjustable-links:hover {
     cursor: pointer;
     text-decoration: underline;
+    color: #0e1e2f;
 }
 
 .brands{
@@ -170,9 +172,16 @@ input{
     justify-content: center;
 }
 
+.brands button:hover{
+    background: #0e1e2f;
+    color: white;
+    transform: scale(1.1);
+    transition: transform 0.5s ease;  
+}
+
 .brands > *{
-    margin: 15px;
-    padding: 7px;
+    margin: 10px;
+    padding: 15px;
     border-radius: 30px;
     border: 1px solid rgb(167, 216, 175);
     /* width: 20vw; */
@@ -211,7 +220,11 @@ span{
     border: 0;
     outline: 0; 
     cursor: pointer;
-    transition: background 1s;
+    transition: background .5s;
+}
+
+.Btn-field button:hover{
+    background: #254f7c;
 }
 
 .not-account {
