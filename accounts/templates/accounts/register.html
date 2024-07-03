@@ -2,6 +2,9 @@
 {% load static %}
 
 {% block content %}
+
+{% block success %} {% endblock success %}
+
 <div class="container extension2">
 
     <div class="section1">
@@ -9,7 +12,8 @@
         <h1>Create an Account</h1>
         <div class="underline"></div>
 
-        <form method="POST" action="{% url 'home' %}">
+        <form method="POST">
+            {% csrf_token %}
 
             <div class="input-group">
 
@@ -21,7 +25,7 @@
 
                 <div class="input-field">
                     <i class="fa-solid fa-user"></i>
-                    <input type="text" id="user-name" name="user-name" placeholder="Enter your username" >
+                    <input type="text" id="user-name" name="uname" placeholder="Enter your username" >
                 </div>
                 <span id="error-message" class="hidden">Error: Invalid username!</span>
 

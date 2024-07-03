@@ -83,26 +83,28 @@
 
         <div id="main">
 
-            <div class="area one">
-                <select>
-                    <option value="English">English</option>
-                    <option value="Bangla">Bangla</option>
-                </select>
-            </div>
-    
-            <div class="area two">
-                <textarea class="box news" name="query"></textarea> <!-- Use name attribute instead of id -->
-                <button class="btn check" type="submit">Check News</button>
-            </div>
-    
-            <div class="area three">
-                <!-- Render news text in viewTextarea -->
-                <textarea class="box view" id="viewTextarea" readonly>{% block text %} {% endblock %}</textarea>
-                <button class="btn print" type="submit">Print Report</button>
-            </div>
-    
+        <div class="area one">
+            <select>
+                <option value="English">English</option>
+                <option value="Bangla">Bangla</option>
+            </select>
         </div>
-        
+
+
+        <form method="post">
+            {% csrf_token %}
+        <div class="area two">
+            <textarea class="box news" name="query"></textarea> <!-- Use name attribute instead of id -->
+            <button class="btn check" type="submit">Check News</button>
+        </div>
+        </form>
+
+        <div class="area three">
+            <!-- Render news text in viewTextarea -->
+            <textarea class="box view" id="viewTextarea" readonly>{% block text %} {% endblock text %}</textarea>
+            <button class="btn print" type="submit">Print Report</button>
+        </div>
+
     </div>
     
  
