@@ -106,9 +106,9 @@ body{
 .input-field{
     background: white;
     border: 1px solid rgb(167, 216, 175);
-    margin: 12px;
+    margin-bottom: 8px;
     border-radius: 15px;
-    height: 35px;
+    height: 45px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -151,11 +151,13 @@ input{
 
 .adjustable-links {
     text-decoration: none;
+    color: blue;
 }
 
 .adjustable-links:hover {
     cursor: pointer;
     text-decoration: underline;
+    color: #0e1e2f;
 }
 
 .brands{
@@ -170,9 +172,16 @@ input{
     justify-content: center;
 }
 
+.brands button:hover{
+    background: #0e1e2f;
+    color: white;
+    transform: scale(1.1);
+    transition: transform 0.5s ease;  
+}
+
 .brands > *{
-    margin: 15px;
-    padding: 7px;
+    margin: 10px;
+    padding: 15px;
     border-radius: 30px;
     border: 1px solid rgb(167, 216, 175);
     /* width: 20vw; */
@@ -191,97 +200,7 @@ span{
     color: blue;
 }
 
-/*
-.input-group{border: 1px solid red;}
 
-.container,.extension2{
-    width: 100%;
-    height: 100vh;
-    background: var(--noman3);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.extension,.extension2{
-    height: 100vh;
-    width: 100%;
-}
-
-.extension{
-    flex: 2;
-    background: var(--noman3) url(login\static\login\images\fake.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-
-
-.tv{
-    position: relative;
-    max-width: 50vw;
-    max-height: 50vw;
-}
-
-.extension2{
-    flex: 1;
-    background: var(--noman2);
-}
-
-.form-box{
-    width: 90%; 
-    max-width: 450px;
-    min-width: 450px;
-    background: var(--noman2);
-    padding: 55px;
-    text-align: center;
-    border-radius: 10px;
-     box-shadow: -2px 2px 15px rgba(0,0,0,0.5); 
-}
-
-
-
-.form-box h1{
-    font-size: 30px;
-    color: var(--noman);
-}
-
-.form-box .underline{
-    width: 30px;
-    height: 4px;
-    background: var(--noman);
-    margin: 10px auto 50px auto;
-    border-radius: 5px;
-}
-
-
-.input-field{
-    background: #ffffff;
-    margin: 15px 0;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    border: 1px solid gray;
-}
-.input-field input{
-    width: 100%;
-    background: transparent;
-    border: 0;
-    outline: 0;
-    padding: 18px 15px;
-}
-
-.input-field i{
-    margin-left: 15px;
-    color: grey;
-}
-
-*/
 
 .Btn-field{
     width: 100%;
@@ -301,36 +220,25 @@ span{
     border: 0;
     outline: 0; 
     cursor: pointer;
-    transition: background 1s;
+    transition: background .5s;
+}
+
+.Btn-field button:hover{
+    background: #254f7c;
 }
 
 .not-account {
     margin-top: 8%;
 }
 
-/* .not-account button{
-    flex-basis: 100%;
-    background: var(--noman);
-    color: white;
-    height: 30px;
-    width: 70px;
-    border-radius: 10px;
-    border: 0;
-    outline: 0; 
-    cursor: pointer;
-    transition: background 1s;
+.hidden {
+    display: none;
+    font-size: small;
+    color: red; 
+    margin-left: 10px ;
 }
 
-.input-group{
-    height: 170px;
+.error-input-container {
+    border: 1px solid red !important;
+    color: red !important; 
 }
-
-.not-account{
-    margin: 10px 0;
-}
-
-#pass-icon{
-    position: relative;
-    right: 10px;
-    cursor: pointer;
-} */

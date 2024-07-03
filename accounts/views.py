@@ -1,6 +1,7 @@
 from django.shortcuts import render, HttpResponse,redirect
 from django.views import View
 from accounts.models import User
+import hashlib
 # Create your views here.
 
 class MainView(View):
@@ -8,7 +9,7 @@ class MainView(View):
         if request.method == 'POST':
             data = request.POST
             email = data.get('email')
-            password = data.get('password')
+            password = hashlib.sha256(data.get('password').encode()).hexdigest()
 
             database = User.objects.all()
             for user in database:
@@ -23,7 +24,7 @@ class MainView(View):
             name = data.get('name')
             uname = data.get('uname')
             email = data.get('email')
-            password = data.get('password')
+            password = hashlib.sha256(data.get('password').encode()).hexdigest()
 
             newUser = User(
                 name = name,
