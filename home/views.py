@@ -54,20 +54,32 @@ class News:
                 params['start'] += 1
 
             else:
-                break
+                print("You may run out of your api limit! \n\nPlease Change the api or upgrade plan!")
+                return -1
+
+    def summarize():
+        pass
+
+    def context_match():
+        pass
 
 
 class MainView(View):
 
-
     def showHomePage(request):
         if request.method == 'POST':
             query = request.POST.get('query')
-            News.scrap(query)
 
-            file = open("result.txt",'r')
-            content = file.read()
-            file.close()
+            if query:
+                value = News.scrap(query)
+                if(value == -1):
+                    content = "You may run out of your api limit! \n\nPlease Change the api or upgrade plan!"
+                else:
+                    file = open("result.txt",'r',encoding="UTF-8")
+                    content = file.read()
+                    file.close()
+            else:
+                content = "No News to Find!"
 
             return render(request,'home/show.html',{'content':content})
 
