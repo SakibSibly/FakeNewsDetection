@@ -1,0 +1,2100 @@
+-->>1
+DUMMY_SITE_NAME
+Title : Who is in charge of Iran?
+Snippet : 4 days ago ... He wants to bring an end to Western sanctions on Iran by making a new deal over its nuclear programme. The supreme leader called for a high ...
+link : https://www.bbc.com/news/world-middle-east-57260831
+
+
+-->>2
+DUMMY_SITE_NAME
+Title : My 20 minutes with US President Barack Obama - BBC News
+Snippet : Sep 25, 2010 ... ... sanctions on other countries. But they have consistently seen a behaviour on the part of the Iranian government that indicates that it has a ...
+link : https://www.bbc.com/news/world-us-canada-11412890
+
+
+-->>3
+DUMMY_SITE_NAME
+Title : Exclusive: China presses Iran to rein in Houthi attacks in Red Sea ...
+Snippet : Jan 26, 2024 ... Two officials in the Yemeni government ... "They will not inform us of such a request, especially since Iran's stated position is to support Yemen ...
+link : https://www.reuters.com/world/middle-east/china-presses-iran-rein-houthi-attacks-red-sea-sources-say-2024-01-26/
+
+
+-->>4
+DUMMY_SITE_NAME
+Title : Huawei faces US charges: The short, medium and long story
+Snippet : May 7, 2019 ... Authorities claim they misled the US government about the company's business in Iran, which is under US economic sanctions. The US is also ...
+link : https://www.bbc.com/news/world-us-canada-47046264
+
+
+-->>5
+DUMMY_SITE_NAME
+Title : Iran rejects Biden's terms for reviving nuclear deal
+Snippet : Dec 3, 2020 ... Tehran says the US is in no position to set preconditions and economic sanctions must be lifted.
+link : https://www.bbc.com/news/world-middle-east-55177586
+
+
+-->>6
+DUMMY_SITE_NAME
+Title : Exclusive: Iran sends Russia hundreds of ballistic missiles | Reuters
+Snippet : Feb 21, 2024 ... An Iranian military official - who, like the other sources, asked not to be identified because of the sensitivity of the information - said ...
+link : https://www.reuters.com/world/iran-sends-russia-hundreds-ballistic-missiles-sources-say-2024-02-21/
+
+
+-->>7
+DUMMY_SITE_NAME
+Title : Iranian President Ebrahim Raisi, hardline ally of Khamenei, killed in ...
+Snippet : May 20, 2024 ... "I announce five days of public mourning and offer my condolences to the dear people of Iran," Khamenei said in a statement. Mokhber, like Raisi ...
+link : https://www.reuters.com/world/middle-east/hopes-fade-wreckage-found-helicopter-carrying-iranian-president-raisi-2024-05-20/
+
+
+-->>8
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>9
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>10
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>11
+DUMMY_SITE_NAME
+Title : My 20 minutes with US President Barack Obama - BBC News
+Snippet : Sep 25, 2010 ... ... sanctions on other countries. But they have consistently seen a behaviour on the part of the Iranian government that indicates that it has a ...
+link : https://www.bbc.com/news/world-us-canada-11412890
+
+
+-->>12
+DUMMY_SITE_NAME
+Title : Exclusive: China presses Iran to rein in Houthi attacks in Red Sea ...
+Snippet : Jan 26, 2024 ... Two officials in the Yemeni government ... "They will not inform us of such a request, especially since Iran's stated position is to support Yemen ...
+link : https://www.reuters.com/world/middle-east/china-presses-iran-rein-houthi-attacks-red-sea-sources-say-2024-01-26/
+
+
+-->>13
+DUMMY_SITE_NAME
+Title : Iran rejects Biden's terms for reviving nuclear deal
+Snippet : Dec 3, 2020 ... Tehran says the US is in no position to set preconditions and economic sanctions must be lifted.
+link : https://www.bbc.com/news/world-middle-east-55177586
+
+
+-->>14
+DUMMY_SITE_NAME
+Title : Huawei faces US charges: The short, medium and long story
+Snippet : May 7, 2019 ... Authorities claim they misled the US government about the company's business in Iran, which is under US economic sanctions. The US is also ...
+link : https://www.bbc.com/news/world-us-canada-47046264
+
+
+-->>15
+DUMMY_SITE_NAME
+Title : Exclusive: Iran sends Russia hundreds of ballistic missiles | Reuters
+Snippet : Feb 21, 2024 ... An Iranian military official - who, like the other sources, asked not to be identified because of the sensitivity of the information - said ...
+link : https://www.reuters.com/world/iran-sends-russia-hundreds-ballistic-missiles-sources-say-2024-02-21/
+
+
+-->>16
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>17
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>18
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>19
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>20
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>21
+DUMMY_SITE_NAME
+Title : Exclusive: China presses Iran to rein in Houthi attacks in Red Sea ...
+Snippet : Jan 26, 2024 ... Two officials in the Yemeni government ... "They will not inform us of such a request, especially since Iran's stated position is to support Yemen ...
+link : https://www.reuters.com/world/middle-east/china-presses-iran-rein-houthi-attacks-red-sea-sources-say-2024-01-26/
+
+
+-->>22
+DUMMY_SITE_NAME
+Title : Iran rejects Biden's terms for reviving nuclear deal
+Snippet : Dec 3, 2020 ... Tehran says the US is in no position to set preconditions and economic sanctions must be lifted.
+link : https://www.bbc.com/news/world-middle-east-55177586
+
+
+-->>23
+DUMMY_SITE_NAME
+Title : Huawei faces US charges: The short, medium and long story
+Snippet : May 7, 2019 ... Authorities claim they misled the US government about the company's business in Iran, which is under US economic sanctions. The US is also ...
+link : https://www.bbc.com/news/world-us-canada-47046264
+
+
+-->>24
+DUMMY_SITE_NAME
+Title : Exclusive: Iran sends Russia hundreds of ballistic missiles | Reuters
+Snippet : Feb 21, 2024 ... An Iranian military official - who, like the other sources, asked not to be identified because of the sensitivity of the information - said ...
+link : https://www.reuters.com/world/iran-sends-russia-hundreds-ballistic-missiles-sources-say-2024-02-21/
+
+
+-->>25
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>26
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>27
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>28
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>29
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>30
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>31
+DUMMY_SITE_NAME
+Title : Huawei faces US charges: The short, medium and long story
+Snippet : May 7, 2019 ... Authorities claim they misled the US government about the company's business in Iran, which is under US economic sanctions. The US is also ...
+link : https://www.bbc.com/news/world-us-canada-47046264
+
+
+-->>32
+DUMMY_SITE_NAME
+Title : Iran rejects Biden's terms for reviving nuclear deal
+Snippet : Dec 3, 2020 ... Tehran says the US is in no position to set preconditions and economic sanctions must be lifted.
+link : https://www.bbc.com/news/world-middle-east-55177586
+
+
+-->>33
+DUMMY_SITE_NAME
+Title : Exclusive: Iran sends Russia hundreds of ballistic missiles | Reuters
+Snippet : Feb 21, 2024 ... An Iranian military official - who, like the other sources, asked not to be identified because of the sensitivity of the information - said ...
+link : https://www.reuters.com/world/iran-sends-russia-hundreds-ballistic-missiles-sources-say-2024-02-21/
+
+
+-->>34
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>35
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>36
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>37
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>38
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>39
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>40
+DUMMY_SITE_NAME
+Title : What is behind Iran-Pakistan attacks and could conflict escalate ...
+Snippet : Jan 19, 2024 ... Nationwide protests convulsed Iran in 2022 and 2023 and shook the government into a brutal crackdown. ... willing to use its proxies to ...
+link : https://www.reuters.com/world/middle-east/iran-its-proxies-widening-violence-middle-east-2024-01-18/
+
+
+-->>41
+DUMMY_SITE_NAME
+Title : Iran rejects Biden's terms for reviving nuclear deal
+Snippet : Dec 3, 2020 ... Tehran says the US is in no position to set preconditions and economic sanctions must be lifted.
+link : https://www.bbc.com/news/world-middle-east-55177586
+
+
+-->>42
+DUMMY_SITE_NAME
+Title : Exclusive: Iran sends Russia hundreds of ballistic missiles | Reuters
+Snippet : Feb 21, 2024 ... An Iranian military official - who, like the other sources, asked not to be identified because of the sensitivity of the information - said ...
+link : https://www.reuters.com/world/iran-sends-russia-hundreds-ballistic-missiles-sources-say-2024-02-21/
+
+
+-->>43
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>44
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>45
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>46
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>47
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>48
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>49
+DUMMY_SITE_NAME
+Title : What is behind Iran-Pakistan attacks and could conflict escalate ...
+Snippet : Jan 19, 2024 ... Nationwide protests convulsed Iran in 2022 and 2023 and shook the government into a brutal crackdown. ... willing to use its proxies to ...
+link : https://www.reuters.com/world/middle-east/iran-its-proxies-widening-violence-middle-east-2024-01-18/
+
+
+-->>50
+DUMMY_SITE_NAME
+Title : US sanctions Iran after missile test - BBC News
+Snippet : Feb 4, 2017 ... President Obama may have sanctioned Iran for its missile test a year ... want to cut Iran to size. Grey line. Among the newly ...
+link : https://www.bbc.com/news/world-us-canada-38860352
+
+
+-->>51
+DUMMY_SITE_NAME
+Title : Exclusive: Iran sends Russia hundreds of ballistic missiles | Reuters
+Snippet : Feb 21, 2024 ... An Iranian military official - who, like the other sources, asked not to be identified because of the sensitivity of the information - said ...
+link : https://www.reuters.com/world/iran-sends-russia-hundreds-ballistic-missiles-sources-say-2024-02-21/
+
+
+-->>52
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>53
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>54
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>55
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>56
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>57
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>58
+DUMMY_SITE_NAME
+Title : What is behind Iran-Pakistan attacks and could conflict escalate ...
+Snippet : Jan 19, 2024 ... Nationwide protests convulsed Iran in 2022 and 2023 and shook the government into a brutal crackdown. ... willing to use its proxies to ...
+link : https://www.reuters.com/world/middle-east/iran-its-proxies-widening-violence-middle-east-2024-01-18/
+
+
+-->>59
+DUMMY_SITE_NAME
+Title : US sanctions Iran after missile test - BBC News
+Snippet : Feb 4, 2017 ... President Obama may have sanctioned Iran for its missile test a year ... want to cut Iran to size. Grey line. Among the newly ...
+link : https://www.bbc.com/news/world-us-canada-38860352
+
+
+-->>60
+DUMMY_SITE_NAME
+Title : US to hit Iran with new sanctions in "coming days", Yellen says ...
+Snippet : Apr 16, 2024 ... WASHINGTON, April 16 (Reuters) - U.S. Treasury Secretary Janet Yellen on Tuesday warned that the U.S. intends to hit Iran with new sanctions ...
+link : https://www.reuters.com/world/us/us-will-use-sanctions-disrupt-irans-malign-activity-yellen-says-2024-04-16/
+
+
+-->>61
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>62
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>63
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>64
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>65
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>66
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>67
+DUMMY_SITE_NAME
+Title : What is behind Iran-Pakistan attacks and could conflict escalate ...
+Snippet : Jan 19, 2024 ... Nationwide protests convulsed Iran in 2022 and 2023 and shook the government into a brutal crackdown. ... willing to use its proxies to ...
+link : https://www.reuters.com/world/middle-east/iran-its-proxies-widening-violence-middle-east-2024-01-18/
+
+
+-->>68
+DUMMY_SITE_NAME
+Title : US sanctions Iran after missile test - BBC News
+Snippet : Feb 4, 2017 ... President Obama may have sanctioned Iran for its missile test a year ... want to cut Iran to size. Grey line. Among the newly ...
+link : https://www.bbc.com/news/world-us-canada-38860352
+
+
+-->>69
+DUMMY_SITE_NAME
+Title : US to hit Iran with new sanctions in "coming days", Yellen says ...
+Snippet : Apr 16, 2024 ... WASHINGTON, April 16 (Reuters) - U.S. Treasury Secretary Janet Yellen on Tuesday warned that the U.S. intends to hit Iran with new sanctions ...
+link : https://www.reuters.com/world/us/us-will-use-sanctions-disrupt-irans-malign-activity-yellen-says-2024-04-16/
+
+
+-->>70
+DUMMY_SITE_NAME
+Title : Why reporting on Iran comes at a heavy price
+Snippet : Jan 11, 2023 ... The harassment it triggers from the Iranian government creates consequences for the lives of the journalists. ... Iran ready to execute British ...
+link : https://www.bbc.com/news/world-middle-east-64222261
+
+
+-->>71
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>72
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>73
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>74
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>75
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>76
+DUMMY_SITE_NAME
+Title : What is behind Iran-Pakistan attacks and could conflict escalate ...
+Snippet : Jan 19, 2024 ... Nationwide protests convulsed Iran in 2022 and 2023 and shook the government into a brutal crackdown. ... willing to use its proxies to ...
+link : https://www.reuters.com/world/middle-east/iran-its-proxies-widening-violence-middle-east-2024-01-18/
+
+
+-->>77
+DUMMY_SITE_NAME
+Title : US sanctions Iran after missile test - BBC News
+Snippet : Feb 4, 2017 ... President Obama may have sanctioned Iran for its missile test a year ... want to cut Iran to size. Grey line. Among the newly ...
+link : https://www.bbc.com/news/world-us-canada-38860352
+
+
+-->>78
+DUMMY_SITE_NAME
+Title : US to hit Iran with new sanctions in "coming days", Yellen says ...
+Snippet : Apr 16, 2024 ... WASHINGTON, April 16 (Reuters) - U.S. Treasury Secretary Janet Yellen on Tuesday warned that the U.S. intends to hit Iran with new sanctions ...
+link : https://www.reuters.com/world/us/us-will-use-sanctions-disrupt-irans-malign-activity-yellen-says-2024-04-16/
+
+
+-->>79
+DUMMY_SITE_NAME
+Title : Why reporting on Iran comes at a heavy price
+Snippet : Jan 11, 2023 ... The harassment it triggers from the Iranian government creates consequences for the lives of the journalists. ... Iran ready to execute British ...
+link : https://www.bbc.com/news/world-middle-east-64222261
+
+
+-->>80
+DUMMY_SITE_NAME
+Title : The Hot List: Meet Kaveh Madani, the climate expert who fled Iran
+Snippet : Apr 27, 2021 ... The Iranian-born, Western-educated scientist returned to his homeland to work in the government. But he fell afoul of hard-liners and went ...
+link : https://www.reuters.com/investigates/special-report/climate-change-scientists-madani/
+
+
+-->>81
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>82
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>83
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>84
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>85
+DUMMY_SITE_NAME
+Title : What is behind Iran-Pakistan attacks and could conflict escalate ...
+Snippet : Jan 19, 2024 ... Nationwide protests convulsed Iran in 2022 and 2023 and shook the government into a brutal crackdown. ... willing to use its proxies to ...
+link : https://www.reuters.com/world/middle-east/iran-its-proxies-widening-violence-middle-east-2024-01-18/
+
+
+-->>86
+DUMMY_SITE_NAME
+Title : US sanctions Iran after missile test - BBC News
+Snippet : Feb 4, 2017 ... President Obama may have sanctioned Iran for its missile test a year ... want to cut Iran to size. Grey line. Among the newly ...
+link : https://www.bbc.com/news/world-us-canada-38860352
+
+
+-->>87
+DUMMY_SITE_NAME
+Title : US to hit Iran with new sanctions in "coming days", Yellen says ...
+Snippet : Apr 16, 2024 ... WASHINGTON, April 16 (Reuters) - U.S. Treasury Secretary Janet Yellen on Tuesday warned that the U.S. intends to hit Iran with new sanctions ...
+link : https://www.reuters.com/world/us/us-will-use-sanctions-disrupt-irans-malign-activity-yellen-says-2024-04-16/
+
+
+-->>88
+DUMMY_SITE_NAME
+Title : Why reporting on Iran comes at a heavy price
+Snippet : Jan 11, 2023 ... The harassment it triggers from the Iranian government creates consequences for the lives of the journalists. ... Iran ready to execute British ...
+link : https://www.bbc.com/news/world-middle-east-64222261
+
+
+-->>89
+DUMMY_SITE_NAME
+Title : The Hot List: Meet Kaveh Madani, the climate expert who fled Iran
+Snippet : Apr 27, 2021 ... The Iranian-born, Western-educated scientist returned to his homeland to work in the government. But he fell afoul of hard-liners and went ...
+link : https://www.reuters.com/investigates/special-report/climate-change-scientists-madani/
+
+
+-->>90
+DUMMY_SITE_NAME
+Title : Venezuela's oil sanctions relief may lift profits, no fast output ...
+Snippet : Oct 18, 2023 ... "This looks like a wide lifting of oil sanctions ... A senior U.S. official said the easing will not change Iran-related sanctions linked to ...
+link : https://www.reuters.com/world/americas/venezuela-divert-barrels-china-if-us-continues-easing-sanctions-2023-10-18/
+
+
+-->>91
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>92
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>93
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>94
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>95
+DUMMY_SITE_NAME
+Title : US sanctions Iran after missile test - BBC News
+Snippet : Feb 4, 2017 ... President Obama may have sanctioned Iran for its missile test a year ... want to cut Iran to size. Grey line. Among the newly ...
+link : https://www.bbc.com/news/world-us-canada-38860352
+
+
+-->>96
+DUMMY_SITE_NAME
+Title : US to hit Iran with new sanctions in "coming days", Yellen says ...
+Snippet : Apr 16, 2024 ... WASHINGTON, April 16 (Reuters) - U.S. Treasury Secretary Janet Yellen on Tuesday warned that the U.S. intends to hit Iran with new sanctions ...
+link : https://www.reuters.com/world/us/us-will-use-sanctions-disrupt-irans-malign-activity-yellen-says-2024-04-16/
+
+
+-->>97
+DUMMY_SITE_NAME
+Title : Why reporting on Iran comes at a heavy price
+Snippet : Jan 11, 2023 ... The harassment it triggers from the Iranian government creates consequences for the lives of the journalists. ... Iran ready to execute British ...
+link : https://www.bbc.com/news/world-middle-east-64222261
+
+
+-->>98
+DUMMY_SITE_NAME
+Title : The Hot List: Meet Kaveh Madani, the climate expert who fled Iran
+Snippet : Apr 27, 2021 ... The Iranian-born, Western-educated scientist returned to his homeland to work in the government. But he fell afoul of hard-liners and went ...
+link : https://www.reuters.com/investigates/special-report/climate-change-scientists-madani/
+
+
+-->>99
+DUMMY_SITE_NAME
+Title : Venezuela's oil sanctions relief may lift profits, no fast output ...
+Snippet : Oct 18, 2023 ... "This looks like a wide lifting of oil sanctions ... A senior U.S. official said the easing will not change Iran-related sanctions linked to ...
+link : https://www.reuters.com/world/americas/venezuela-divert-barrels-china-if-us-continues-easing-sanctions-2023-10-18/
+
+
+-->>100
+DUMMY_SITE_NAME
+Title : Israel war cabinet puts off third meeting on Iran attack to Wednesday ...
+Snippet : Apr 15, 2024 ... Borrell said the proposal would expand a sanctions regime that seeks to curb the supply of Iranian drones to Russia so that it would also ...
+link : https://www.reuters.com/world/middle-east/iaea-chief-worried-israel-could-strike-iran-nuclear-facilities-2024-04-15/
+
+
+-->>1
+DUMMY_SITE_NAME
+Title : Who is in charge of Iran?
+Snippet : 4 days ago ... He wants to bring an end to Western sanctions on Iran by making a new deal over its nuclear programme. The supreme leader called for a high ...
+link : https://www.bbc.com/news/world-middle-east-57260831
+
+
+-->>2
+DUMMY_SITE_NAME
+Title : My 20 minutes with US President Barack Obama - BBC News
+Snippet : Sep 25, 2010 ... ... sanctions on other countries. But they have consistently seen a behaviour on the part of the Iranian government that indicates that it has a ...
+link : https://www.bbc.com/news/world-us-canada-11412890
+
+
+-->>3
+DUMMY_SITE_NAME
+Title : Exclusive: China presses Iran to rein in Houthi attacks in Red Sea ...
+Snippet : Jan 26, 2024 ... Two officials in the Yemeni government ... "They will not inform us of such a request, especially since Iran's stated position is to support Yemen ...
+link : https://www.reuters.com/world/middle-east/china-presses-iran-rein-houthi-attacks-red-sea-sources-say-2024-01-26/
+
+
+-->>4
+DUMMY_SITE_NAME
+Title : Huawei faces US charges: The short, medium and long story
+Snippet : May 7, 2019 ... Authorities claim they misled the US government about the company's business in Iran, which is under US economic sanctions. The US is also ...
+link : https://www.bbc.com/news/world-us-canada-47046264
+
+
+-->>5
+DUMMY_SITE_NAME
+Title : Iran rejects Biden's terms for reviving nuclear deal
+Snippet : Dec 3, 2020 ... Tehran says the US is in no position to set preconditions and economic sanctions must be lifted.
+link : https://www.bbc.com/news/world-middle-east-55177586
+
+
+-->>6
+DUMMY_SITE_NAME
+Title : Exclusive: Iran sends Russia hundreds of ballistic missiles | Reuters
+Snippet : Feb 21, 2024 ... An Iranian military official - who, like the other sources, asked not to be identified because of the sensitivity of the information - said ...
+link : https://www.reuters.com/world/iran-sends-russia-hundreds-ballistic-missiles-sources-say-2024-02-21/
+
+
+-->>7
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>8
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>9
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>10
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>11
+DUMMY_SITE_NAME
+Title : My 20 minutes with US President Barack Obama - BBC News
+Snippet : Sep 25, 2010 ... ... sanctions on other countries. But they have consistently seen a behaviour on the part of the Iranian government that indicates that it has a ...
+link : https://www.bbc.com/news/world-us-canada-11412890
+
+
+-->>12
+DUMMY_SITE_NAME
+Title : Exclusive: China presses Iran to rein in Houthi attacks in Red Sea ...
+Snippet : Jan 26, 2024 ... Two officials in the Yemeni government ... "They will not inform us of such a request, especially since Iran's stated position is to support Yemen ...
+link : https://www.reuters.com/world/middle-east/china-presses-iran-rein-houthi-attacks-red-sea-sources-say-2024-01-26/
+
+
+-->>13
+DUMMY_SITE_NAME
+Title : Huawei faces US charges: The short, medium and long story
+Snippet : May 7, 2019 ... Authorities claim they misled the US government about the company's business in Iran, which is under US economic sanctions. The US is also ...
+link : https://www.bbc.com/news/world-us-canada-47046264
+
+
+-->>14
+DUMMY_SITE_NAME
+Title : Iran rejects Biden's terms for reviving nuclear deal
+Snippet : Dec 3, 2020 ... Tehran says the US is in no position to set preconditions and economic sanctions must be lifted.
+link : https://www.bbc.com/news/world-middle-east-55177586
+
+
+-->>15
+DUMMY_SITE_NAME
+Title : Exclusive: Iran sends Russia hundreds of ballistic missiles | Reuters
+Snippet : Feb 21, 2024 ... An Iranian military official - who, like the other sources, asked not to be identified because of the sensitivity of the information - said ...
+link : https://www.reuters.com/world/iran-sends-russia-hundreds-ballistic-missiles-sources-say-2024-02-21/
+
+
+-->>16
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>17
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>18
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>19
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>20
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>21
+DUMMY_SITE_NAME
+Title : Exclusive: China presses Iran to rein in Houthi attacks in Red Sea ...
+Snippet : Jan 26, 2024 ... Two officials in the Yemeni government ... "They will not inform us of such a request, especially since Iran's stated position is to support Yemen ...
+link : https://www.reuters.com/world/middle-east/china-presses-iran-rein-houthi-attacks-red-sea-sources-say-2024-01-26/
+
+
+-->>22
+DUMMY_SITE_NAME
+Title : Huawei faces US charges: The short, medium and long story
+Snippet : May 7, 2019 ... Authorities claim they misled the US government about the company's business in Iran, which is under US economic sanctions. The US is also ...
+link : https://www.bbc.com/news/world-us-canada-47046264
+
+
+-->>23
+DUMMY_SITE_NAME
+Title : Iran rejects Biden's terms for reviving nuclear deal
+Snippet : Dec 3, 2020 ... Tehran says the US is in no position to set preconditions and economic sanctions must be lifted.
+link : https://www.bbc.com/news/world-middle-east-55177586
+
+
+-->>24
+DUMMY_SITE_NAME
+Title : Exclusive: Iran sends Russia hundreds of ballistic missiles | Reuters
+Snippet : Feb 21, 2024 ... An Iranian military official - who, like the other sources, asked not to be identified because of the sensitivity of the information - said ...
+link : https://www.reuters.com/world/iran-sends-russia-hundreds-ballistic-missiles-sources-say-2024-02-21/
+
+
+-->>25
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>26
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>27
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>28
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>29
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>30
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>31
+DUMMY_SITE_NAME
+Title : Huawei faces US charges: The short, medium and long story
+Snippet : May 7, 2019 ... Authorities claim they misled the US government about the company's business in Iran, which is under US economic sanctions. The US is also ...
+link : https://www.bbc.com/news/world-us-canada-47046264
+
+
+-->>32
+DUMMY_SITE_NAME
+Title : Iran rejects Biden's terms for reviving nuclear deal
+Snippet : Dec 3, 2020 ... Tehran says the US is in no position to set preconditions and economic sanctions must be lifted.
+link : https://www.bbc.com/news/world-middle-east-55177586
+
+
+-->>33
+DUMMY_SITE_NAME
+Title : Exclusive: Iran sends Russia hundreds of ballistic missiles | Reuters
+Snippet : Feb 21, 2024 ... An Iranian military official - who, like the other sources, asked not to be identified because of the sensitivity of the information - said ...
+link : https://www.reuters.com/world/iran-sends-russia-hundreds-ballistic-missiles-sources-say-2024-02-21/
+
+
+-->>34
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>35
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>36
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>37
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>38
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>39
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>40
+DUMMY_SITE_NAME
+Title : What is behind Iran-Pakistan attacks and could conflict escalate ...
+Snippet : Jan 19, 2024 ... Nationwide protests convulsed Iran in 2022 and 2023 and shook the government into a brutal crackdown. ... willing to use its proxies to ...
+link : https://www.reuters.com/world/middle-east/iran-its-proxies-widening-violence-middle-east-2024-01-18/
+
+
+-->>41
+DUMMY_SITE_NAME
+Title : Huawei faces US charges: The short, medium and long story
+Snippet : May 7, 2019 ... Authorities claim they misled the US government about the company's business in Iran, which is under US economic sanctions. The US is also ...
+link : https://www.bbc.com/news/world-us-canada-47046264
+
+
+-->>42
+DUMMY_SITE_NAME
+Title : Exclusive: Iran sends Russia hundreds of ballistic missiles | Reuters
+Snippet : Feb 21, 2024 ... An Iranian military official - who, like the other sources, asked not to be identified because of the sensitivity of the information - said ...
+link : https://www.reuters.com/world/iran-sends-russia-hundreds-ballistic-missiles-sources-say-2024-02-21/
+
+
+-->>43
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>44
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>45
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>46
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>47
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>48
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>49
+DUMMY_SITE_NAME
+Title : US sanctions Iran after missile test - BBC News
+Snippet : Feb 4, 2017 ... President Obama may have sanctioned Iran for its missile test a year ... want to cut Iran to size. Grey line. Among the newly ...
+link : https://www.bbc.com/news/world-us-canada-38860352
+
+
+-->>50
+DUMMY_SITE_NAME
+Title : US to hit Iran with new sanctions in "coming days", Yellen says ...
+Snippet : Apr 16, 2024 ... WASHINGTON, April 16 (Reuters) - U.S. Treasury Secretary Janet Yellen on Tuesday warned that the U.S. intends to hit Iran with new sanctions ...
+link : https://www.reuters.com/world/us/us-will-use-sanctions-disrupt-irans-malign-activity-yellen-says-2024-04-16/
+
+
+-->>51
+DUMMY_SITE_NAME
+Title : Exclusive: Iran sends Russia hundreds of ballistic missiles | Reuters
+Snippet : Feb 21, 2024 ... An Iranian military official - who, like the other sources, asked not to be identified because of the sensitivity of the information - said ...
+link : https://www.reuters.com/world/iran-sends-russia-hundreds-ballistic-missiles-sources-say-2024-02-21/
+
+
+-->>52
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>53
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>54
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>55
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>56
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>57
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>58
+DUMMY_SITE_NAME
+Title : What is behind Iran-Pakistan attacks and could conflict escalate ...
+Snippet : Jan 19, 2024 ... Nationwide protests convulsed Iran in 2022 and 2023 and shook the government into a brutal crackdown. ... willing to use its proxies to ...
+link : https://www.reuters.com/world/middle-east/iran-its-proxies-widening-violence-middle-east-2024-01-18/
+
+
+-->>59
+DUMMY_SITE_NAME
+Title : US sanctions Iran after missile test - BBC News
+Snippet : Feb 4, 2017 ... President Obama may have sanctioned Iran for its missile test a year ... want to cut Iran to size. Grey line. Among the newly ...
+link : https://www.bbc.com/news/world-us-canada-38860352
+
+
+-->>60
+DUMMY_SITE_NAME
+Title : US to hit Iran with new sanctions in "coming days", Yellen says ...
+Snippet : Apr 16, 2024 ... WASHINGTON, April 16 (Reuters) - U.S. Treasury Secretary Janet Yellen on Tuesday warned that the U.S. intends to hit Iran with new sanctions ...
+link : https://www.reuters.com/world/us/us-will-use-sanctions-disrupt-irans-malign-activity-yellen-says-2024-04-16/
+
+
+-->>61
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>62
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>63
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>64
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>65
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>66
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>67
+DUMMY_SITE_NAME
+Title : What is behind Iran-Pakistan attacks and could conflict escalate ...
+Snippet : Jan 19, 2024 ... Nationwide protests convulsed Iran in 2022 and 2023 and shook the government into a brutal crackdown. ... willing to use its proxies to ...
+link : https://www.reuters.com/world/middle-east/iran-its-proxies-widening-violence-middle-east-2024-01-18/
+
+
+-->>68
+DUMMY_SITE_NAME
+Title : US sanctions Iran after missile test - BBC News
+Snippet : Feb 4, 2017 ... President Obama may have sanctioned Iran for its missile test a year ... want to cut Iran to size. Grey line. Among the newly ...
+link : https://www.bbc.com/news/world-us-canada-38860352
+
+
+-->>69
+DUMMY_SITE_NAME
+Title : US to hit Iran with new sanctions in "coming days", Yellen says ...
+Snippet : Apr 16, 2024 ... WASHINGTON, April 16 (Reuters) - U.S. Treasury Secretary Janet Yellen on Tuesday warned that the U.S. intends to hit Iran with new sanctions ...
+link : https://www.reuters.com/world/us/us-will-use-sanctions-disrupt-irans-malign-activity-yellen-says-2024-04-16/
+
+
+-->>70
+DUMMY_SITE_NAME
+Title : Why reporting on Iran comes at a heavy price
+Snippet : Jan 11, 2023 ... The harassment it triggers from the Iranian government creates consequences for the lives of the journalists. ... Iran ready to execute British ...
+link : https://www.bbc.com/news/world-middle-east-64222261
+
+
+-->>71
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>72
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>73
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>74
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>75
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>76
+DUMMY_SITE_NAME
+Title : What is behind Iran-Pakistan attacks and could conflict escalate ...
+Snippet : Jan 19, 2024 ... Nationwide protests convulsed Iran in 2022 and 2023 and shook the government into a brutal crackdown. ... willing to use its proxies to ...
+link : https://www.reuters.com/world/middle-east/iran-its-proxies-widening-violence-middle-east-2024-01-18/
+
+
+-->>77
+DUMMY_SITE_NAME
+Title : US sanctions Iran after missile test - BBC News
+Snippet : Feb 4, 2017 ... President Obama may have sanctioned Iran for its missile test a year ... want to cut Iran to size. Grey line. Among the newly ...
+link : https://www.bbc.com/news/world-us-canada-38860352
+
+
+-->>78
+DUMMY_SITE_NAME
+Title : US to hit Iran with new sanctions in "coming days", Yellen says ...
+Snippet : Apr 16, 2024 ... WASHINGTON, April 16 (Reuters) - U.S. Treasury Secretary Janet Yellen on Tuesday warned that the U.S. intends to hit Iran with new sanctions ...
+link : https://www.reuters.com/world/us/us-will-use-sanctions-disrupt-irans-malign-activity-yellen-says-2024-04-16/
+
+
+-->>79
+DUMMY_SITE_NAME
+Title : Why reporting on Iran comes at a heavy price
+Snippet : Jan 11, 2023 ... The harassment it triggers from the Iranian government creates consequences for the lives of the journalists. ... Iran ready to execute British ...
+link : https://www.bbc.com/news/world-middle-east-64222261
+
+
+-->>80
+DUMMY_SITE_NAME
+Title : The Hot List: Meet Kaveh Madani, the climate expert who fled Iran
+Snippet : Apr 27, 2021 ... The Iranian-born, Western-educated scientist returned to his homeland to work in the government. But he fell afoul of hard-liners and went ...
+link : https://www.reuters.com/investigates/special-report/climate-change-scientists-madani/
+
+
+-->>81
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>82
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>83
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>84
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>85
+DUMMY_SITE_NAME
+Title : US sanctions Iran after missile test - BBC News
+Snippet : Feb 4, 2017 ... President Obama may have sanctioned Iran for its missile test a year ... want to cut Iran to size. Grey line. Among the newly ...
+link : https://www.bbc.com/news/world-us-canada-38860352
+
+
+-->>86
+DUMMY_SITE_NAME
+Title : US to hit Iran with new sanctions in "coming days", Yellen says ...
+Snippet : Apr 16, 2024 ... WASHINGTON, April 16 (Reuters) - U.S. Treasury Secretary Janet Yellen on Tuesday warned that the U.S. intends to hit Iran with new sanctions ...
+link : https://www.reuters.com/world/us/us-will-use-sanctions-disrupt-irans-malign-activity-yellen-says-2024-04-16/
+
+
+-->>87
+DUMMY_SITE_NAME
+Title : Why reporting on Iran comes at a heavy price
+Snippet : Jan 11, 2023 ... The harassment it triggers from the Iranian government creates consequences for the lives of the journalists. ... Iran ready to execute British ...
+link : https://www.bbc.com/news/world-middle-east-64222261
+
+
+-->>88
+DUMMY_SITE_NAME
+Title : The Hot List: Meet Kaveh Madani, the climate expert who fled Iran
+Snippet : Apr 27, 2021 ... The Iranian-born, Western-educated scientist returned to his homeland to work in the government. But he fell afoul of hard-liners and went ...
+link : https://www.reuters.com/investigates/special-report/climate-change-scientists-madani/
+
+
+-->>89
+DUMMY_SITE_NAME
+Title : Venezuela's oil sanctions relief may lift profits, no fast output ...
+Snippet : Oct 18, 2023 ... "This looks like a wide lifting of oil sanctions ... A senior U.S. official said the easing will not change Iran-related sanctions linked to ...
+link : https://www.reuters.com/world/americas/venezuela-divert-barrels-china-if-us-continues-easing-sanctions-2023-10-18/
+
+
+-->>90
+DUMMY_SITE_NAME
+Title : Israel war cabinet puts off third meeting on Iran attack to Wednesday ...
+Snippet : Apr 15, 2024 ... Borrell said the proposal would expand a sanctions regime that seeks to curb the supply of Iranian drones to Russia so that it would also ...
+link : https://www.reuters.com/world/middle-east/iaea-chief-worried-israel-could-strike-iran-nuclear-facilities-2024-04-15/
+
+
+-->>91
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>92
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>93
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>94
+DUMMY_SITE_NAME
+Title : What is behind Iran-Pakistan attacks and could conflict escalate ...
+Snippet : Jan 19, 2024 ... Nationwide protests convulsed Iran in 2022 and 2023 and shook the government into a brutal crackdown. ... willing to use its proxies to ...
+link : https://www.reuters.com/world/middle-east/iran-its-proxies-widening-violence-middle-east-2024-01-18/
+
+
+-->>95
+DUMMY_SITE_NAME
+Title : US sanctions Iran after missile test - BBC News
+Snippet : Feb 4, 2017 ... President Obama may have sanctioned Iran for its missile test a year ... want to cut Iran to size. Grey line. Among the newly ...
+link : https://www.bbc.com/news/world-us-canada-38860352
+
+
+-->>96
+DUMMY_SITE_NAME
+Title : US to hit Iran with new sanctions in "coming days", Yellen says ...
+Snippet : Apr 16, 2024 ... WASHINGTON, April 16 (Reuters) - U.S. Treasury Secretary Janet Yellen on Tuesday warned that the U.S. intends to hit Iran with new sanctions ...
+link : https://www.reuters.com/world/us/us-will-use-sanctions-disrupt-irans-malign-activity-yellen-says-2024-04-16/
+
+
+-->>97
+DUMMY_SITE_NAME
+Title : Why reporting on Iran comes at a heavy price
+Snippet : Jan 11, 2023 ... The harassment it triggers from the Iranian government creates consequences for the lives of the journalists. ... Iran ready to execute British ...
+link : https://www.bbc.com/news/world-middle-east-64222261
+
+
+-->>98
+DUMMY_SITE_NAME
+Title : The Hot List: Meet Kaveh Madani, the climate expert who fled Iran
+Snippet : Apr 27, 2021 ... The Iranian-born, Western-educated scientist returned to his homeland to work in the government. But he fell afoul of hard-liners and went ...
+link : https://www.reuters.com/investigates/special-report/climate-change-scientists-madani/
+
+
+-->>99
+DUMMY_SITE_NAME
+Title : Venezuela's oil sanctions relief may lift profits, no fast output ...
+Snippet : Oct 18, 2023 ... "This looks like a wide lifting of oil sanctions ... A senior U.S. official said the easing will not change Iran-related sanctions linked to ...
+link : https://www.reuters.com/world/americas/venezuela-divert-barrels-china-if-us-continues-easing-sanctions-2023-10-18/
+
+
+-->>100
+DUMMY_SITE_NAME
+Title : Israel war cabinet puts off third meeting on Iran attack to Wednesday ...
+Snippet : Apr 15, 2024 ... Borrell said the proposal would expand a sanctions regime that seeks to curb the supply of Iranian drones to Russia so that it would also ...
+link : https://www.reuters.com/world/middle-east/iaea-chief-worried-israel-could-strike-iran-nuclear-facilities-2024-04-15/
+
+
+-->>1
+DUMMY_SITE_NAME
+Title : Who is in charge of Iran?
+Snippet : 4 days ago ... He wants to bring an end to Western sanctions on Iran by making a new deal over its nuclear programme. The supreme leader called for a high ...
+link : https://www.bbc.com/news/world-middle-east-57260831
+
+
+-->>2
+DUMMY_SITE_NAME
+Title : My 20 minutes with US President Barack Obama - BBC News
+Snippet : Sep 25, 2010 ... ... sanctions on other countries. But they have consistently seen a behaviour on the part of the Iranian government that indicates that it has a ...
+link : https://www.bbc.com/news/world-us-canada-11412890
+
+
+-->>3
+DUMMY_SITE_NAME
+Title : Exclusive: China presses Iran to rein in Houthi attacks in Red Sea ...
+Snippet : Jan 26, 2024 ... Two officials in the Yemeni government ... "They will not inform us of such a request, especially since Iran's stated position is to support Yemen ...
+link : https://www.reuters.com/world/middle-east/china-presses-iran-rein-houthi-attacks-red-sea-sources-say-2024-01-26/
+
+
+-->>4
+DUMMY_SITE_NAME
+Title : Huawei faces US charges: The short, medium and long story
+Snippet : May 7, 2019 ... Authorities claim they misled the US government about the company's business in Iran, which is under US economic sanctions. The US is also ...
+link : https://www.bbc.com/news/world-us-canada-47046264
+
+
+-->>5
+DUMMY_SITE_NAME
+Title : Iran rejects Biden's terms for reviving nuclear deal
+Snippet : Dec 3, 2020 ... Tehran says the US is in no position to set preconditions and economic sanctions must be lifted.
+link : https://www.bbc.com/news/world-middle-east-55177586
+
+
+-->>6
+DUMMY_SITE_NAME
+Title : Exclusive: Iran sends Russia hundreds of ballistic missiles | Reuters
+Snippet : Feb 21, 2024 ... An Iranian military official - who, like the other sources, asked not to be identified because of the sensitivity of the information - said ...
+link : https://www.reuters.com/world/iran-sends-russia-hundreds-ballistic-missiles-sources-say-2024-02-21/
+
+
+-->>7
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>8
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>9
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>10
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>11
+DUMMY_SITE_NAME
+Title : My 20 minutes with US President Barack Obama - BBC News
+Snippet : Sep 25, 2010 ... ... sanctions on other countries. But they have consistently seen a behaviour on the part of the Iranian government that indicates that it has a ...
+link : https://www.bbc.com/news/world-us-canada-11412890
+
+
+-->>12
+DUMMY_SITE_NAME
+Title : Exclusive: China presses Iran to rein in Houthi attacks in Red Sea ...
+Snippet : Jan 26, 2024 ... Two officials in the Yemeni government ... "They will not inform us of such a request, especially since Iran's stated position is to support Yemen ...
+link : https://www.reuters.com/world/middle-east/china-presses-iran-rein-houthi-attacks-red-sea-sources-say-2024-01-26/
+
+
+-->>13
+DUMMY_SITE_NAME
+Title : Huawei faces US charges: The short, medium and long story
+Snippet : May 7, 2019 ... Authorities claim they misled the US government about the company's business in Iran, which is under US economic sanctions. The US is also ...
+link : https://www.bbc.com/news/world-us-canada-47046264
+
+
+-->>14
+DUMMY_SITE_NAME
+Title : Iran rejects Biden's terms for reviving nuclear deal
+Snippet : Dec 3, 2020 ... Tehran says the US is in no position to set preconditions and economic sanctions must be lifted.
+link : https://www.bbc.com/news/world-middle-east-55177586
+
+
+-->>15
+DUMMY_SITE_NAME
+Title : Exclusive: Iran sends Russia hundreds of ballistic missiles | Reuters
+Snippet : Feb 21, 2024 ... An Iranian military official - who, like the other sources, asked not to be identified because of the sensitivity of the information - said ...
+link : https://www.reuters.com/world/iran-sends-russia-hundreds-ballistic-missiles-sources-say-2024-02-21/
+
+
+-->>16
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>17
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>18
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>19
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>20
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>21
+DUMMY_SITE_NAME
+Title : Exclusive: China presses Iran to rein in Houthi attacks in Red Sea ...
+Snippet : Jan 26, 2024 ... Two officials in the Yemeni government ... "They will not inform us of such a request, especially since Iran's stated position is to support Yemen ...
+link : https://www.reuters.com/world/middle-east/china-presses-iran-rein-houthi-attacks-red-sea-sources-say-2024-01-26/
+
+
+-->>22
+DUMMY_SITE_NAME
+Title : Iran rejects Biden's terms for reviving nuclear deal
+Snippet : Dec 3, 2020 ... Tehran says the US is in no position to set preconditions and economic sanctions must be lifted.
+link : https://www.bbc.com/news/world-middle-east-55177586
+
+
+-->>23
+DUMMY_SITE_NAME
+Title : Huawei faces US charges: The short, medium and long story
+Snippet : May 7, 2019 ... Authorities claim they misled the US government about the company's business in Iran, which is under US economic sanctions. The US is also ...
+link : https://www.bbc.com/news/world-us-canada-47046264
+
+
+-->>24
+DUMMY_SITE_NAME
+Title : Exclusive: Iran sends Russia hundreds of ballistic missiles | Reuters
+Snippet : Feb 21, 2024 ... An Iranian military official - who, like the other sources, asked not to be identified because of the sensitivity of the information - said ...
+link : https://www.reuters.com/world/iran-sends-russia-hundreds-ballistic-missiles-sources-say-2024-02-21/
+
+
+-->>25
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>26
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>27
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>28
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>29
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>30
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>31
+DUMMY_SITE_NAME
+Title : Huawei faces US charges: The short, medium and long story
+Snippet : May 7, 2019 ... Authorities claim they misled the US government about the company's business in Iran, which is under US economic sanctions. The US is also ...
+link : https://www.bbc.com/news/world-us-canada-47046264
+
+
+-->>32
+DUMMY_SITE_NAME
+Title : Iran rejects Biden's terms for reviving nuclear deal
+Snippet : Dec 3, 2020 ... Tehran says the US is in no position to set preconditions and economic sanctions must be lifted.
+link : https://www.bbc.com/news/world-middle-east-55177586
+
+
+-->>33
+DUMMY_SITE_NAME
+Title : Exclusive: Iran sends Russia hundreds of ballistic missiles | Reuters
+Snippet : Feb 21, 2024 ... An Iranian military official - who, like the other sources, asked not to be identified because of the sensitivity of the information - said ...
+link : https://www.reuters.com/world/iran-sends-russia-hundreds-ballistic-missiles-sources-say-2024-02-21/
+
+
+-->>34
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>35
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>36
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>37
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>38
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>39
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>40
+DUMMY_SITE_NAME
+Title : What is behind Iran-Pakistan attacks and could conflict escalate ...
+Snippet : Jan 19, 2024 ... Nationwide protests convulsed Iran in 2022 and 2023 and shook the government into a brutal crackdown. ... willing to use its proxies to ...
+link : https://www.reuters.com/world/middle-east/iran-its-proxies-widening-violence-middle-east-2024-01-18/
+
+
+-->>41
+DUMMY_SITE_NAME
+Title : Iran rejects Biden's terms for reviving nuclear deal
+Snippet : Dec 3, 2020 ... Tehran says the US is in no position to set preconditions and economic sanctions must be lifted.
+link : https://www.bbc.com/news/world-middle-east-55177586
+
+
+-->>42
+DUMMY_SITE_NAME
+Title : Exclusive: Iran sends Russia hundreds of ballistic missiles | Reuters
+Snippet : Feb 21, 2024 ... An Iranian military official - who, like the other sources, asked not to be identified because of the sensitivity of the information - said ...
+link : https://www.reuters.com/world/iran-sends-russia-hundreds-ballistic-missiles-sources-say-2024-02-21/
+
+
+-->>43
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>44
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>45
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>46
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>47
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>48
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>49
+DUMMY_SITE_NAME
+Title : What is behind Iran-Pakistan attacks and could conflict escalate ...
+Snippet : Jan 19, 2024 ... Nationwide protests convulsed Iran in 2022 and 2023 and shook the government into a brutal crackdown. ... willing to use its proxies to ...
+link : https://www.reuters.com/world/middle-east/iran-its-proxies-widening-violence-middle-east-2024-01-18/
+
+
+-->>50
+DUMMY_SITE_NAME
+Title : US sanctions Iran after missile test - BBC News
+Snippet : Feb 4, 2017 ... President Obama may have sanctioned Iran for its missile test a year ... want to cut Iran to size. Grey line. Among the newly ...
+link : https://www.bbc.com/news/world-us-canada-38860352
+
+
+-->>51
+DUMMY_SITE_NAME
+Title : Exclusive: Iran sends Russia hundreds of ballistic missiles | Reuters
+Snippet : Feb 21, 2024 ... An Iranian military official - who, like the other sources, asked not to be identified because of the sensitivity of the information - said ...
+link : https://www.reuters.com/world/iran-sends-russia-hundreds-ballistic-missiles-sources-say-2024-02-21/
+
+
+-->>52
+DUMMY_SITE_NAME
+Title : Iranian President Ebrahim Raisi, hardline ally of Khamenei, killed in ...
+Snippet : May 20, 2024 ... "I announce five days of public mourning and offer my condolences to the dear people of Iran," Khamenei said in a statement. Mokhber, like Raisi ...
+link : https://www.reuters.com/world/middle-east/hopes-fade-wreckage-found-helicopter-carrying-iranian-president-raisi-2024-05-20/
+
+
+-->>53
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>54
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>55
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>56
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>57
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>58
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>59
+DUMMY_SITE_NAME
+Title : US sanctions Iran after missile test - BBC News
+Snippet : Feb 4, 2017 ... President Obama may have sanctioned Iran for its missile test a year ... want to cut Iran to size. Grey line. Among the newly ...
+link : https://www.bbc.com/news/world-us-canada-38860352
+
+
+-->>60
+DUMMY_SITE_NAME
+Title : US to hit Iran with new sanctions in "coming days", Yellen says ...
+Snippet : Apr 16, 2024 ... WASHINGTON, April 16 (Reuters) - U.S. Treasury Secretary Janet Yellen on Tuesday warned that the U.S. intends to hit Iran with new sanctions ...
+link : https://www.reuters.com/world/us/us-will-use-sanctions-disrupt-irans-malign-activity-yellen-says-2024-04-16/
+
+
+-->>61
+DUMMY_SITE_NAME
+Title : Iran Air could be banned from Europe if Tehran sends missiles to ...
+Snippet : Mar 15, 2024 ... G7 nations are prepared to respond with severe new penalties that could include a ban ... pose a threat to Iran's neighbors. The G7 group ...
+link : https://www.reuters.com/world/iran-air-could-be-banned-europe-if-tehran-sends-missiles-russia-us-warns-2024-03-15/
+
+
+-->>62
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>63
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>64
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>65
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>66
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>67
+DUMMY_SITE_NAME
+Title : What is behind Iran-Pakistan attacks and could conflict escalate ...
+Snippet : Jan 19, 2024 ... Nationwide protests convulsed Iran in 2022 and 2023 and shook the government into a brutal crackdown. ... willing to use its proxies to ...
+link : https://www.reuters.com/world/middle-east/iran-its-proxies-widening-violence-middle-east-2024-01-18/
+
+
+-->>68
+DUMMY_SITE_NAME
+Title : US sanctions Iran after missile test - BBC News
+Snippet : Feb 4, 2017 ... President Obama may have sanctioned Iran for its missile test a year ... want to cut Iran to size. Grey line. Among the newly ...
+link : https://www.bbc.com/news/world-us-canada-38860352
+
+
+-->>69
+DUMMY_SITE_NAME
+Title : US to hit Iran with new sanctions in "coming days", Yellen says ...
+Snippet : Apr 16, 2024 ... WASHINGTON, April 16 (Reuters) - U.S. Treasury Secretary Janet Yellen on Tuesday warned that the U.S. intends to hit Iran with new sanctions ...
+link : https://www.reuters.com/world/us/us-will-use-sanctions-disrupt-irans-malign-activity-yellen-says-2024-04-16/
+
+
+-->>70
+DUMMY_SITE_NAME
+Title : Why reporting on Iran comes at a heavy price
+Snippet : Jan 11, 2023 ... The harassment it triggers from the Iranian government creates consequences for the lives of the journalists. ... Iran ready to execute British ...
+link : https://www.bbc.com/news/world-middle-east-64222261
+
+
+-->>71
+DUMMY_SITE_NAME
+Title : India's ONGC willing to wait to regain oil from Russian project ...
+Snippet : Sep 19, 2023 ... Western governments have slapped sanctions on Russian oil over ... political leaders during two Canadian election campaigns. Read Next.
+link : https://www.reuters.com/markets/commodities/indias-ongc-willing-wait-regain-oil-russian-project-2023-09-19/
+
+
+-->>72
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>73
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>74
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>75
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>76
+DUMMY_SITE_NAME
+Title : What is behind Iran-Pakistan attacks and could conflict escalate ...
+Snippet : Jan 19, 2024 ... Nationwide protests convulsed Iran in 2022 and 2023 and shook the government into a brutal crackdown. ... willing to use its proxies to ...
+link : https://www.reuters.com/world/middle-east/iran-its-proxies-widening-violence-middle-east-2024-01-18/
+
+
+-->>77
+DUMMY_SITE_NAME
+Title : US sanctions Iran after missile test - BBC News
+Snippet : Feb 4, 2017 ... President Obama may have sanctioned Iran for its missile test a year ... want to cut Iran to size. Grey line. Among the newly ...
+link : https://www.bbc.com/news/world-us-canada-38860352
+
+
+-->>78
+DUMMY_SITE_NAME
+Title : US to hit Iran with new sanctions in "coming days", Yellen says ...
+Snippet : Apr 16, 2024 ... WASHINGTON, April 16 (Reuters) - U.S. Treasury Secretary Janet Yellen on Tuesday warned that the U.S. intends to hit Iran with new sanctions ...
+link : https://www.reuters.com/world/us/us-will-use-sanctions-disrupt-irans-malign-activity-yellen-says-2024-04-16/
+
+
+-->>79
+DUMMY_SITE_NAME
+Title : Why reporting on Iran comes at a heavy price
+Snippet : Jan 11, 2023 ... The harassment it triggers from the Iranian government creates consequences for the lives of the journalists. ... Iran ready to execute British ...
+link : https://www.bbc.com/news/world-middle-east-64222261
+
+
+-->>80
+DUMMY_SITE_NAME
+Title : The Hot List: Meet Kaveh Madani, the climate expert who fled Iran
+Snippet : Apr 27, 2021 ... The Iranian-born, Western-educated scientist returned to his homeland to work in the government. But he fell afoul of hard-liners and went ...
+link : https://www.reuters.com/investigates/special-report/climate-change-scientists-madani/
+
+
+-->>81
+DUMMY_SITE_NAME
+Title : Saudi Arabia puts Israel deal on ice amid war, engages with Iran ...
+Snippet : Oct 13, 2023 ... Washington wants to build on the Abraham Accords when Gulf states, including the United Arab Emirates, normalised ties. U.S. National Security ...
+link : https://www.reuters.com/world/middle-east/saudi-arabia-puts-israel-deal-ice-amid-war-engages-with-iran-sources-say-2023-10-13/
+
+
+-->>82
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>83
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>84
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>85
+DUMMY_SITE_NAME
+Title : US sanctions Iran after missile test - BBC News
+Snippet : Feb 4, 2017 ... President Obama may have sanctioned Iran for its missile test a year ... want to cut Iran to size. Grey line. Among the newly ...
+link : https://www.bbc.com/news/world-us-canada-38860352
+
+
+-->>86
+DUMMY_SITE_NAME
+Title : US to hit Iran with new sanctions in "coming days", Yellen says ...
+Snippet : Apr 16, 2024 ... WASHINGTON, April 16 (Reuters) - U.S. Treasury Secretary Janet Yellen on Tuesday warned that the U.S. intends to hit Iran with new sanctions ...
+link : https://www.reuters.com/world/us/us-will-use-sanctions-disrupt-irans-malign-activity-yellen-says-2024-04-16/
+
+
+-->>87
+DUMMY_SITE_NAME
+Title : Why reporting on Iran comes at a heavy price
+Snippet : Jan 11, 2023 ... The harassment it triggers from the Iranian government creates consequences for the lives of the journalists. ... Iran ready to execute British ...
+link : https://www.bbc.com/news/world-middle-east-64222261
+
+
+-->>88
+DUMMY_SITE_NAME
+Title : The Hot List: Meet Kaveh Madani, the climate expert who fled Iran
+Snippet : Apr 27, 2021 ... The Iranian-born, Western-educated scientist returned to his homeland to work in the government. But he fell afoul of hard-liners and went ...
+link : https://www.reuters.com/investigates/special-report/climate-change-scientists-madani/
+
+
+-->>89
+DUMMY_SITE_NAME
+Title : Venezuela's oil sanctions relief may lift profits, no fast output ...
+Snippet : Oct 18, 2023 ... "This looks like a wide lifting of oil sanctions ... A senior U.S. official said the easing will not change Iran-related sanctions linked to ...
+link : https://www.reuters.com/world/americas/venezuela-divert-barrels-china-if-us-continues-easing-sanctions-2023-10-18/
+
+
+-->>90
+DUMMY_SITE_NAME
+Title : Israel war cabinet puts off third meeting on Iran attack to Wednesday ...
+Snippet : Apr 15, 2024 ... Borrell said the proposal would expand a sanctions regime that seeks to curb the supply of Iranian drones to Russia so that it would also ...
+link : https://www.reuters.com/world/middle-east/iaea-chief-worried-israel-could-strike-iran-nuclear-facilities-2024-04-15/
+
+
+-->>91
+DUMMY_SITE_NAME
+Title : What are US sanctions on Iran? How can Washington impose more ...
+Snippet : Apr 16, 2024 ... Washington's sanctions on Iran already ban nearly all U.S. trade with the country, block the government's assets in the U.S. and prohibit U.S. ...
+link : https://www.reuters.com/world/what-are-us-sanctions-iran-how-can-washington-impose-more-2024-04-16/
+
+
+-->>92
+DUMMY_SITE_NAME
+Title : US charges, sanctions Iranians linked to Revolutionary Guard cyber ...
+Snippet : Apr 23, 2024 ... The U.S. government on Tuesday announced criminal charges and sanctions against four Iranians ... "Criminal activity originating from Iran poses ...
+link : https://www.reuters.com/technology/cybersecurity/us-charges-sanctions-iranians-linked-revolutionary-guard-cyber-command-2024-04-23/
+
+
+-->>93
+DUMMY_SITE_NAME
+Title : TD Bank: Iranian-Canadians caught up in sanctions row - BBC News
+Snippet : Jul 11, 2012 ... Since 2010, the Canadian government has <link> <caption>imposed a ... "I felt like a second-class Canadian," said an Iranian woman in ...
+link : https://www.bbc.com/news/world-us-canada-18803129
+
+
+-->>94
+DUMMY_SITE_NAME
+Title : What is behind Iran-Pakistan attacks and could conflict escalate ...
+Snippet : Jan 19, 2024 ... Nationwide protests convulsed Iran in 2022 and 2023 and shook the government into a brutal crackdown. ... willing to use its proxies to ...
+link : https://www.reuters.com/world/middle-east/iran-its-proxies-widening-violence-middle-east-2024-01-18/
+
+
+-->>95
+DUMMY_SITE_NAME
+Title : US sanctions Iran after missile test - BBC News
+Snippet : Feb 4, 2017 ... President Obama may have sanctioned Iran for its missile test a year ... want to cut Iran to size. Grey line. Among the newly ...
+link : https://www.bbc.com/news/world-us-canada-38860352
+
+
+-->>96
+DUMMY_SITE_NAME
+Title : US to hit Iran with new sanctions in "coming days", Yellen says ...
+Snippet : Apr 16, 2024 ... WASHINGTON, April 16 (Reuters) - U.S. Treasury Secretary Janet Yellen on Tuesday warned that the U.S. intends to hit Iran with new sanctions ...
+link : https://www.reuters.com/world/us/us-will-use-sanctions-disrupt-irans-malign-activity-yellen-says-2024-04-16/
+
+
+-->>97
+DUMMY_SITE_NAME
+Title : Why reporting on Iran comes at a heavy price
+Snippet : Jan 11, 2023 ... The harassment it triggers from the Iranian government creates consequences for the lives of the journalists. ... Iran ready to execute British ...
+link : https://www.bbc.com/news/world-middle-east-64222261
+
+
+-->>98
+DUMMY_SITE_NAME
+Title : The Hot List: Meet Kaveh Madani, the climate expert who fled Iran
+Snippet : Apr 27, 2021 ... The Iranian-born, Western-educated scientist returned to his homeland to work in the government. But he fell afoul of hard-liners and went ...
+link : https://www.reuters.com/investigates/special-report/climate-change-scientists-madani/
+
+
+-->>99
+DUMMY_SITE_NAME
+Title : Venezuela's oil sanctions relief may lift profits, no fast output ...
+Snippet : Oct 18, 2023 ... "This looks like a wide lifting of oil sanctions ... A senior U.S. official said the easing will not change Iran-related sanctions linked to ...
+link : https://www.reuters.com/world/americas/venezuela-divert-barrels-china-if-us-continues-easing-sanctions-2023-10-18/
+
+
+-->>100
+DUMMY_SITE_NAME
+Title : Israel war cabinet puts off third meeting on Iran attack to Wednesday ...
+Snippet : Apr 15, 2024 ... Borrell said the proposal would expand a sanctions regime that seeks to curb the supply of Iranian drones to Russia so that it would also ...
+link : https://www.reuters.com/world/middle-east/iaea-chief-worried-israel-could-strike-iran-nuclear-facilities-2024-04-15/
+
+

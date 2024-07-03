@@ -8,6 +8,7 @@ db.sqlite3
 FakeNewsDetection/__pycache__
 accounts/__pycache__
 home/__pycache__
+ml/__pycache__
 
 # Migration files
 accounts/migrations
@@ -16,3 +17,4 @@ home/migrations
 # Test files
 ml/input.txt
 ml/result.txt
+ml/final_output.txt
