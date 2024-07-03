@@ -12,3 +12,7 @@ home/__pycache__
 # Migration files
 accounts/migrations
 home/migrations
+
+# Test files
+ml/input.txt
+ml/result.txt
