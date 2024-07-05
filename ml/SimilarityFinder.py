@@ -1,4 +1,5 @@
 import spacy
+import pandas as pd
 
 
 class SimilarityFinder:
@@ -19,26 +20,25 @@ class SimilarityFinder:
         count = 0
         similarity_score_list = []
         temporary_sentence = ""
+        df_list = []
         for line in result_text:
-            if line.count('Title'):# Title and snippet is concatenated for better comparison
-                temporary_sentence = line
-
-            elif line.count('Snippet'):
-                count += 1
-                found = temporary_sentence + line
-                temporary_sentence = ""
-                similarity_score = self.calculate_similarity(self.input_text, found)
+            if line.count('||'):# Title and snippet is concatenated for better comparison
+                similarity_score = self.calculate_similarity(self.input_text, line)
                 similarity_score_list.append(similarity_score)
 
                 # Storing the similarity score
                 final_output.write("-------------------------------------------------------------------\n")
                 final_output.write(self.input_text)
-                final_output.write(found)
+                final_output.write(line)
                 final_output.write(f"[Case {count}]: Similarity between the two sentences: {similarity_score}")
                 final_output.write("-------------------------------------------------------------------\n\n")
-
+                df_list.append([self.input_text, line, similarity_score])
+                # pd.concat([df, pd.DataFrame(df, columns=['Input_Text', 'Output_Text', 'Similarity_Score'])], ignore_index=True)
+                
+        df = pd.DataFrame(df_list, columns=['Input_Text', 'Output_Text', 'Normal_Similarity_Score'])
 
         # Additional Data
         final_output.write(f"Average Similarity between the two sentences: {sum(similarity_score_list) / len(similarity_score_list)}")
         final_output.write(f"Max Similarity between the two sentences: {max(similarity_score_list)}")
         final_output.close()
+        df.to_excel('ml/report.xlsx', index=False)

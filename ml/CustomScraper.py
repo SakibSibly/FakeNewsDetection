@@ -28,12 +28,9 @@ class CustomScraeper:
 
                 for item in items:
                     cnt+=1
-                    # site_name = '[' + item['pagemap']['metatags'][0]['og:site_name'] + ']'
-                    site_name = "DUMMY_SITE_NAME" # Scraping insight needed
-                    title = 'Title : ' + item['title']
-                    snippet = 'Snippet : ' + item['snippet']
-                    link = 'link : ' + item['link']
-                    res = f"-->>{cnt}\n" + site_name + '\n' + title + '\n' + snippet + '\n' + link + '\n\n\n'
+                    title = item['title']
+                    snippet = item['snippet']
+                    res = title + "||" + snippet + '\n'
                     file = open(self.FILE_PATH, 'a', encoding='utf-8')
                     file.write(res)
                     file.close()
