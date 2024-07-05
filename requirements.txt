@@ -1,55 +1,43 @@
-annotated-types @ file:///croot/annotated-types_1709542908624/work
-asgiref @ file:///work/ci_py311/asgiref_1676843199969/work
-blis @ file:///croot/cython-blis_1684139855568/work
-Bottleneck @ file:///croot/bottleneck_1707864210935/work
-Brotli @ file:///croot/brotli-split_1714483155106/work
-catalogue @ file:///croot/catalogue_1703688140886/work
-certifi @ file:///croot/certifi_1717618050233/work/certifi
-charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
-click @ file:///croot/click_1698129812380/work
-cloudpathlib @ file:///croot/cloudpathlib_1704812255811/work
-colorama @ file:///work/ci_py311/colorama_1676827038675/work
-confection @ file:///croot/confection_1703694702568/work
-cymem @ file:///work/ci_py311/cymem_1676830386179/work
-Django @ file:///work/ci_py311/django_1676851927387/work
-en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.7.1/en_core_web_lg-3.7.1-py3-none-any.whl#sha256=ab70aeb6172cde82508f7739f35ebc9918a3d07debeed637403c8f794ba3d3dc
-idna @ file:///croot/idna_1714398848350/work
-Jinja2 @ file:///croot/jinja2_1716993405101/work
-langcodes @ file:///opt/conda/conda-bld/langcodes_1643477751144/work
-markdown-it-py @ file:///croot/markdown-it-py_1684279902645/work
-MarkupSafe @ file:///croot/markupsafe_1704205993651/work
-mdurl @ file:///work/ci_py311/mdurl_1676827289376/work
-mkl-fft @ file:///croot/mkl_fft_1695058164594/work
-mkl-random @ file:///croot/mkl_random_1695059800811/work
-mkl-service==2.4.0
-murmurhash @ file:///work/ci_py311/murmurhash_1676837125859/work
-numexpr @ file:///croot/numexpr_1696515281613/work
-numpy @ file:///croot/numpy_and_numpy_base_1708638617955/work/dist/numpy-1.26.4-cp311-cp311-linux_x86_64.whl#sha256=5f96f274d410a1682519282ae769c877d32fdbf171aa8badec7bf5e1d3a1748a
-packaging @ file:///croot/packaging_1710807400464/work
-pandas @ file:///croot/pandas_1718308974269/work/dist/pandas-2.2.2-cp311-cp311-linux_x86_64.whl#sha256=3c7ce50f9f519c785bd4cdb28a0ca71f85a541f3d27b25aa9da770f953e7f2e9
-preshed @ file:///work/ci_py311/preshed_1676841780261/work
-pydantic @ file:///croot/pydantic_1709577974639/work
-pydantic_core @ file:///croot/pydantic-core_1709573961665/work
-Pygments @ file:///croot/pygments_1684279966437/work
-PySocks @ file:///work/ci_py311/pysocks_1676822712504/work
-python-dateutil @ file:///croot/python-dateutil_1716495738603/work
-python-dotenv @ file:///work/ci_py311/python-dotenv_1676842320650/work
-pytz @ file:///croot/pytz_1713974312559/work
-requests @ file:///croot/requests_1716902831423/work
-rich @ file:///croot/rich_1684282154404/work
-shellingham @ file:///work/ci_py311/shellingham_1676823205451/work
-six @ file:///tmp/build/80754af9/six_1644875935023/work
-smart-open @ file:///work/ci_py311/smart_open_1676842848397/work
-spacy @ file:///croot/spacy_1704840091834/work
-spacy-legacy @ file:///croot/spacy-legacy_1684141107874/work
-spacy-loggers @ file:///croot/spacy-loggers_1684138701730/work
-sqlparse @ file:///croot/sqlparse_1690901927333/work
-srsly @ file:///croot/srsly_1703691906109/work
-thinc @ file:///croot/thinc_1704703966695/work
-tqdm @ file:///croot/tqdm_1716395931952/work
-typer @ file:///croot/typer_1684251874311/work
-typing_extensions @ file:///croot/typing_extensions_1715268824938/work
-tzdata @ file:///croot/python-tzdata_1690578112552/work
-urllib3 @ file:///croot/urllib3_1718912636303/work
-wasabi @ file:///work/ci_py311/wasabi_1676843039270/work
-weasel @ file:///croot/weasel_1704815753318/work
+annotated-types==0.7.0
+asgiref==3.8.1
+blis==0.7.11
+catalogue==2.0.10
+certifi==2024.6.2
+charset-normalizer==3.3.2
+click==8.1.7
+cloudpathlib==0.18.1
+confection==0.1.5
+cymem==2.0.8
+Django==4.2.7
+idna==3.7
+Jinja2==3.1.4
+langcodes==3.4.0
+language_data==1.2.0
+marisa-trie==1.2.0
+markdown-it-py==3.0.0
+MarkupSafe==2.1.5
+mdurl==0.1.2
+murmurhash==1.0.10
+numpy==1.26.4
+packaging==24.1
+preshed==3.0.9
+pydantic==2.8.0
+pydantic_core==2.20.0
+Pygments==2.18.0
+requests==2.32.3
+rich==13.7.1
+shellingham==1.5.4
+smart-open==7.0.4
+spacy==3.7.5
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+sqlparse==0.5.0
+srsly==2.4.8
+thinc==8.2.5
+tqdm==4.66.4
+typer==0.12.3
+typing_extensions==4.12.0
+urllib3==2.2.2
+wasabi==1.1.3
+weasel==0.4.1
+wrapt==1.16.0
