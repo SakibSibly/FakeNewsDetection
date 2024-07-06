@@ -21,7 +21,7 @@
                         <i class="fa-solid fa-user"></i>
                         <input type="text" id="name" name="name" placeholder="Enter your name">
                     </div>
-                    <span id="error-message-name" class="error-message hidden">Error: Invalid Name!</span>
+                    <span id="error-message-name" class="error-message hidden">Error: Name is required!</span>
 
 
 
@@ -29,14 +29,14 @@
                         <i class="fa-solid fa-user"></i>
                         <input type="text" id="user-name" name="uname" placeholder="Enter your username" >
                     </div>
-                    <span id="error-message-username" class="error-message hidden">Error: Invalid username!</span>
+                    <span id="error-message-username" class="error-message hidden">Error: username is required!</span>
 
 
                     <div class="input-field">
                         <i class="fa-solid fa-envelope"></i>
                         <input type="email" id="mail" name="email" placeholder="Email Address" >
                     </div>
-                    <span id="error-message-email" class="error-message hidden">Error: Invalid Email!</span>
+                    <span id="error-message-email" class="error-message hidden">Error: Email is required!</span>
 
 
                     <div class="input-field">
@@ -44,7 +44,7 @@
                         <input type="password" id="pass" name="password" placeholder="Password" >
                         <i id="pass-icon" onclick="pass()" class="fa-solid fa-eye"></i>
                     </div>
-                    <span id="error-message-password" class="error-message hidden">Error: Invalid Password!</span>
+                    <span id="error-message-password" class="error-message hidden">Error: Password is required!</span>
                     
             </div>
 
@@ -57,10 +57,12 @@
         </form>
         
         <div class="not-account">
-            <p>Already have an account?
-                <b> <a class="adjustable-links" href="{% url 'login' %}"> Login</a> </b>
-            </p>
+                <p>Already have an account?
+                    <b> <a class="adjustable-links" href="{% url 'login' %}"> Login</a> </b>
+                </p>
         </div>
+
+
     </div>
 </div>
 

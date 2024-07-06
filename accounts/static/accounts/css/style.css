@@ -248,3 +248,12 @@ span{
     font-size: 0.9em; 
     padding-bottom: 10px;
 }   
+
+
+.error-border {
+    border: 1px solid red;
+}
+
+.error-icon {
+    color: red; 
+}

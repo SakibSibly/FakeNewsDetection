@@ -17,12 +17,16 @@ function signinn() {
         emailErrorMessage.textContent = 'Please provide your email!';
         mailParent.classList.add('error-input-container'); 
         return false;
-    } else if (Pass.value == "") {
+    } 
+    
+    else if (Pass.value == "") {
         passwordErrorMessage.style.display = 'block'; 
         passwordErrorMessage.textContent = 'Please provide your password!';
         passParent.classList.add('error-input-container'); 
         return false;
-    } else {
+    } 
+    
+    else {
        
         return true;
     }
@@ -42,30 +46,50 @@ function pass() {
     }
 }
 
-document.getElementById('registration-form').addEventListener('submit', function(event) {
-    event.preventDefault(); 
-    let isValid = true; 
 
-    
-    function validateField(inputId, errorId) {
-        const input = document.getElementById(inputId);
-        const error = document.getElementById(errorId);
-        if (input.value.trim() === '') {
-            error.classList.remove('hidden');
-            isValid = false;
-        } else {
-            error.classList.add('hidden');
-        }
-    }
+// register error message
 
+document.addEventListener('DOMContentLoaded', function() {
 
-    validateField('name', 'error-message-name'); 
-    validateField('user-name', 'error-message-username');
-    validateField('mail', 'error-message-email');
-    validateField('pass', 'error-message-password');
+    const form = document.getElementById('registration-form');
 
-    
-    if (isValid) {
-        document.getElementById('registration-form').submit();
-    }
+    form.addEventListener('submit', function(event) {
+      
+        event.preventDefault();
+
+        validateField('name', 'error-message-name', '.fa-user');
+        validateField('user-name', 'error-message-username', '.fa-user'); 
+        validateField('mail', 'error-message-email', '.fa-envelope'); 
+        validateField('pass', 'error-message-password', '.fa-lock'); 
+        validateField('pass', 'error-message-password', '.fa-eye'); 
+        validateField('pass', 'error-message-password', '.fa-eye-slash');
+         
+    });
 });
+
+
+function validateField(inputId, errorId, iconClass) {
+
+    const input = document.getElementById(inputId);
+    const error = document.getElementById(errorId);
+    const inputField = input.closest('.input-field');
+    const icon = inputField.querySelector(iconClass);
+
+    if (input.value.trim() === '') {
+
+        error.classList.remove('hidden');
+        inputField.classList.add('error-border');
+        
+        if (icon) icon.classList.add('error-icon');
+
+    } 
+    
+    
+    else {
+        error.classList.add('hidden');
+        inputField.classList.remove('error-border');
+
+        if (icon) icon.classList.remove('error-icon');
+
+    }
+}
