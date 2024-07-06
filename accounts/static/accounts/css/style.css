@@ -106,7 +106,7 @@ body{
 .input-field{
     background: white;
     border: 1px solid rgb(167, 216, 175);
-    margin-bottom: 8px;
+    margin-bottom: 3px;
     border-radius: 15px;
     height: 45px;
     display: flex;
@@ -240,5 +240,11 @@ span{
 
 .error-input-container {
     border: 1px solid red !important;
-    color: red !important; 
+    color: red ; 
 }
+
+.error-message {
+    color: red; 
+    font-size: 0.9em; 
+    padding-bottom: 10px;
+}   

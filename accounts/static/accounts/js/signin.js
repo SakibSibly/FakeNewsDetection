@@ -41,3 +41,31 @@ function pass() {
         passIcon.className = "fa-solid fa-eye";
     }
 }
+
+document.getElementById('registration-form').addEventListener('submit', function(event) {
+    event.preventDefault(); 
+    let isValid = true; 
+
+    
+    function validateField(inputId, errorId) {
+        const input = document.getElementById(inputId);
+        const error = document.getElementById(errorId);
+        if (input.value.trim() === '') {
+            error.classList.remove('hidden');
+            isValid = false;
+        } else {
+            error.classList.add('hidden');
+        }
+    }
+
+
+    validateField('name', 'error-message-name'); 
+    validateField('user-name', 'error-message-username');
+    validateField('mail', 'error-message-email');
+    validateField('pass', 'error-message-password');
+
+    
+    if (isValid) {
+        document.getElementById('registration-form').submit();
+    }
+});
