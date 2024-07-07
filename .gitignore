@@ -18,3 +18,4 @@ home/migrations
 ml/input.txt
 ml/result.txt
 ml/final_output.txt
+ml/report.xlsx
