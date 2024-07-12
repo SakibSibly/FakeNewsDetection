@@ -54,34 +54,39 @@ document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('registration-form');
 
     form.addEventListener('submit', function(event) {
-      
-        event.preventDefault();
+       
+        let isFormValid = true;
 
-        validateField('name', 'error-message-name', '.fa-user');
-        validateField('user-name', 'error-message-username', '.fa-user'); 
-        validateField('mail', 'error-message-email', '.fa-envelope'); 
-        validateField('pass', 'error-message-password', '.fa-lock'); 
-        validateField('pass', 'error-message-password', '.fa-eye'); 
-        validateField('pass', 'error-message-password', '.fa-eye-slash');
-         
+        
+        isFormValid &= validateField('name', 'error-message-name', '.fa-user');
+        isFormValid &= validateField('user-name', 'error-message-username', '.fa-user'); 
+        isFormValid &= validateField('mail', 'error-message-email', '.fa-envelope'); 
+        isFormValid &= validateField('pass', 'error-message-password', '.fa-lock'); 
+        isFormValid &= validateField('pass', 'error-message-password', '.fa-eye'); 
+        isFormValid &= validateField('pass', 'error-message-password', '.fa-eye-slash');
+
+       
+        if (!isFormValid) {
+            event.preventDefault();
+        }
+
+        
     });
 });
 
-
 function validateField(inputId, errorId, iconClass) {
-
     const input = document.getElementById(inputId);
     const error = document.getElementById(errorId);
     const inputField = input.closest('.input-field');
     const icon = inputField.querySelector(iconClass);
 
-    if (input.value.trim() === '') {
+    if (input.value.trim() === '') { 
 
         error.classList.remove('hidden');
         inputField.classList.add('error-border');
-        
         if (icon) icon.classList.add('error-icon');
 
+        return false; 
     } 
     
     
@@ -91,5 +96,6 @@ function validateField(inputId, errorId, iconClass) {
 
         if (icon) icon.classList.remove('error-icon');
 
+        return true; 
     }
 }
