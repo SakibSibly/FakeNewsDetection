@@ -12,7 +12,7 @@
         <h1>Create an Account</h1>
         <div class="underline"></div>
 
-        <form method="POST" id="registration-form">
+        <form method="POST" action="{% url 'login' %}" id="registration-form">
             {% csrf_token %}
 
             <div class="input-group">
@@ -51,7 +51,7 @@
 
 
             <div class="Btn-field">
-                <button type="submit" class="btn create-new-account" id="submit-btn">Create new Account</button>
+                <button type="submit" class="btn create-new-account" id="submit-btn">Create and Login</button>
             </div>
 
         </form>
