@@ -1,10 +1,10 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
 from django.views import View
 from ml import CustomScraper as CS, SimilarityFinder as SF
 # Create your views here.
 
 class MainView(View):
-    def showHomePage(request):
+    def requestHandler(request):
         if request.method == 'POST':
             form_type = request.POST.get('form_type')
             if form_type == 'check_news':
@@ -17,7 +17,7 @@ class MainView(View):
                 return render(request,'home/show.html',context={'content':output})
             elif form_type == 'print_report':
                 # implement print feature
-                pass
+                return HttpResponse("Print feature is not implemented yet!")
             
         return render(request, 'home/index.html')
     
