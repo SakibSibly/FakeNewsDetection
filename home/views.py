@@ -22,4 +22,4 @@ class MainView(View):
         return render(request, 'home/index.html')
     
     def showAboutPage(request):
-        pass
+        return HttpResponse("Implement the About us page with a new tab window")
