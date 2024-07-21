@@ -5,10 +5,10 @@
 db.sqlite3
 
 # Pycache files
-*/__pycache__
+__pycache__
 
 # Migration files
-*/migrations
+migrations
 
 # Text files
-ml/*.txt
+*.txt
