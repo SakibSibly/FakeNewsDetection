@@ -3,8 +3,12 @@ from django.views import View
 from ml import CustomScraper as CS, SimilarityFinder as SF
 # Create your views here.
 
-class MainView(View):
-    def requestHandler(request):
+class HomeView(View):
+    
+    def get(self, request):
+        return render(request, 'home/index.html')
+    
+    def post(self, request):
         if request.method == 'POST':
             form_type = request.POST.get('form_type')
             if form_type == 'check_news':
@@ -18,8 +22,8 @@ class MainView(View):
             elif form_type == 'print_report':
                 # implement print feature
                 return HttpResponse("Print feature is not implemented yet!")
-            
-        return render(request, 'home/index.html')
-    
-    def showAboutPage(request):
-        return HttpResponse("Implement the About us page with a new tab window")
+
+class AboutView(View):
+        
+        def get(self, request): 
+            return HttpResponse("Implement the About us page with a new tab window")
