@@ -33,7 +33,7 @@ function signinn() {
 }
 
 // Eye Btn
-function pass() {
+function toggleEyeButton() {
     var passInput = document.getElementById('pass');
     var passIcon = document.getElementById('pass-icon');
 
