@@ -5,7 +5,7 @@
 db.sqlite3
 
 # Pycache files
-__pycache__
+__pycache__/
 
 # Text files
 *.txt
