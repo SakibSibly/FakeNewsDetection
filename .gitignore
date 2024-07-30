@@ -7,8 +7,5 @@ db.sqlite3
 # Pycache files
 __pycache__
 
-# Migration files
-migrations
-
 # Text files
 *.txt
