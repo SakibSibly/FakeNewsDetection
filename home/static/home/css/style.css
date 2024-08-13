@@ -23,6 +23,7 @@ body{
     width: 100%;
     height: 75px;
     position: fixed;
+   
 }
 
 .header .navbar{
@@ -34,6 +35,7 @@ body{
     position: absolute;
     width: 100%;
     padding: 22px 40px;
+    /* overflow: hidden; */
     
 }
 
