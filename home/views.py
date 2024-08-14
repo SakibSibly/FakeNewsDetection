@@ -1,10 +1,11 @@
 from django.shortcuts import render, redirect
 from django.views import View
-# from ml import CustomScraper as CS, SimilarityFinder as SF
+
 # Create your views here.
 from django.contrib.auth import logout
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
+
 
 class HomeView(LoginRequiredMixin,View):
     
