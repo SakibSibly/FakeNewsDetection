@@ -1,6 +1,9 @@
 # Environment variables
 .env
 
+# Trained model
+*.pt
+
 # SQLite database file
 db.sqlite3
 
