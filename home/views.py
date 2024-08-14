@@ -1,87 +1,40 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.views import View
-import requests
-import os
-from dotenv import load_dotenv
+
 # Create your views here.
+from django.contrib.auth import logout
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
 
-load_dotenv()
 
-
-API_KEY = os.getenv("API_KEY")
-SEARCH_ENGINE_ID=os.getenv('SEARCH_ENGINE_ID')
-URL=os.getenv('URL')
-
+class HomeView(LoginRequiredMixin,View):
     
-class News:
-    def scrap(query):
+    login_url='login'
 
-        params = {
-                'key': API_KEY,
-                'cx': SEARCH_ENGINE_ID,
-                'q': query,
-                'num': 10,
-                'start': 1
-            }
-        
-        for page in range(1, 11):
-            res = requests.get(URL,params=params)
-            print(page)
-            if res.status_code == 200:
-                res = res.json()
-                items = res['items']
-
-                for item in items:
-
-                    # site_name = item['pagemap']['metatags'][0]['og:site_name']
-                    # title = item['title']
-                    # snippet = item['snippet']
-                    # link = item['link']
-
-                    site_name = item.get('pagemap', {}).get('metatags', [{}])[0].get('og:site_name', 'Unknown Site')
-                    title = item.get('title', 'No Title')
-                    snippet = item.get('snippet', 'No Snippet')
-                    link = item.get('link', 'No Link')
-
-                    news = f"{site_name}\n{snippet}\n\n"
-
-                    file = open("result.txt",'a',encoding='UTF-8')
-                    file.write(news)
-                    file.close()
-
-
-
-                params['start'] += 1
-
-            else:
-                print("You may run out of your api limit! \n\nPlease Change the api or upgrade plan!")
-                return -1
-
-    def summarize():
-        pass
-
-    def context_match():
-        pass
-
-
-class MainView(View):
-
-    def showHomePage(request):
-        if request.method == 'POST':
+    def get(self, request):
+        return render(request, 'home/home.html')
+    
+    # def post(self, request):
+        form_type = request.POST.get('form_type')
+        if form_type == 'check_news':
             query = request.POST.get('query')
+            customScraper = CS.CustomScraeper(query)
+            customScraper.getNews()
+            similarityFinder = SF.SimilarityFinder(query)
+            similarityFinder.findSimilarity()
+            output = open('ml/final_output.txt', 'r', encoding='utf-8').read()
+            return render(request,'home/show.html',context={'content':output})
+        elif form_type == 'print_report':
+            # implement print feature
+            return HttpResponse("Print feature is not implemented yet!")
 
-            if query:
-                value = News.scrap(query)
-                if(value == -1):
-                    content = "You may run out of your api limit! \n\nPlease Change the api or upgrade plan!"
-                else:
-                    file = open("result.txt",'r',encoding="UTF-8")
-                    content = file.read()
-                    file.close()
-            else:
-                content = "No News to Find!"
+class Profile(LoginRequiredMixin,View):
 
-            return render(request,'home/show.html',{'content':content})
+    login_url='login'
 
-        return render(request, 'home/index.html')
+    def get(self, request):
+        return self.logout_page(request)
 
+    def logout_page(self, request):
+        logout(request)
+        return redirect('login')

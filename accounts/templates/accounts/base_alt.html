@@ -1,0 +1,52 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+
+    <link rel="stylesheet" href="{% static 'accounts/css/style.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    
+    <!-- <div id="fixbar">
+        <div id="logo"></div>
+        <div id="help">
+            <i class="fa fa-question-circle extra-large" aria-hidden="true"></i>
+            <i class="fa fa-globe extra-large"  aria-hidden="true" ></i>
+        </div>
+    </div> -->
+
+    <div class="containers">
+
+        <div class="container extension1">
+
+            <img class="content" src="{% static 'accounts/images/fake.png' %}" alt="" srcset="">
+
+            <!-- <p class="not-account">Fake news can have significant consequences, from undermining public trust and
+                democracy to causing real-world harm. Misinformation spreads rapidly,
+                influencing public opinion,
+                exacerbating social tensions,
+                and potentially leading to dangerous actions based on false beliefs.
+            </p> -->
+
+        </div>
+        
+        <div class="container extension2">
+            {% block content %} {% endblock %}
+        </div>
+
+    </div> <!-- end container -->
+    <script src="{% static 'accounts/js/signin.js' %}"></script>
+
+
+</body>
+
+</html>
