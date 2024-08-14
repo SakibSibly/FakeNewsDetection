@@ -1,14 +1,19 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render, redirect
 from django.views import View
-from ml import CustomScraper as CS, SimilarityFinder as SF
+# from ml import CustomScraper as CS, SimilarityFinder as SF
 # Create your views here.
+from django.contrib.auth import logout
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
 
-class HomeView(View):
+class HomeView(LoginRequiredMixin,View):
     
+    login_url='login'
+
     def get(self, request):
-        return render(request, 'home/index.html')
+        return render(request, 'home/home.html')
     
-    def post(self, request):
+    # def post(self, request):
         form_type = request.POST.get('form_type')
         if form_type == 'check_news':
             query = request.POST.get('query')
@@ -22,7 +27,13 @@ class HomeView(View):
             # implement print feature
             return HttpResponse("Print feature is not implemented yet!")
 
-class AboutView(View):
-        
-    def get(self, request): 
-        return HttpResponse("Implement the About us page with a new tab window")
+class Profile(LoginRequiredMixin,View):
+
+    login_url='login'
+
+    def get(self, request):
+        return self.logout_page(request)
+
+    def logout_page(self, request):
+        logout(request)
+        return redirect('login')
