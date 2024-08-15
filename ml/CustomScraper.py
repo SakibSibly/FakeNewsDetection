@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 
 
-class CustomScraeper:
+class CustomScraper:
     def __init__(self, input_text: str) -> None:
         load_dotenv()
         self.API_KEY=os.getenv('API_KEY')
