@@ -10,8 +10,15 @@ class User(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+    def __str__(self) -> str:
+        return self.name
+
+
 class SearchData(models.Model):
     userid = models.ForeignKey(User, on_delete=models.CASCADE)
     date = models.DateTimeField(auto_now_add=True)
     search_data = models.CharField(max_length=1000)
     search_result = models.CharField(max_length=1000)
+
+    def __str__(self) -> str:
+        return self.search_data
