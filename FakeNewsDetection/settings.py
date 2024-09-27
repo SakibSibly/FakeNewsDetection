@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'crispy_bootstrap4',
     'accounts.apps.AccountsConfig',
     'home.apps.HomeConfig',
+    'globals.apps.GlobalsConfig',
 ]
 
 MIDDLEWARE = [
