@@ -1,20 +1,18 @@
 {% load static %}
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-
-  <!-- Font Awesome for Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-  <title>Hello, world!</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
 
   <style>
     textarea {
@@ -26,107 +24,20 @@
       width: auto !important;
     }
 
-    #preloader {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(255, 255, 255, 0.3);
-      /* Semi-transparent background */
-      backdrop-filter: blur(5px);
-      /* Blurring effect */
-      z-index: 9999;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    body{
+      overflow: hidden;
     }
+
   </style>
-
 </head>
-
 <body>
 
-  <div id="preloader">
-    <img src="{% static 'home/images/waiting-7579_256.gif' %}" alt="" srcset="">
-  </div>
-
+  {% include 'globals/preloader.html' %}
 
   <div id="content">
 
     <header>
-      <div class="row">
-        <div class="col">
-
-          <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
-
-            <!-- <a href="#demo" class="navbar-brand" data-toggle="collapse">
-              <img height="100px" src="mascot-logo-design_P1_900x420-removebg-preview.png" alt="">
-            </a>
-    
-            <div id="demo" class="collapse">
-              <ul class="list-group">
-                <li class="list-group-item">Item 1</li>
-                <li class="list-group-item">Item 2</li>
-                <li class="list-group-item">Item 3</li>
-                <li class="list-group-item">Item 4</li>
-              </ul>
-            </div> -->
-
-
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav m-3">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Profile
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                <li class="nav-item active"><a href="#" class="nav-link">Hello</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Hello</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Hello</a></li>
-                <li class="nav-item"><a href="logout" class="nav-link" id="load">Log Out</a></li>
-              </ul>
-            </div>
-
-
-
-          </nav>
-
-        </div>
-
-        <!-- <div class="col-2">
-
-          <div>
-              <a href="#dropdownMenu" data-toggle="collapse">
-                <img class="img-fluid rounded-circle" height="50px" width="50px" src="AE Virus.gif" alt="" srcset="">
-              </a>
-    
-              <div class="collapse" id="dropdownMenu">
-                <ul class="list-group">
-                    <li class="list-group-item">Item 1</li>
-                    <li class="list-group-item">Item 2</li>
-                    <li class="list-group-item">Item 3</li>
-                    <li class="list-group-item">Item 4</li>
-                </ul>
-              </div>
-            </div>
-
-        </div> -->
-
-      </div>
+      {% include 'globals/navbar.html' %}
     </header>
 
     <section class="mt-3 justify-content-center">
@@ -143,7 +54,7 @@
         </div>
 
         <div class="row mt-5 justify-content-center">
-          <div class="col-8 col-lg-4"> <!-- Adjust the column size as needed -->
+          <div class="col-8 col-lg-4">
             <div class="form-floating mb-3">
               <textarea class="form-control" id="floatingInput" name="query" placeholder="Search here..."
                 required></textarea>
@@ -162,7 +73,7 @@
         {% csrf_token %}
         <input type="hidden" name="form_type" value="print_report">
         <div class="row mt-5 justify-content-center">
-          <div class="col-8 col-lg-4"> <!-- Adjust the column size as needed -->
+          <div class="col-8 col-lg-4">
             <div class="form-floating mb-3">
               <textarea class="form-control" id="floatingInput" name="email" placeholder="Search here...">{% block text %} {% endblock text %}</textarea>
               <label for="floatingInput">Result</label>
@@ -180,38 +91,6 @@
     </section>
 
   </div>
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-
-  <script>
-
-    var preloader = document.getElementById('preloader');
-    var content = document.getElementById('content');
-
-    function activateOnLoad() {
-      setTimeout(function () {
-        preloader.style.display = 'none';
-        content.style.display = 'block';
-      }, 1000); // 1000ms = 1 second
-    }
-
-    // Call the function when the page loads
-    window.addEventListener('load', function () {
-      activateOnLoad();
-    });
-
-  </script>
-
+  
 </body>
-
 </html>
