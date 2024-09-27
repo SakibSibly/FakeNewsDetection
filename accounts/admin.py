@@ -1,5 +1,7 @@
 from django.contrib import admin
-from .models import User
-# Register your models here.
+from .models import CustomUser, SearchData, MailingHistory
 
-admin.site.register(User)
+
+admin.site.register(CustomUser)
+admin.site.register(SearchData)
+admin.site.register(MailingHistory)

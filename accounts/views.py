@@ -1,71 +1,53 @@
-from django.shortcuts import render, HttpResponse,redirect
+from django.shortcuts import render, redirect
+from django.http import JsonResponse
 from django.views import View
-from django.contrib import messages
-from django.contrib.auth.models import User
-from django.contrib.auth import login,authenticate
-import hashlib
-# Create your views here.
+from django.core.mail import send_mail
+from .models import CustomUser
+from .forms import UserRegistrationForm
+import os
 
-class LoginView(View):
 
+class UserRegistrationView(View):
     def get(self, request):
-        return render(request, 'accounts/login.html')
+        form = UserRegistrationForm()
+        return render(request, 'accounts/register.html', {'form': form})
+
+    def post(self, request):
+        form = UserRegistrationForm(request.POST)
+        if form.is_valid():
+            username = form.cleaned_data['username']
+            email = form.cleaned_data['email']
+            password = form.cleaned_data['password']
+            first_name = form.cleaned_data['first_name']
+            last_name = form.cleaned_data['last_name']
+            country = form.cleaned_data['country']
+            city = form.cleaned_data['city']
+            user = CustomUser.objects.create_user(first_name=first_name, last_name=last_name, username=username, email=email, password=password, country=country, city=city)
+            user.save()
+            message = "Thank you for registering on our website!\n\n"
+            message += "Your username is: " + username + "\n\n\n"
+            message += "For any queries, please contact us at: " + os.environ.get('EMAIL_HOST_USER') + "\n"
+            message += "We will be happy to help you!\n"
+            message += "Thank you!"
+
+            send_mail('Welcome to FakeNewsDetection website!', message, os.environ.get('EMAIL_HOST_USER'), [email])
+            return redirect('login')
+        return render(request, 'accounts/register.html', {'form': form})
+
+
+class UserProfileView(View):
+    def get(self, request, username):
+        user = CustomUser.objects.get(username=username)
+        return render(request, 'accounts/profile.html' , {'user': user})
+
+    def post(self, request):
+        pass
+
+
+class UserProfileAPI(View):
+    def get(self, request, username):
+        user = CustomUser.objects.get(username=username)
+        return JsonResponse({'user': user})
     
     def post(self, request):
-        data = request.POST
-        email = data.get('email')
-        password = data.get('password')
-
-        user = User.objects.filter(email = email)
-
-        if not user.exists():
-            messages.error(request,"Ivalid User")
-            return redirect('login')
-        
-        username = user.first().username
-        
-        user = authenticate( request, username = username, password = password )
-
-        if user is None:
-            messages.error(request,"Invalid Password")
-            return redirect('login')
-        else:
-            login(request,user)
-            return redirect('home')
-
-class RegisterView(View):
-
-    def get(self, request):
-        return render(request, 'accounts/register.html')
-    
-    def post(self, request):
-        data = request.POST
-        fname = data.get('first_name')
-        lname = data.get('last_name')
-        uname = data.get('user_name')
-        password = data.get('password')
-        repassword = data.get('repassword')
-
-        if password != repassword:
-            messages.error(request,"Password not Matched") #need to work more because message.tags = error instead of danger
-            return redirect('register')
-
-        user = User.objects.filter(username = uname)
-
-        if user.exists():
-            messages.error(request,"User already exists!")
-            return redirect('register')
-
-        user = User.objects.create(
-            first_name = fname,
-            last_name = lname,
-            username = uname,
-        )
-
-        user.set_password(password)
-        user.save()
-
-        messages.success(request,"Account Created Successfully")
-
-        return redirect('register')
-
+        pass
