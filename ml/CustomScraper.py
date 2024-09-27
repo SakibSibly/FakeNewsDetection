@@ -1,15 +1,13 @@
 import requests
 import os
-from dotenv import load_dotenv
 
 
 class CustomScraper:
     def __init__(self, input_text: str) -> None:
-        load_dotenv()
-        self.API_KEY=os.getenv('API_KEY')
-        self.SEARCH_ENGINE_ID=os.getenv('SEARCH_ENGINE_ID')
+        self.API_KEY=os.environ.get('API_KEY')
+        self.SEARCH_ENGINE_ID=os.environ.get('SEARCH_ENGINE_ID')
         self.FILE_PATH='ml/result.txt'
-        self.URL=os.getenv('URL')
+        self.URL=os.environ.get('URL')
         self.params = {
             'key' : self.API_KEY,
             'cx' : self.SEARCH_ENGINE_ID,
