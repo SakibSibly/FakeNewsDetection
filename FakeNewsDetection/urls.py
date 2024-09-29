@@ -23,4 +23,5 @@ urlpatterns = [
     path('', include('home.urls')),
     path('accounts/', include('accounts.urls')),
     path('api/', include('apis.urls')),
+    path('newsfeed/', include('newsfeed.urls')),
 ] + debug_toolbar_urls()
