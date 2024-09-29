@@ -8,11 +8,3 @@ class NewsFeedView(View):
     
     def post(self, request):
         pass
-
-
-class NewsFeedDetailView(View):
-    def get(self, request, pk):
-        return render(request, 'newsfeed/newsfeed_detail.html')
-    
-    def post(self, request, pk):
-        pass
