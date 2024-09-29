@@ -1,5 +1,4 @@
 from django.shortcuts import render, redirect
-from django.http import JsonResponse
 from django.views import View
 from django.core.mail import send_mail
 from .models import CustomUser
@@ -40,14 +39,5 @@ class UserProfileView(View):
         user = CustomUser.objects.get(username=username)
         return render(request, 'accounts/profile.html' , {'user': user})
 
-    def post(self, request):
-        pass
-
-
-class UserProfileAPI(View):
-    def get(self, request, username):
-        user = CustomUser.objects.get(username=username)
-        return JsonResponse({'user': user})
-    
     def post(self, request):
         pass

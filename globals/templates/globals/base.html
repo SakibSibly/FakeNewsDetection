@@ -4,18 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fake News Detection</title>
-    <link rel="stylesheet" href="globals/style.css">
+    <link rel="stylesheet" href="{% static 'globals/css/style.css' %}">
 </head>
 <body>
+    <div>
+        <nav>
+            <!-- <ul id="info">
+                <li>
+                    <img src="" alt="FakeNewsDetection">
+                </li>
+                <li>
+                    <p>A Chaos Free Life</p>
+                </li>
 
-    <header>
-        {% include "globals/navbar.html" %}
-    </header>
+            </ul> -->
+            <ul id="meta-links">
+                <li><a href="#">Overview</a></li>
+                <li><a href="{% url 'documentation' %}">Documentation</a></li>
+                <li><a href="{% url 'news_feed' %}">News</a></li>
+                <li><a href="https://discord.gg/NMmXhP9y" target="_blank">Community</a></li>
+                <li><a href="https://github.com/SakibSibly/FakeNewsDetection" target="_blank">Code</a></li>
+                <li><a href="https://github.com/SakibSibly/FakeNewsDetection/issues" target="_blank">Issues</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <ul id="account-aciton">
+                <li><a href="">Profile</a></li>
+            </ul>
+        </nav>
+    </div>
 
-    <section>
-        {% block content %} {% endblock %}
-    </section>
-    
+    {% block content %} {% endblock %}
+
 </body>
 </html>

@@ -44,6 +44,9 @@ INSTALLED_APPS = [
     'accounts.apps.AccountsConfig',
     'home.apps.HomeConfig',
     'globals.apps.GlobalsConfig',
+    'newsfeed.apps.NewsfeedConfig',
+    'documentations.apps.DocumentationsConfig',
+    'apis.apps.ApisConfig',
 ]
 
 MIDDLEWARE = [
