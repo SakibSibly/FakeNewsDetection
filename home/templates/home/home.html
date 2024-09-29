@@ -2,54 +2,5 @@
 {% load static %}
 
 {% block content %}
-
-    <section class="mt-3 justify-content-center">
-      <form method="post">
-        {% csrf_token %}
-        <input type="hidden" name="form_type" value="check_news">
-        <div class="row justify-content-center">
-          <label class="w-auto" for="analysis_type">Select the proper method:</label>
-          <select name="analysis_type" id="analysis_type" class="form-select form-control text-center w-auto"
-            aria-label="Default select example">
-            <option selected value="1">Trained Model Approach (Appropriate For Old News)</option>
-            <option value="2">Scraping Approach (Appropriate For Breaking News)</option>
-          </select>
-        </div>
-
-        <div class="row mt-5 justify-content-center">
-          <div class="col-8 col-lg-4"> <!-- Adjust the column size as needed -->
-            <div class="form-floating mb-3">
-              <textarea class="form-control" id="floatingInput" name="query" placeholder="Search here..."
-                required></textarea>
-              <label for="floatingInput">News</label>
-            </div>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <button class="btn btn-primary" type="submit">Search</button>
-        </div>
-
-      </form>
-
-      <form method="post">
-        {% csrf_token %}
-        <input type="hidden" name="form_type" value="print_report">
-        <div class="row mt-5 justify-content-center">
-          <div class="col-8 col-lg-4"> <!-- Adjust the column size as needed -->
-            <div class="form-floating mb-3">
-              <textarea class="form-control" id="floatingInput" name="email" placeholder="Search here...">{% block text %} {% endblock text %}</textarea>
-              <label for="floatingInput">Result</label>
-            </div>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <button type="submit" class="btn btn-primary">Print</button>
-        </div>
-      </form>
-
-
-
-    </section>
+  <p>Home Content</p>
 {% endblock content %}
