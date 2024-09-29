@@ -46,3 +46,11 @@ nav a:hover {
     list-style-type: none;
     justify-content: space-between;
 }
+
+.banner {
+    background-color: hsl(0, 0%, 47%);
+    color: #f1fff7;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font: inherit;
+}
