@@ -12,6 +12,15 @@ class NewsFeedAPIView(View):
         return JsonResponse(data)
 
 
+class NewsFeedDetailAPIView(View):
+    def get(self, request, pk):
+        data = {
+            'title': 'News Feed Detail API',
+            'message': f'This is the news feed detail API endpoint for {pk}.'
+        }
+        return JsonResponse(data)
+
+
 class UserProfileAPIView(View):
     def get(self, request, username):
         data = {
