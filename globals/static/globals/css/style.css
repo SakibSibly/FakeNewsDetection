@@ -54,3 +54,34 @@ nav a:hover {
     margin-bottom: 1rem;
     font: inherit;
 }
+
+footer {
+    color: #f1fff7;
+    display: flex;
+    background-color: hsl(0, 0%, 35%);
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+footer img {
+    width: 100px;
+    height: 100px;
+}
+
+footer h4 {
+    margin-bottom: 1.8rem;
+}
+
+footer li {
+    list-style: none;
+    margin-top: 0.5rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f1fff7;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
