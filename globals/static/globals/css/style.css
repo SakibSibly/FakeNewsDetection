@@ -56,6 +56,10 @@ nav a:hover {
 }
 
 footer {
+    margin-top: 4rem;
+}
+
+.flexbar {
     color: #f1fff7;
     display: flex;
     background-color: hsl(0, 0%, 35%);
@@ -63,25 +67,34 @@ footer {
     justify-content: space-between;
 }
 
-footer img {
+.flexbar img {
+    display: inline-block;
     width: 100px;
     height: 100px;
 }
 
-footer h4 {
+.flexbar h4 {
     margin-bottom: 1.8rem;
 }
 
-footer li {
+.flexbar li {
     list-style: none;
     margin-top: 0.5rem;
 }
 
-footer a {
+.flexbar a {
     text-decoration: none;
     color: #f1fff7;
 }
 
-footer a:hover {
+.flexbar a:hover {
     text-decoration: underline;
+}
+
+.bottom-bar {
+    background-color: hsl(0, 3%, 20%);
+    color: #f1fff7;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
