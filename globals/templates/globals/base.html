@@ -19,13 +19,14 @@
 
             </ul> -->
             <ul id="meta-links">
-                <li><a href="#">Overview</a></li>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'overview' %}">Overview</a></li>
                 <li><a href="{% url 'documentation' %}">Documentation</a></li>
                 <li><a href="{% url 'news_feed' %}">News</a></li>
                 <li><a href="https://discord.gg/NMmXhP9y" target="_blank">Community</a></li>
                 <li><a href="https://github.com/SakibSibly/FakeNewsDetection" target="_blank">Code</a></li>
                 <li><a href="https://github.com/SakibSibly/FakeNewsDetection/issues" target="_blank">Issues</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
             </ul>
             <ul id="account-aciton">
                 <li><a href="">Profile</a></li>
