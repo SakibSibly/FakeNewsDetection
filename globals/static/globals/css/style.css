@@ -98,3 +98,16 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+#system-logout button {
+    background: none;
+    border: none;
+    color: #f1fff7;
+    text-decoration: none;
+    cursor: pointer;
+    font: inherit;
+}
+
+#system-logout button:hover {
+    color: hsl(0, 0%, 78%);
+}

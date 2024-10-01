@@ -29,7 +29,25 @@
                 <li><a href="{% url 'about' %}">About</a></li>
             </ul>
             <ul id="account-aciton">
-                <li><a href="">Profile</a></li>
+                {% if request.user.is_authenticated %}
+                    <li><a href="">{{ request.user.username }}</a></li>
+                    <li>
+                        {% if request.user.is_authenticated %}
+                            <form id="system-logout" method="POST" action="{% url 'logout' %}?next={{ request.path }}">
+                                {% csrf_token %}
+                                <button class="underline" type="submit">
+                                    Logout
+                                </button>
+                            </form>
+                        {% else %}
+                            <a class="underline" href="{% url 'register' %}?next={{ request.path }}">Register</a>
+                        {% endif %}
+                    </li>
+                    <li><a href="">History</a></li>
+                {% else %}
+                    <li><a href="{% url 'login' %}">Login</a></li>
+                    <li><a href="{% url 'register' %}">Register</a></li>
+                {% endif %}
             </ul>
         </nav>
     </div>
