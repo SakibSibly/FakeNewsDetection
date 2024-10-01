@@ -5,6 +5,17 @@ from django.utils.http import urlencode
 from newsfeed.models import News
 from accounts.models import CustomUser
 from .models import APIRequest
+from django.utils import timezone
+
+
+class PopulateAPIDatabase():
+    def populate(request, method, endpoint, status_code):
+        if request.user.is_authenticated:
+            new_request = APIRequest(user=request.user, method=method, request_time=timezone.now(), endpoint=endpoint, status_code=status_code)
+            new_request.save()
+        else:
+            new_request = APIRequest(user=None, method=method, request_time=timezone.now(), endpoint=endpoint, status_code=status_code)
+            new_request.save()
 
 
 class NewsFeedAPIView(View):
@@ -19,8 +30,7 @@ class NewsFeedAPIView(View):
             'status': 200
         }
 
-        new_request = APIRequest(user=request.user, method='GET', endpoint='/newsfeed/', status_code=200)
-        new_request.save()
+        PopulateAPIDatabase.populate(request, 'GET', '/newsfeed/', 200)
 
         return JsonResponse(data)
 
@@ -37,8 +47,7 @@ class NewsFeedDetailAPIView(View):
             'status': 200
         }
 
-        new_request = APIRequest(user=request.user, method='GET', endpoint=f'/newsfeed/{pk}/', status_code=200)
-        new_request.save()
+        PopulateAPIDatabase.populate(request, 'GET', f'/newsfeed/{pk}/', 200)
 
         return JsonResponse(data)
 
@@ -63,12 +72,10 @@ class UserProfileAPIView(View):
                 'status': 200
             }
 
-            new_request = APIRequest(user=request.user, method='GET', endpoint=f'/profile/{username}/', status_code=200)
-            new_request.save()
+            PopulateAPIDatabase.populate(request, 'GET', f'/profile/{username}/', 200)
 
             return JsonResponse(data)
         
-        new_request = APIRequest(user=request.user, method='GET', endpoint=f'/profile/{username}/', status_code=403)
+        PopulateAPIDatabase.populate(request, 'GET', f'/profile/{username}/', 403)
 
-        login_url = reverse('login') + '?' + urlencode({'next': request.path})
         return JsonResponse({'message': 'You need to login to the system to get the data', 'status': 403})
