@@ -5,6 +5,7 @@
 {% block content %}
     <div class="form-container">
         <form method="post">
+            <p class = "hline">Sign In</p>
             {% csrf_token %}
             {{ form|crispy }}
             <button type="submit" class="btn-primary">Login</button>
