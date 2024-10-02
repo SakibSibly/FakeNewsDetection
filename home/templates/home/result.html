@@ -1,0 +1,27 @@
+{% extends 'globals/base.html' %}
+{% load static %}
+
+{% block content %}
+    <link rel="stylesheet" href="{% static 'home/css/result.css' %}">
+
+    <div class="result-wrapper">
+        <h1>News Analysis Result</h1>
+
+        {% if result %}
+        <div class="result-card">
+            <h2>Result: <span class="result-text {% if result == 'Fake' %}fake-news{% else %}true-news{% endif %}">{{ result }}</span></h2>
+            <p class="confidence-score">Confidence Score: {{ confidence_score }}%</p>
+        </div>
+        {% else %}
+        <p class="no-result">No analysis result available. Please submit a news article for analysis.</p>
+        {% endif %}
+
+        <div class="print-report">
+            <a href="{% url 'print_report' %}" class="report-button">Print Report</a>
+        </div>
+
+        <div class="back-to-home">
+            <a href="{% url 'home' %}" class="back-button">Back to Home</a>
+        </div>
+    </div>
+{% endblock %}

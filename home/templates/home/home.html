@@ -2,11 +2,30 @@
 {% load static %}
 
 {% block content %}
+  <link rel="stylesheet" href="{% static 'home/css/home.css' %}">
   <div class="banner">
     Getting messed up with the fake news? Don't worry, we are here to help you out.
   </div>
 
-    <!-- Implement the Home section here -->
-
-    
+  <div class="content-wrapper">
+      <div class="analysis-header">
+          <h1>Fake News Detection</h1>
+          <p>Enter a news article or statement to check its authenticity.</p>
+      </div>
+  
+      <div class="input-form">
+          <form method="post">
+              {% csrf_token %}
+              <label for="analysis_type">Select Analysis Type:</label>
+              <select name="analysis_type" id="analysis_type">
+                    <option value="0">Trained Model Approach (Suitable for Old News)</option>
+                    <option value="1">Scrapping Approach (Suitable for Recent News)</option>
+              </select>
+              <label for="news_content">News Content:</label>
+              <textarea name="news_content" placeholder="Type or paste the news article here..." required></textarea>
+              <button type="submit" class="submit-btn">Analyze</button>
+          </form>
+      </div>
+  </div>
+  
 {% endblock content %}
