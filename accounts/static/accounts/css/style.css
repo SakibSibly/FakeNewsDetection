@@ -76,7 +76,9 @@ body {
 
 
 button.btn-primary {
-    padding: 10px 20px;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-bottom: 13px;
     background-color: hsl(0, 0%, 47%);
     border: none;
     border-radius: 5px;
