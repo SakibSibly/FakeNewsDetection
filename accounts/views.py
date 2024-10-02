@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, HttpResponse
 from django.views import View
 from django.core.mail import send_mail
 from .models import CustomUser
@@ -41,3 +41,8 @@ class UserProfileView(View):
 
     def post(self, request):
         pass
+
+
+class PrintView(View):
+    def get(self, request):
+        return HttpResponse("Printed report not available yet!")
