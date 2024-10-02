@@ -68,13 +68,13 @@ class HomeView(View):
                 preds = np.argmax(preds, axis = 1)
                 if preds[0] == 1:
                     context = {
-                        "result": "According to the training data, The Mentioned news is probably a Fake News",
+                        "result": "Fake",
                         "news": query
                     }
                     return render(request, 'home/result.html', context)
                 else:
                     context = {
-                        "result": "According to the training data, The Mentioned news is probably a Real News",
+                        "result": "Real",
                         "news": query
                     }
                     return render(request, 'home/result.html', context)

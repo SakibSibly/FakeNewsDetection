@@ -9,7 +9,12 @@
 
         {% if result %}
         <div class="result-card">
-            <h2>Result: <span class="result-text {% if result == 'Fake' %}fake-news{% else %}true-news{% endif %}">{{ result }}</span></h2>
+            <h2>
+                Result: 
+                <span class="result-text {% if result == 'Fake' %}fake-news{% else %}true-news{% endif %}">
+                According to the training data, The Mentioned news is probably a {{ result }} news
+            </span>
+            </h2>
             <p class="confidence-score">Confidence Score: {{ confidence_score }}%</p>
         </div>
         {% else %}
