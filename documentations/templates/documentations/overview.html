@@ -2,11 +2,37 @@
 {% load static %}
 
 {% block content %}
+  <link rel="stylesheet" href="{% static 'documentations/css/overview.css' %}">
   <div class="banner">
     Fake News Detection was created to meet the challenging demand of rapid spreding of false news which creates chaos and confuion among the mass people.
   </div>
 
-  <!-- Implement the overview content here -->
+<div class="overview-section">
+    <div class="container">
+        <h1>Overview of Fake News Detection Website</h1>
+        <p class="intro">
+            The Fake News Detection website helps users analyze news articles or statements to determine their authenticity. By leveraging advanced machine learning models, the system can classify content as either <strong>true</strong> or <strong>fake</strong> to aid users in identifying misleading information.
+        </p>
 
+        <h2>Key Features</h2>
+        <ul class="features-list">
+            <li><strong>User-Friendly Interface:</strong> Input news articles easily and receive instant feedback on authenticity.</li>
+            <li><strong>Machine Learning Models:</strong> The backend uses sophisticated models to evaluate the news content.</li>
+            <li><strong>Real-Time Analysis:</strong> Get immediate results when you submit news articles for evaluation.</li>
+            <li><strong>Responsive Design:</strong> The site works smoothly on desktops, tablets, and mobile devices.</li>
+            <li><strong>User Feedback System:</strong> Users can offer feedback to improve the model’s accuracy over time.</li>
+        </ul>
+
+        <h2>Use Cases</h2>
+        <p class="use-cases">
+            The website is valuable for a wide range of users, including:
+        </p>
+        <ul class="use-cases-list">
+            <li><strong>Journalists & Editors:</strong> Verify news credibility before publishing.</li>
+            <li><strong>Social Media Users:</strong> Check trending articles or claims for their authenticity.</li>
+            <li><strong>Educational Purposes:</strong> Teach the importance of media literacy and critical evaluation.</li>
+        </ul>
+    </div>
+</div>
   
 {% endblock content %}
