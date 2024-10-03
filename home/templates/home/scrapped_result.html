@@ -1,0 +1,17 @@
+{% extends 'globals/base.html' %}
+{% load static %}
+
+{% block content %}
+    <link rel="stylesheet" href="{% static 'home/css/scrapping.css' %}">
+
+    <div>
+        {% if scrapped_result %}
+            <pre>
+                {{ scrapped_result }}
+            </pre>
+        {% else %}
+            <p class="no-result">No scrapped result available. Please submit a news article for analysis.</p>
+        {% endif %}
+    </div>
+   
+{% endblock %}

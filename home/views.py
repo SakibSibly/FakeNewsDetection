@@ -3,7 +3,7 @@ from django.views import View
 from ml import CustomScraper as CS, SimilarityFinder as SF
 from django.urls import reverse
 from django.utils.http import urlencode
-
+from accounts.models import SearchData
 import torch
 import torch.nn as nn
 from transformers import AutoModel, BertTokenizerFast
@@ -66,6 +66,10 @@ class HomeView(View):
                     preds = preds.detach().cpu().numpy()
 
                 preds = np.argmax(preds, axis = 1)
+
+                searched_data = SearchData(user=request.user, search_data=query, analysis_type="0", verdict=preds[0])
+                searched_data.save()
+
                 if preds[0] == 1:
                     context = {
                         "result": "Fake",
@@ -85,7 +89,11 @@ class HomeView(View):
                 similarityFinder = SF.SimilarityFinder(query)
                 similarityFinder.findSimilarity()
                 output = open('ml/final_output.txt', 'r', encoding='utf-8').read()
-                return render(request,'home/show.html',context={'content':output})
+                
+                searched_data = SearchData(user=request.user, search_data=query, analysis_type="1", verdict=output)
+                searched_data.save()
+
+                return render(request,'home/scrapped_result.html',context={'scrapped_result':output})
             return HttpResponse('Invalid Request')
         login_url = reverse('login') + '?' + urlencode({'next': request.path})
         return redirect(login_url)
