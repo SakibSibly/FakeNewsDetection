@@ -11,6 +11,7 @@
             {{ form | crispy }}
             <button type="submit" class="btn-primary">Register</button>
         </form>
+        <p class="bottom-link">Already have an account? <a href="{% url 'login' %}">Sign in</a></p>
     </div>
 
 {% endblock %}
