@@ -63,9 +63,11 @@ footer {
 .flexbar {
     color: #f1fff7;
     display: flex;
-    background-color: hsl(0, 0%, 35%);
-    padding: 1rem;
+    background-color: hsl(0, 3%, 35%);
+
+    padding: 20px 60px;
     justify-content: space-between;
+    /* margin-right: 200px; */
 }
 
 .flexbar img {
@@ -74,31 +76,95 @@ footer {
     height: 100px;
 }
 
+.logo {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 20px; 
+    margin-left: 20px;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto; 
+    max-height: 180px; 
+    border-radius: 8px; 
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+}
+
+.logo .quote {
+    margin-top: 10px; 
+    font-size: 16px; 
+    color: #f1fff7; 
+    text-align: center;
+    font-style: italic;
+    font-weight: 500; 
+    border-top: 1px solid #f1fff7; 
+    padding-top: 10px;
+    max-width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
 .flexbar h4 {
     margin-bottom: 1.8rem;
+    font-size: 20px; 
+    color: #ecf0f1; 
+    text-transform: uppercase; 
+    letter-spacing: 1.5px; 
+    border-bottom: 2px solid #bdc3c7; 
+    padding-bottom: 10px;
+    font-weight: 600; 
+    text-align: center; 
+    margin-right: 20px;
 }
 
 .flexbar li {
-    list-style: none;
+    list-style: none; 
     margin-top: 0.5rem;
+    margin-right: 130px;
+    padding-left: 0; 
 }
 
 .flexbar a {
     text-decoration: none;
     color: #f1fff7;
+    transition: color 0.3s ease, transform 0.3s ease; 
 }
 
 .flexbar a:hover {
     text-decoration: underline;
+    color: #bdc3c7; 
+    transform: translateX(5px); 
 }
 
 .bottom-bar {
     background-color: hsl(0, 3%, 20%);
     color: #f1fff7;
     padding: 1rem;
-    display: flex;
-    justify-content: space-between;
+    text-align: center; 
+    border-top: 1px solid #444; 
+    font-size: 14px; 
 }
+
+.bottom-bar p {
+    margin: 0; 
+    color: inherit;  
+
+}
+
+.bottom-bar a {
+    color: #f1fff7;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.bottom-bar a:hover {
+    color: #bdc3c7; 
+    
+}
+
 
 #system-logout button {
     background: none;
@@ -111,4 +177,49 @@ footer {
 
 #system-logout button:hover {
     color: hsl(0, 0%, 78%);
+}
+
+@media (max-width: 768px) {
+
+    .flexbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links {
+        text-align: center;
+        margin: 0; 
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        width: 100%; 
+    }
+
+    .links h4 {
+        text-align: center; 
+        width: 100%; 
+        margin: 0; 
+        padding: 10px 0; 
+    }
+
+    .links ul {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        width: 100%; 
+    }
+
+    .links ul li {
+        margin: 0.5rem 0; 
+        width: 100%; 
+    }
+
+    .links ul li a {
+        width: 100%; 
+        display: block; 
+        text-align: center; 
+    }
+    
 }
