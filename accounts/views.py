@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, HttpResponse
 from django.views import View
 from django.core.mail import send_mail
-from .models import CustomUser
+from .models import CustomUser, MailingHistory
 from .forms import UserRegistrationForm
 import os
 
@@ -23,13 +23,24 @@ class UserRegistrationView(View):
             city = form.cleaned_data['city']
             user = CustomUser.objects.create_user(first_name=first_name, last_name=last_name, username=username, email=email, password=password, country=country, city=city)
             user.save()
-            message = "Thank you for registering on our website!\n\n"
-            message += "Your username is: " + username + "\n\n\n"
-            message += "For any queries, please contact us at: " + os.environ.get('EMAIL_HOST_USER') + "\n"
-            message += "We will be happy to help you!\n"
-            message += "Thank you!"
 
-            send_mail('Welcome to FakeNewsDetection website!', message, os.environ.get('EMAIL_HOST_USER'), [email])
+            try:
+                message = "Thank you for registering on our website!\n\n"
+                message += "Your username is: " + username + "\n\n\n"
+                message += "For any queries, please contact us at: " + os.environ.get('EMAIL_HOST_USER') + "\n"
+                message += "We will be happy to help you!\n"
+                message += "Thank you!"
+
+                subject = 'Welcome to FakeNewsDetection website!'
+
+                send_mail(subject, message, os.environ.get('EMAIL_HOST_USER'), [email])
+
+                mailing_history = MailingHistory(user=user, email_subject=subject, email_body=message)
+                mailing_history.save()
+            except Exception as e:
+                mailing_history = MailingHistory(user=user, email_subject='Failed to send email', email_body=str(e))
+                mailing_history.save()
+
             return redirect('login')
         return render(request, 'accounts/register.html', {'form': form})
 
