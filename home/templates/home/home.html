@@ -14,6 +14,7 @@
       </div>
   
       <div class="input-form">
+        {% if request.user.is_authenticated %}
           <form method="post">
               {% csrf_token %}
               <label for="analysis_type">Select Analysis Type:</label>
@@ -25,6 +26,20 @@
               <textarea name="news_content" placeholder="Type or paste the news article here..." required></textarea>
               <button type="submit" class="submit-btn">Analyze</button>
           </form>
+        {% else %}
+          <p class="basic-info">
+            <b>N:</b> North <br>
+            <b>E:</b> East <br>
+            <b>W:</b> West <br>
+            <b>S:</b> South <br>
+          </p>
+
+          <p class="tweak-info"> Or FAKE ?</p>
+
+          <form action="{% url 'login' %}" method="get">
+            <button type="submit" class="submit-btn">Sign in to Analyze</button>
+          </form>
+        {% endif %}
       </div>
   </div>
   
