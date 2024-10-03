@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, HttpResponse
 from django.views import View
 from django.core.mail import send_mail
-from .models import CustomUser, MailingHistory
+from .models import CustomUser, MailingHistory, SearchData
 from .forms import UserRegistrationForm
 import os
 from pathlib import Path
@@ -72,6 +72,14 @@ class UserProfileView(View):
 
     def post(self, request):
         pass
+
+class UserHistoryView(View):
+    def get(self, request, username):
+        if request.user.is_authenticated and request.user.username == username:
+            history = SearchData.objects.filter(user__username=username)
+            return render(request, 'accounts/history.html', {'history': history})
+        
+        return HttpResponse('Unauthorized access!')
 
 
 class PrintView(View):

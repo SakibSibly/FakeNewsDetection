@@ -6,5 +6,46 @@
         <p>Checkout you Activity</p>
     </div>
 
-    <!-- implements the history of the user -->
+    {% if history %}
+        <div class="history">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Article</th>
+                        <th>Method</th>
+                        <th>Verdict</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for article in history %}
+                        <tr>
+                            <td>{{ article.search_data }}</td>
+
+                            {% if article.analysis_type == "0" %}
+                                <td>Trained Model Approch</td>
+                            {% else %}
+                                <td>Scrapping Approch</td>
+                            {% endif %}
+
+                            {% if article.verdict == "1" %}
+                                <td>Fake</td>
+                            {% elif article.verdict == "0" %}
+                                <td>Real</td>
+                            {% else %}
+                                <td>Not Applicable</td>
+                            {% endif %}
+
+                            <td>{{ article.date }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <div class="history">
+            <p>No history found.</p>
+        </div>
+    {% endif %}
+
 {% endblock %}

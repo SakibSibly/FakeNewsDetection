@@ -43,7 +43,7 @@
                             <a class="underline" href="{% url 'register' %}?next={{ request.path }}">Register</a>
                         {% endif %}
                     </li>
-                    <li><a href="">History</a></li>
+                    <li><a href="{% url 'history' request.user.username %}">History</a></li>
                 {% else %}
                     <li><a href="{% url 'login' %}">Login</a></li>
                     <li><a href="{% url 'register' %}">Register</a></li>
