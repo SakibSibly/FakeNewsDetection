@@ -13,6 +13,10 @@
             {{ form|crispy }}
             <button type="submit" class="btn-primary">Login</button>
         </form>
+
+        <div>
+            <p class="bottom-link"><a href="{% url 'password_reset' %}">I forgot my password</a></p>
+        </div>
         
         <div>
             <p class="bottom-link">Don't have an account? <a href="{% url 'register' %}">Create Account</a></p>

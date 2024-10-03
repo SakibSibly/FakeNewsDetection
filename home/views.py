@@ -90,7 +90,7 @@ class HomeView(View):
                 similarityFinder.findSimilarity()
                 output = open('ml/final_output.txt', 'r', encoding='utf-8').read()
                 
-                searched_data = SearchData(user=request.user, search_data=query, analysis_type="1", verdict=output)
+                searched_data = SearchData(user=request.user, search_data=query, analysis_type="1", verdict="2")
                 searched_data.save()
 
                 return render(request,'home/scrapped_result.html',context={'scrapped_result':output})
