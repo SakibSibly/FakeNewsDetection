@@ -26,10 +26,21 @@ class UserRegistrationView(View):
             username = form.cleaned_data['username']
             email = form.cleaned_data['email']
             password = form.cleaned_data['password']
+            confirm_password = form.cleaned_data['confirm_password']
             first_name = form.cleaned_data['first_name']
             last_name = form.cleaned_data['last_name']
             country = form.cleaned_data['country']
             city = form.cleaned_data['city']
+
+            if CustomUser.objects.filter(username=username).exists():
+                return render(request, 'accounts/register.html', {'form': form, 'error': 'Username is not available'})
+            if CustomUser.objects.filter(email=email).exists():
+                return render(request, 'accounts/register.html', {'form': form, 'error': 'Email already used by another user'})
+            if len(password) < 8:
+                return render(request, 'accounts/register.html', {'form': form, 'error': 'Password must be at least 8 characters long'})
+            if password != confirm_password:
+                return render(request, 'accounts/register.html', {'form': form, 'error': 'Password and Confirm Password do not match'})
+
             user = CustomUser.objects.create_user(first_name=first_name, last_name=last_name, username=username, email=email, password=password, country=country, city=city)
             user.save()
 

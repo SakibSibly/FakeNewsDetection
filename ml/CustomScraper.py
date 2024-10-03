@@ -1,13 +1,18 @@
 import requests
 import os
+import environ
+from pathlib import Path
 
 
 class CustomScraper:
     def __init__(self, input_text: str) -> None:
-        self.API_KEY=os.environ.get('API_KEY')
-        self.SEARCH_ENGINE_ID=os.environ.get('SEARCH_ENGINE_ID')
+        self.env = environ.Env()
+        BASE_DIR = Path(__file__).resolve().parent.parent
+        environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
+        self.API_KEY=self.env('API_KEY')
+        self.SEARCH_ENGINE_ID=self.env('SEARCH_ENGINE_ID')
         self.FILE_PATH='ml/result.txt'
-        self.URL=os.environ.get('URL')
+        self.URL=self.env('URL')
         self.params = {
             'key' : self.API_KEY,
             'cx' : self.SEARCH_ENGINE_ID,

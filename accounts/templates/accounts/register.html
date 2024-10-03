@@ -4,10 +4,12 @@
 
 {% block content %}
     <div class="form-container">
-        {{ form.errors }}
         <form method="POST">
-            <p class = "hline">Sign Up</p>
             {% csrf_token %}
+            <p class = "hline">Create an account and get started</p>
+            <h3 id="form-error">
+                {{ error }}
+            </h3>
             {{ form | crispy }}
             <button type="submit" class="btn-primary">Register</button>
         </form>
