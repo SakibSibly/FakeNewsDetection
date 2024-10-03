@@ -23,6 +23,8 @@ body {
     /* max-height: 800px; */
     background-color: #fff;
     border-radius: 8px;
+    /* flex-direction: row; / */
+    /* overflow: hidden; */
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
@@ -53,6 +55,8 @@ body {
     background-color: #fff;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+    height: 114vh;
+   
 }
 .form-container form {
     width: 100%;
@@ -146,6 +150,9 @@ button.btn-primary:focus {
 
     .form-container {
         padding: 10px; 
+        padding-bottom: auto;
+        margin-top: 10px; 
+        margin-bottom: 20px;
     }
-    
+ 
 }

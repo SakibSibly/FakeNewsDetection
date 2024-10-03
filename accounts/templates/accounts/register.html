@@ -6,6 +6,7 @@
     <div class="form-container">
         {{ form.errors }}
         <form method="POST">
+            <p class = "hline">Sign Up</p>
             {% csrf_token %}
             {{ form | crispy }}
             <button type="submit" class="btn-primary">Register</button>
