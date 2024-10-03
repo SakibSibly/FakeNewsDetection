@@ -178,3 +178,48 @@ footer {
 #system-logout button:hover {
     color: hsl(0, 0%, 78%);
 }
+
+@media (max-width: 768px) {
+
+    .flexbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links {
+        text-align: center;
+        margin: 0; 
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        width: 100%; 
+    }
+
+    .links h4 {
+        text-align: center; 
+        width: 100%; 
+        margin: 0; 
+        padding: 10px 0; 
+    }
+
+    .links ul {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        width: 100%; 
+    }
+
+    .links ul li {
+        margin: 0.5rem 0; 
+        width: 100%; 
+    }
+
+    .links ul li a {
+        width: 100%; 
+        display: block; 
+        text-align: center; 
+    }
+    
+}
