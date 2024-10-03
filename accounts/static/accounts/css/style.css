@@ -23,6 +23,8 @@ body {
     /* max-height: 800px; */
     background-color: #fff;
     border-radius: 8px;
+    /* flex-direction: row; / */
+    /* overflow: hidden; */
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
@@ -53,6 +55,8 @@ body {
     background-color: #fff;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+    height: 120vh;
+   
 }
 .form-container form {
     width: 100%;
@@ -146,6 +150,30 @@ button.btn-primary:focus {
 
     .form-container {
         padding: 10px; 
+        padding-bottom: auto;
+        margin-top: 10px; 
+        margin-bottom: 20px;
     }
-    
+ 
+}
+
+
+.bottom-link {
+    /* margin-top: 10px;  */
+    /* margin-bottom: 15px;  */
+    padding-bottom: 20px;
+    text-align: center; 
+    font-size: 14px; 
+    color: #333;
+}
+
+.bottom-link a {
+    color: hsl(0, 0%, 47%); 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.bottom-link a:hover {
+    color: hsl(0, 0%, 37%); 
+    text-decoration: underline; 
 }
