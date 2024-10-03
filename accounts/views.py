@@ -4,10 +4,19 @@ from django.core.mail import send_mail
 from .models import CustomUser, MailingHistory
 from .forms import UserRegistrationForm
 import os
+from pathlib import Path
+import environ
 
 
 class UserRegistrationView(View):
+    def __init__(self):
+        self.env = environ.Env()
+        BASE_DIR = Path(__file__).resolve().parent.parent
+        environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
+
     def get(self, request):
+        # return HttpResponse(os.environ)
+
         form = UserRegistrationForm()
         return render(request, 'accounts/register.html', {'form': form})
 
@@ -27,13 +36,13 @@ class UserRegistrationView(View):
             try:
                 message = "Thank you for registering on our website!\n\n"
                 message += "Your username is: " + username + "\n\n\n"
-                message += "For any queries, please contact us at: " + os.environ.get('EMAIL_HOST_USER') + "\n"
+                message += "For any queries, please contact us at: " + self.env('EMAIL_HOST_USER') + "\n"
                 message += "We will be happy to help you!\n"
                 message += "Thank you!"
 
                 subject = 'Welcome to FakeNewsDetection website!'
 
-                send_mail(subject, message, os.environ.get('EMAIL_HOST_USER'), [email])
+                send_mail(subject, message, self.env('EMAIL_HOST_USER'), [email])
 
                 mailing_history = MailingHistory(user=user, email_subject=subject, email_body=message)
                 mailing_history.save()
