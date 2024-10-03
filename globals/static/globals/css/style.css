@@ -117,30 +117,54 @@ footer {
     padding-bottom: 10px;
     font-weight: 600; 
     text-align: center; 
+    margin-right: 20px;
 }
 
 .flexbar li {
-    list-style: none;
+    list-style: none; 
     margin-top: 0.5rem;
     margin-right: 130px;
+    padding-left: 0; 
 }
 
 .flexbar a {
     text-decoration: none;
     color: #f1fff7;
+    transition: color 0.3s ease, transform 0.3s ease; 
 }
 
 .flexbar a:hover {
     text-decoration: underline;
+    color: #bdc3c7; 
+    transform: translateX(5px); 
 }
 
 .bottom-bar {
     background-color: hsl(0, 3%, 20%);
     color: #f1fff7;
     padding: 1rem;
-    display: flex;
-    justify-content: space-between;
+    text-align: center; 
+    border-top: 1px solid #444; 
+    font-size: 14px; 
 }
+
+.bottom-bar p {
+    margin: 0; 
+    color: inherit;  
+
+}
+
+.bottom-bar a {
+    color: #f1fff7;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.bottom-bar a:hover {
+    color: #bdc3c7; 
+    
+}
+
 
 #system-logout button {
     background: none;
