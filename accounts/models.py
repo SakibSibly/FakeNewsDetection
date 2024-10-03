@@ -43,6 +43,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
 class SearchData(models.Model):
     user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
     search_data = models.TextField()
+    analysis_type = models.CharField(max_length=100)
     verdict = models.CharField(max_length=100)
     date = models.DateTimeField(auto_now_add=True)
 
@@ -57,4 +58,4 @@ class MailingHistory(models.Model):
     date = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.email
+        return self.user.email
