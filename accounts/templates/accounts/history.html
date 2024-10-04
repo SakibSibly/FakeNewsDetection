@@ -2,6 +2,25 @@
 {% load static %}
 
 {% block content %}
+
+<style>
+    .history table{
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+    }
+    .history table td{
+        padding: 10px;
+    }
+    .history table tr:nth-child(even){
+        background: rgba(0,0,0,0.2);
+    }
+    .history table th{
+        font-size: larger;
+        padding-bottom: 10px;
+    }
+</style>
+
     <div class="banner">
         <p>Checkout you Activity</p>
     </div>
