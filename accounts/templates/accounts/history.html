@@ -20,7 +20,7 @@
                 <tbody>
                     {% for article in history %}
                         <tr>
-                            <td>{{ article.search_data }}</td>
+                            <td><a href="{% url 'print_report' article.id %}">{{ article.search_data }}</a></td>
 
                             {% if article.analysis_type == "0" %}
                                 <td>Trained Model Approch</td>

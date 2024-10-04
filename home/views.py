@@ -73,13 +73,15 @@ class HomeView(View):
                 if preds[0] == 1:
                     context = {
                         "result": "Fake",
-                        "news": query
+                        "news": query,
+                        "report_number": searched_data.id
                     }
                     return render(request, 'home/result.html', context)
                 else:
                     context = {
                         "result": "Real",
-                        "news": query
+                        "news": query,
+                        "report_number": searched_data.id
                     }
                     return render(request, 'home/result.html', context)
                 
@@ -93,7 +95,12 @@ class HomeView(View):
                 searched_data = SearchData(user=request.user, search_data=query, analysis_type="1", verdict="2")
                 searched_data.save()
 
-                return render(request,'home/scrapped_result.html',context={'scrapped_result':output})
+                context = {
+                    'scrapped_result': output,
+                    'report_number': searched_data.id
+                }
+
+                return render(request,'home/scrapped_result.html', context)
             return HttpResponse('Invalid Request')
         login_url = reverse('login') + '?' + urlencode({'next': request.path})
         return redirect(login_url)
