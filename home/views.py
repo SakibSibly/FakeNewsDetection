@@ -90,21 +90,44 @@ class HomeView(View):
                 customScraper.getNews()
                 similarityFinder = SF.SimilarityFinder(query)
                 similarityFinder.findSimilarity()
-                output = open('ml/final_output.txt', 'r', encoding='utf-8').read()
+                output = open('ml/final_output.txt', 'r', encoding='utf-8')
                 
                 searched_data = SearchData(user=request.user, search_data=query, analysis_type="1", verdict="2")
                 searched_data.save()
 
-                context = {
-                    'scrapped_result': output,
-                    'report_number': searched_data.id
-                }
+                temp = ""
 
-                return render(request,'home/scrapped_result.html', context)
+                for line in output:
+                    if line.count("Srapping ID: 21"): # Extracted only top 20 news
+                        break
+                    
+                    temp += line
+
+                context = {
+                    'scrapped_result': temp,
+                    'report_number': 1
+                }
+                
+                return render(request, 'home/scrapped_result.html', context)
             return HttpResponse('Invalid Request')
         login_url = reverse('login') + '?' + urlencode({'next': request.path})
         return redirect(login_url)
 
-class Profile(View):
+
+class TEST(View):
     def get(self, request):
-        pass
+        result_text = open('ml/present.txt', 'r', encoding='utf-8')
+        temp = ""
+
+        for line in result_text:
+            if line.count("Srapping ID: 21"): # Extracted only top 20 news
+                break
+            
+            temp += line
+
+        context = {
+            'scrapped_result': temp,
+            'report_number': 1
+        }
+
+        return render(request, 'home/scrapped_result.html', context)

@@ -20,6 +20,12 @@ class SimilarityFinder:
         similarity_score_list = []
         temporary_sentence = ""
         for line in result_text:
+
+            final_output.write(line)
+
+            if line.count('Link'):
+                final_output.write("\n")
+
             if line.count('Title'):# Title and snippet is concatenated for better comparison
                 temporary_sentence = line
 
@@ -31,14 +37,14 @@ class SimilarityFinder:
                 similarity_score_list.append(similarity_score)
 
                 # Storing the similarity score
-                final_output.write("-------------------------------------------------------------------\n")
-                final_output.write(self.input_text)
-                final_output.write(found)
-                final_output.write(f"[Case {count}]: Similarity between the two sentences: {similarity_score}")
-                final_output.write("-------------------------------------------------------------------\n\n")
+                # final_output.write("-------------------------------------------------------------------\n")
+                # final_output.write(self.input_text)
+                # final_output.write(found)
+                final_output.write(f"\n[Case {count}]: Context Similarity between the two sentences: {similarity_score * 100: .2f}%\n")
+                # final_output.write("-------------------------------------------------------------------\n\n")
 
 
         # Additional Data
-        final_output.write(f"Average Similarity between the two sentences: {sum(similarity_score_list) / len(similarity_score_list)}")
-        final_output.write(f"Max Similarity between the two sentences: {max(similarity_score_list)}")
+        final_output.write(f"\nAverage Context Similarity between the two sentences: {sum(similarity_score_list) / len(similarity_score_list) * 100: .2f}%")
+        final_output.write(f"\nMax Context Similarity between the two sentences: {max(similarity_score_list) * 100: .2f}%")
         final_output.close()
