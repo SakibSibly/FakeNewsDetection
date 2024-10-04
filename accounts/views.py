@@ -3,6 +3,7 @@ from django.views import View
 from django.core.mail import send_mail
 from .models import CustomUser, MailingHistory, SearchData
 from .forms import UserRegistrationForm
+from reportlab.pdfgen import canvas
 import os
 from pathlib import Path
 import environ
@@ -15,8 +16,6 @@ class UserRegistrationView(View):
         environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 
     def get(self, request):
-        # return HttpResponse(os.environ)
-
         form = UserRegistrationForm()
         return render(request, 'accounts/register.html', {'form': form})
 
@@ -70,8 +69,6 @@ class UserProfileView(View):
         user = CustomUser.objects.get(username=username)
         return render(request, 'accounts/profile.html' , {'user': user})
 
-    def post(self, request):
-        pass
 
 class UserHistoryView(View):
     def get(self, request, username):
@@ -82,6 +79,53 @@ class UserHistoryView(View):
         return HttpResponse('Unauthorized access!')
 
 
-class PrintView(View):
-    def get(self, request):
-        return HttpResponse("Printed report not available yet!")
+class PrintReportView(View):
+    def get(self, request, pk):
+
+        # fetched_data = SearchData.objects.order_by('-date')[0]
+        fetched_data = SearchData.objects.filter(pk=pk)[0]
+
+        heading = "News Detection Result\n\n"
+        
+        query = "Search Data:\n" + fetched_data.search_data   
+        verdict = fetched_data.verdict
+        
+        meta_data = "\n\n\nThank you for using our service!\n"
+        meta_data += "For any queries, please contact us at the feedback section\n"
+        meta_data += "We will be happy to help you!\n"
+        meta_data += "Thank you!\n"
+        meta_data += "FND Team\n\n"
+        meta_data += "*Truth is learned, never told!"
+
+
+        if verdict == '1':
+            verdict = "Analysis Result:\n" + "Fake News!"
+
+        elif verdict == '0':
+            verdict = "Analysis Result:\n" + "Real News!"
+
+        response = HttpResponse(content_type='application/pdf')
+        response['Content-Disposition'] = 'attachment; filename="News_Detection_Result.pdf"'
+
+        pdf = canvas.Canvas(response)
+
+
+        x = 100
+        y = 800
+
+
+        y = self.draw_text(pdf, heading, x + x + x / 2.5, y) # Static Adjustment
+        y = self.draw_text(pdf, query, x, y)
+        y = self.draw_text(pdf, verdict, x, y - 40)
+        y = self.draw_text(pdf, meta_data, x, y - 40)
+
+        pdf.showPage()
+        pdf.save()
+
+        return response
+    
+    def draw_text(self, pdf, text, x, y):
+        for line in text.split('\n'):
+            pdf.drawString(x, y, line)
+            y -= 20  # Move y coordinate for the next line
+        return y
