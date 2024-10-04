@@ -2,7 +2,10 @@
 {% load static %}
 
 {% block content %}
-  <link rel="stylesheet" href="{% static 'home/css/home.css' %}">
+<link rel="stylesheet" href="{% static 'home/css/home.css' %}">
+  
+  {% include 'globals/preloader.html' %}
+  
   <div class="banner">
     Getting messed up with the fake news? Don't worry, we are here to help you out.
   </div>
@@ -24,16 +27,16 @@
               </select>
               <label for="news_content">News Content:</label>
               <textarea name="news_content" placeholder="Type or paste the news article here..." required></textarea>
-              <button type="submit" class="submit-btn">Analyze</button>
-          </form>
-        {% else %}
-          <p class="basic-info">
-            <b>N:</b> North <br>
-            <b>E:</b> East <br>
-            <b>W:</b> West <br>
-            <b>S:</b> South <br>
-          </p>
-
+              <button type="submit" class="submit-btn" id="analyze">Analyze</button>
+            </form>
+            {% else %}
+            <p class="basic-info">
+              <b>N:</b> North <br>
+              <b>E:</b> East <br>
+              <b>W:</b> West <br>
+              <b>S:</b> South <br>
+            </p>
+            
           <p class="tweak-info"> Or FAKE ?</p>
 
           <form action="{% url 'login' %}" method="get">
@@ -42,5 +45,5 @@
         {% endif %}
       </div>
   </div>
-  
+  <script src="{% static 'home/js/script.js' %}"></script>
 {% endblock content %}
