@@ -1,16 +1,21 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    height: 100vh; /* Make the body take up full viewport height */
+    display: flex;
+    justify-content: center; /* Horizontally center the form */
+    align-items: center;     /* Vertically center the form */
+    background-color: #f4f4f4;
 }
-
 form {
+    /* background-color: #fff; */
     padding: 20px;
     border-radius: 5px;
-    max-width: 500px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 500px; /* Limit the width */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
-
 input[type="text"], textarea {
     width: 100%;
     padding: 10px;
@@ -18,7 +23,6 @@ input[type="text"], textarea {
     border-radius: 5px;
     border: 1px solid #ddd;
 }
-
 button {
     padding: 10px 15px;
     border: none;
@@ -26,8 +30,8 @@ button {
     color: white;
     cursor: pointer;
     border-radius: 5px;
+    /* width: 100%; */
 }
-
 button:hover {
     background-color: #218838;
 }
