@@ -28,9 +28,23 @@
                 <li><a href="https://github.com/SakibSibly/FakeNewsDetection/issues" target="_blank">Issues</a></li>
                 <li><a href="{% url 'about' %}">About</a></li>
             </ul>
+            <div id="cont">
+
+                {% if request.user.is_authenticated %}
+                <ul id="profile">
+                    <li>
+                        <a href="{% url 'profile' request.user.username %}">
+                        <img src="https://images.creativefabrica.com/products/previews/2023/10/28/ueUbh74zq/2XN9DqVNZk7REOMrjKx5iMYvkVL-desktop.jpg">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="{% url 'profile' request.user.username %}">{{ request.user.username }}</a>
+                    </li>
+                </ul>
+                {% endif %}
             <ul id="account-aciton">
                 {% if request.user.is_authenticated %}
-                    <li><a href="{% url 'profile' request.user.username %}">{{ request.user.username }}</a></li>
                     <li>
                         {% if request.user.is_authenticated %}
                             <form id="system-logout" method="POST" action="{% url 'logout' %}?next={{ request.path }}">
@@ -49,6 +63,8 @@
                     <li><a href="{% url 'register' %}">Register</a></li>
                 {% endif %}
             </ul>
+
+            </div>
         </nav>
     </div>
 
