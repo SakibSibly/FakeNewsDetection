@@ -7,4 +7,10 @@
     </div>
 
     <!-- implements the Profile of the user -->
+    <p><b>Name: </b>{{ user.first_name }} {{ user.last_name }}</p>
+    <p><b>Username: </b>{{ user.username }}</p>
+    <p><b>Email: </b>{{ user.email }}</p>
+    <p><b>Country: </b>{{ user.country }}</p>
+    <p><b>City: </b>{{ user.city }}</p>
+    <p><b>Account Creation Date: </b>{{ user.created_at }}</p>
 {% endblock %}

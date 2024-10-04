@@ -30,7 +30,7 @@
             </ul>
             <ul id="account-aciton">
                 {% if request.user.is_authenticated %}
-                    <li><a href="">{{ request.user.username }}</a></li>
+                    <li><a href="{% url 'profile' request.user.username %}">{{ request.user.username }}</a></li>
                     <li>
                         {% if request.user.is_authenticated %}
                             <form id="system-logout" method="POST" action="{% url 'logout' %}?next={{ request.path }}">
