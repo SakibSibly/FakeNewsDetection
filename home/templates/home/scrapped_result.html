@@ -3,22 +3,23 @@
 
 {% block content %}
     <!-- Needs further implementation whether to include resultcss or scrapping.css -->
-    <link rel="stylesheet" href="{% static 'home/css/result.css' %}">
+    <link rel="stylesheet" href="{% static 'home/css/scrapping.css' %}">
 
-    <div class="result-wrapper">
+    <div>
         {% if scrapped_result %}
 
-        <!-- Wont't work if not stored in database -->
-            <div class="print-report">
-                <a href="{% url 'print_report' report_number %}" class="report-button">Print Report</a>
-            </div>
+        <!-- Link Won't work if not stored in database -->
+        <p>
+            {{ scrapped_result | linebreaksbr }}
+        </p>
 
-            <pre>
-                {{ scrapped_result }}
-            </pre>
+        <div class="print-button">
+            <a href="{% url 'print_report' report_number %}">Print Report</a>
+        </div>
         {% else %}
             <p class="no-result">No scrapped result available. Please submit a news article for analysis.</p>
         {% endif %}
+
     </div>
    
 {% endblock %}
