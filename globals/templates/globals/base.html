@@ -10,15 +10,7 @@
 <body>
     <div>
         <nav>
-            <!-- <ul id="info">
-                <li>
-                    <img src="" alt="FakeNewsDetection">
-                </li>
-                <li>
-                    <p>A Chaos Free Life</p>
-                </li>
-
-            </ul> -->
+            <span class="menu-icon" onclick="openNav()">&#9776;</span>
             <ul id="meta-links">
                 <li><a href="{% url 'home' %}">Home</a></li>
                 <li><a href="{% url 'overview' %}">Overview</a></li>
@@ -49,13 +41,43 @@
                     </div>
                 </li>
             </ul>
-        
         </nav>
+
+        <!-- Sidebar for Mobile Layout -->
+        <div id="sidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'overview' %}">Overview</a>
+            <a href="{% url 'documentation' %}">Documentation</a>
+            <a href="{% url 'news_feed' %}">News</a>
+            <a href="https://discord.gg/NMmXhP9y" target="_blank">Community</a>
+            <a href="https://github.com/SakibSibly/FakeNewsDetection" target="_blank">Code</a>
+            <a href="https://github.com/SakibSibly/FakeNewsDetection/issues" target="_blank">Issues</a>
+            <a href="{% url 'about' %}">About</a>
+            <a href="javascript:void(0)" class="profile-status" onclick="toggleProfileMenu()">Profile Status</a>
+            
+            <div id="profile-menu" class="profile-menu">
+                {% if request.user.is_authenticated %}
+                    <a href="#">{{ request.user.username }}</a>
+                    <form id="system-logout" method="POST" action="{% url 'logout' %}?next={{ request.path }}">
+                        {% csrf_token %}
+                        <button class="underline" type="submit">Logout</button>
+                    </form>
+                    <a href="#">History</a>
+                
+                    {% else %}
+                    <a href="{% url 'login' %}">Login</a>
+                    <a href="{% url 'register' %}">Register</a>
+                {% endif %}
+
+            </div>
+        </div>
     </div>
 
     {% block content %} {% endblock %}
     <footer>
         <div class="flexbar">
+            
             <div class="logo">
                 <img src="{% static 'globals/image/fake_icon.png' %}" alt="FakeNewsDetection">
                 <p class="quote">Truth matters.</p>

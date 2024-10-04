@@ -277,3 +277,99 @@ footer {
         text-align: center;
     }
 }
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1fff7;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #bdc3c7;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    color: #f1fff7;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.profile-menu {
+    display: none;
+    background-color: #444;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.profile-menu a, .profile-menu form {
+    color: #f1fff7;
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+}
+
+.profile-menu a:hover, .profile-menu form:hover {
+    color: #bdc3c7;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #meta-links {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    #account-action {
+        display: none;
+    }
+
+    .profile-status {
+        display: block;
+    }
+}
+
+@media (min-width: 769px) {
+    .profile-status {
+        display: none;
+    }
+
+    #account-action {
+        display: flex;
+    }
+}

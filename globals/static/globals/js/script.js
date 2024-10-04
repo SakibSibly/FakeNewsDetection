@@ -26,3 +26,30 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 });
+
+
+function openNav() {
+    document.getElementById("sidebar").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("sidebar").style.width = "0";
+}
+
+function toggleProfileMenu() {
+    var profileMenu = document.getElementById("profile-menu");
+    if (profileMenu.style.display === "block") {
+        profileMenu.style.display = "none";
+    } else {
+        profileMenu.style.display = "block";
+    }
+}
+
+function checkWindowSize() {
+    if (window.innerWidth > 768) {
+        closeNav();
+    }
+}
+
+window.addEventListener('resize', checkWindowSize);
+window.addEventListener('load', checkWindowSize);
