@@ -104,7 +104,3 @@ class HomeView(View):
             return HttpResponse('Invalid Request')
         login_url = reverse('login') + '?' + urlencode({'next': request.path})
         return redirect(login_url)
-
-class Profile(View):
-    def get(self, request):
-        pass
