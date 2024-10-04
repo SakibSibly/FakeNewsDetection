@@ -6,7 +6,6 @@
 
 nav {
     display: flex;
-    position: relative;
     align-items: center;
     background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
@@ -247,13 +246,11 @@ footer {
     /* transition: transform 0.3s ease; */
 }
 
-
-
-
 #system-logout button:hover {
     scale: 1.1;
     /* transition: transform 0.3s ease; */
 }
+
 
 @media (max-width: 768px) {
     .flexbar {
@@ -371,12 +368,9 @@ footer {
     color: #bdc3c7;
 }
 
+
 @media (max-width: 768px) {
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+
 
     #meta-links {
         display: none;
@@ -386,12 +380,12 @@ footer {
         display: block;
     }
 
-    #account-action {
-        display: none;
-    }
-
     .profile-status {
         display: block;
+    }
+
+    #account-icon{
+        display: none;
     }
 }
 
@@ -403,4 +397,14 @@ footer {
     #account-action {
         display: flex;
     }
+}
+
+
+#account-icon img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 3px 4px 5px lightblue;
+    margin-right: 50px;
+    padding: 0;
 }
