@@ -6,6 +6,7 @@
 
 nav {
     display: flex;
+    position: relative;
     align-items: center;
     background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
@@ -29,23 +30,72 @@ nav a {
     /* display: block; */
     text-decoration: none;
     color: #f1fff7;
+    transition: all 0.3s ease;
 }
 
-nav a:hover {
+nav #meta-links a:hover {
     color: hsl(0, 0%, 78%);
 }
 
-#meta-links {
+nav a:hover {
+    /* color: hsl(0, 0%, 78%); */
+    scale: 1.1;
+}
+
+#meta-links { 
     display: flex;
     list-style-type: none;
     text-transform: uppercase;
     justify-content: space-between;
 }
 
-#account-aciton {
-    list-style-type: none;
-    justify-content: space-between;
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
+
+.dropdown-toggle {
+    cursor: pointer;
+}
+
+#account-action .dropdown-toggle i {
+    font-size: 24px; 
+    color: #f7efef;
+    margin-right: 2.5rem;
+    
+}
+
+.dropdown-menu {
+    display: none; 
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    min-width: 150px; 
+    top: 100%; 
+    left: -120px; 
+    transform: translateX(-25%);
+    transform: translateY(-25%);
+    margin-top: 0.8rem; 
+    padding-right: 0.6rem;
+    overflow: hidden; 
+}
+
+.dropdown-menu.show {
+    display: block; 
+}
+
+.dropdown-menu a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+/* .dropdown:hover .dropdown-menu {
+    display: block;
+} */
 
 .banner {
     background-color: hsl(0, 0%, 47%);
@@ -116,7 +166,7 @@ footer {
     border-bottom: 2px solid #bdc3c7; 
     padding-bottom: 10px;
     font-weight: 600; 
-    text-align: center; 
+    text-align: left;
     margin-right: 20px;
 }
 
@@ -169,18 +219,43 @@ footer {
 #system-logout button {
     background: none;
     border: none;
-    color: #f1fff7;
+    color: #333;
     text-decoration: none;
     cursor: pointer;
     font: inherit;
+    text-align: center;
+    padding: 15px;
+    transition: all 0.3s ease;
 }
 
+#system-logout2 button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+    /* font: inherit; */
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+#system-logout2 button:hover {
+    scale: 1.1;
+    /* transition: transform 0.3s ease; */
+}
+
+
+
+
 #system-logout button:hover {
-    color: hsl(0, 0%, 78%);
+    scale: 1.1;
+    /* transition: transform 0.3s ease; */
 }
 
 @media (max-width: 768px) {
-
     .flexbar {
         flex-direction: column;
         align-items: center;
@@ -219,7 +294,114 @@ footer {
     .links ul li a {
         width: 100%; 
         display: block; 
-        text-align: center; 
+        text-align: center;
+    }
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    font-size: 25px;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: width 0.5s ease;
+    padding-top: 60px;
+}
+
+.sidebar a{
+    padding: 10px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: #f1fff7;
+    display: block;
+    transition: all 0.3s ease;
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.sidebar a:hover {
+    color: #bdc3c7;
+    scale: 1.1;
+    /* background-color: #444; */
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #f1fff7;
+    cursor: pointer;
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    color: #f1fff7;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.profile-menu {
+    display: none;
+    background-color: #444;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.profile-menu a {
+    color: #f1fff7;
+    text-decoration: none;
+    display: block;
+    padding: 8px 15px;
+}
+
+.profile-menu a:hover {
+    color: #bdc3c7;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #meta-links {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    #account-action {
+        display: none;
+    }
+
+    .profile-status {
+        display: block;
+    }
+}
+
+@media (min-width: 769px) {
+    .profile-status {
+        display: none;
+    }
+
+    #account-action {
+        display: flex;
     }
     
 }

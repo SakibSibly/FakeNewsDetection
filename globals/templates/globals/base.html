@@ -5,19 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'globals/css/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <div>
         <nav>
-            <!-- <ul id="info">
-                <li>
-                    <img src="" alt="FakeNewsDetection">
-                </li>
-                <li>
-                    <p>A Chaos Free Life</p>
-                </li>
-
-            </ul> -->
+            <span class="menu-icon" onclick="openNav()">&#9776;</span>
             <ul id="meta-links">
                 <li><a href="{% url 'home' %}">Home</a></li>
                 <li><a href="{% url 'overview' %}">Overview</a></li>
@@ -47,68 +40,89 @@
                 {% if request.user.is_authenticated %}
                     <li>
                         {% if request.user.is_authenticated %}
+                            <a href="#">{{ request.user.username }}</a>
                             <form id="system-logout" method="POST" action="{% url 'logout' %}?next={{ request.path }}">
                                 {% csrf_token %}
-                                <button class="underline" type="submit">
-                                    Logout
-                                </button>
+                                <button class="underline" type="submit">Logout</button>
                             </form>
+                            <a href="{% url 'history' request.user.username %}">History</a>
                         {% else %}
-                            <a class="underline" href="{% url 'register' %}?next={{ request.path }}">Register</a>
+                            <a href="{% url 'login' %}">Login</a>
+                            <a href="{% url 'register' %}">Register</a>
                         {% endif %}
-                    </li>
-                    <li><a href="{% url 'history' request.user.username %}">History</a></li>
-                {% else %}
-                    <li><a href="{% url 'login' %}">Login</a></li>
-                    <li><a href="{% url 'register' %}">Register</a></li>
-                {% endif %}
+                    </div>
+                </li>
             </ul>
 
             </div>
         </nav>
+
+        <!-- Sidebar for Mobile Layout -->
+        <div id="sidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'overview' %}">Overview</a>
+            <a href="{% url 'documentation' %}">Documentation</a>
+            <a href="{% url 'news_feed' %}">News</a>
+            <a href="https://discord.gg/NMmXhP9y" target="_blank">Community</a>
+            <a href="https://github.com/SakibSibly/FakeNewsDetection" target="_blank">Code</a>
+            <a href="https://github.com/SakibSibly/FakeNewsDetection/issues" target="_blank">Issues</a>
+            <a href="{% url 'about' %}">About</a>
+            <a href="javascript:void(0)" class="profile-status" onclick="toggleProfileMenu()">Profile Status</a>
+            
+            <div id="profile-menu" class="profile-menu">
+                {% if request.user.is_authenticated %}
+                    <a href="#">{{ request.user.username }}</a>
+                    <form id="system-logout2" method="POST" action="{% url 'logout' %}?next={{ request.path }}">
+                        {% csrf_token %}
+                        <button class="underline" type="submit">Logout</button>
+                    </form>
+                    <a href="{% url 'history' request.user.username %}">History</a>
+                
+                    {% else %}
+                    <a href="{% url 'login' %}">Login</a>
+                    <a href="{% url 'register' %}">Register</a>
+                {% endif %}
+
+            </div>
+        </div>
     </div>
 
     {% block content %} {% endblock %}
     <footer>
         <div class="flexbar">
+            
             <div class="logo">
                 <img src="{% static 'globals/image/fake_icon.png' %}" alt="FakeNewsDetection">
                 <p class="quote">Truth matters.</p>
             </div>
             <div class="links">
-                <h4>Categories</h4>
+                <h4>Get Involved</h4>
                 <ul>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
+                    <li><a href="{% url 'feedback' %}">Feedback</a></li>
+                    <li><a href="https://discord.gg/NMmXhP9y">Join Discord Group</a></li>
                 </ul>
             </div>
             <div class="links">
-                <h4>Categories</h4>
+                <h4>Follow Us</h4>
                 <ul>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
+                    <li><a href="https://github.com/SakibSibly/FakeNewsDetection">GitHub</a></li>
                 </ul>
             </div>
             <div class="links">
-                <h4>Categories</h4>
+                <h4>Learn More</h4>
                 <ul>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Code of Conduct</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">API</a></li>
                 </ul>
             </div>
         </div>
         <div class="bottom-bar">
-            <p>&copy; 2024 FakeNewsDetection. All rights reserved.</p>
+            <p>&copy; 2024 FakeNewsDetection. All rights reserved. Developed by Team-03</p>
         </div>
     </footer>
+
+    <script src="{% static 'globals/js/script.js' %}"></script>
 </body>
 </html>
