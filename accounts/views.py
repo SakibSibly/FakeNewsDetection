@@ -1,7 +1,9 @@
 from django.shortcuts import render, redirect, HttpResponse
 from django.views import View
 from django.core.mail import send_mail
-from .models import CustomUser, MailingHistory, SearchData
+from django.utils.http import urlencode
+from django.urls import reverse
+from .models import CustomUser, MailingHistory, SearchData, Feedback
 from .forms import UserRegistrationForm
 from reportlab.pdfgen import canvas
 import os
@@ -129,3 +131,21 @@ class PrintReportView(View):
             pdf.drawString(x, y, line)
             y -= 20  # Move y coordinate for the next line
         return y
+
+
+class FeedbackView(View):
+    def get(self, request):
+        return render(request, 'accounts/feedback.html')
+    
+    def post(self, request):
+        if request.user.is_authenticated:
+            title = request.POST.get('title')
+            content = request.POST.get('content')
+
+            feedback = Feedback(user=request.user, title=title, content=content)
+            feedback.save()
+
+            return render(request, 'accounts/feedback_success.html')
+    
+        redirect_url = reverse('login') + '?' + urlencode({'next': request.path})
+        return redirect(redirect_url)

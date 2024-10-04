@@ -1,0 +1,31 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="{% static 'accounts/css/feedback.css' %}">
+</head>
+<body>
+
+    <form action="{% url 'feedback' %}" method="POST">
+        {% csrf_token %}
+        <h2>Submit your Feedback</h2>
+
+        <label for="title">Post Title</label>
+        <input type="text" id="title" name="title" placeholder="Enter title" required>
+
+        <label for="content">Post Content</label>
+        <textarea id="content" name="content" placeholder="Enter content" rows="5" required></textarea>
+        
+        {% if request.user.is_authenticated %}
+            <button type="submit">Submit</button>
+        {% else %}
+            <button type="submit"> Login to submit feedback</button>
+        {% endif %}
+    </form>
+
+</body>
+</html>

@@ -8,6 +8,7 @@ urlpatterns = [
     path('profile/<str:username>/', views.UserProfileView.as_view(), name='profile'),
     path('print/<int:pk>/', views.PrintReportView.as_view(), name='print_report'),
     path('history/<str:username>/', views.UserHistoryView.as_view(), name='history'),
+    path('feedback/', views.FeedbackView.as_view(), name='feedback'),
     
     # Password reset request (Forgot Password)
     path('password-reset/', auth_views.PasswordResetView.as_view(
