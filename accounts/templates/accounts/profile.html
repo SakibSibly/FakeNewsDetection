@@ -2,15 +2,45 @@
 {% load static %}
 
 {% block content %}
+<style>
+    #pro-info div{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: larger;
+        font-style: oblique;
+    }
+    #pro-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #pro-info img{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        align-self: center;
+    }
+    
+</style>
+
     <div class="banner">
         <p>Checkout you Profile</p>
     </div>
 
     <!-- implements the Profile of the user -->
-    <p><b>Name: </b>{{ user.first_name }} {{ user.last_name }}</p>
-    <p><b>Username: </b>{{ user.username }}</p>
-    <p><b>Email: </b>{{ user.email }}</p>
-    <p><b>Country: </b>{{ user.country }}</p>
-    <p><b>City: </b>{{ user.city }}</p>
-    <p><b>Account Creation Date: </b>{{ user.created_at }}</p>
-{% endblock %}
+    <div id="pro-info">
+        <div>
+        <img src="https://images.creativefabrica.com/products/previews/2023/10/28/ueUbh74zq/2XN9DqVNZk7REOMrjKx5iMYvkVL-desktop.jpg">
+        <p><b>Name: </b>{{ user.first_name }} {{ user.last_name }}</p>
+        <p><b>Username: </b>{{ user.username }}</p>
+        <p><b>Email: </b>{{ user.email }}</p>
+        <p><b>Country: </b>{{ user.country }}</p>
+        <p><b>City: </b>{{ user.city }}</p>
+        <p><b>Account Creation Date: </b>{{ user.created_at }}</p>
+        </div>
+    </div>
+    {% endblock %}
