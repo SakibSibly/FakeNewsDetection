@@ -11,10 +11,10 @@ from django.utils import timezone
 class PopulateAPIDatabase():
     def populate(request, method, endpoint, status_code):
         if request.user.is_authenticated:
-            new_request = APIRequest(user=request.user, method=method, request_time=timezone.now(), endpoint=endpoint, status_code=status_code)
+            new_request = APIRequest(user=request.user, method=method, endpoint=endpoint, status_code=status_code)
             new_request.save()
         else:
-            new_request = APIRequest(user=None, method=method, request_time=timezone.now(), endpoint=endpoint, status_code=status_code)
+            new_request = APIRequest(user=None, method=method, endpoint=endpoint, status_code=status_code)
             new_request.save()
 
 
