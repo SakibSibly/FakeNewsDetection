@@ -479,7 +479,7 @@ footer .links ul li a:hover {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    box-shadow: 3px 4px 5px lightblue;
+    /* box-shadow: 3px 4px 5px lightblue; */
     margin-right: 50px;
     padding: 0;
 }
