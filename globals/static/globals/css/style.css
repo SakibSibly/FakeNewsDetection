@@ -145,6 +145,12 @@ footer {
     margin-top: 4rem;
 }
 
+footer .links ul li strong {
+    display: block;
+    margin-bottom: 5px;
+    color: wheat;
+}
+
 .flexbar {
     color: #f1fff7;
     display: flex;
@@ -167,7 +173,8 @@ footer {
     justify-content: center; 
     align-items: center; 
     margin-bottom: 20px; 
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
 }
 
 .logo img {
@@ -223,6 +230,38 @@ footer {
     color: #bdc3c7; 
     transform: translateX(5px); 
 }
+
+
+footer .links {
+    margin: 10px;
+}
+
+footer .links h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+footer .links ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .links ul li {
+    margin-bottom: 5px;
+}
+
+footer .links ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .links ul li a:hover {
+    color: #ddd;
+}
+
+
 
 .bottom-bar {
     background-color: hsl(0, 3%, 20%);
@@ -440,7 +479,7 @@ footer {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    box-shadow: 3px 4px 5px lightblue;
+    /* box-shadow: 3px 4px 5px lightblue; */
     margin-right: 50px;
     padding: 0;
 }

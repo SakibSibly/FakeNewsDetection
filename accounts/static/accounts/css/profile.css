@@ -8,6 +8,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f9;
@@ -16,111 +18,86 @@ body {
     padding: 0;
 }
 
-#main-doc {
-    max-width: 1300px;
+
+.profile-container {
+    max-width: 800px;
     margin: 20px auto;
     padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2, h3 {
-    color: #2c3e50;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-h1 {
-    font-size: 2em;
+.profile-header {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-h2 {
-    font-size: 1.5em;
+.profile-header h2 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
 }
 
-h3 {
+.profile-header .username {
     font-size: 1.2em;
+    color: #777;
 }
 
-p, ul, ol {
-    font-size: 1em;
+.profile-details p {
+    font-size: 1.2em;
+    line-height: 1.6;
     margin: 10px 0;
 }
 
-ul, ol {
-    padding-left: 20px;
+.profile-details p b {
+    color: #777;
 }
-
-.code {
-    background-color: #f4f4f9;
-    border-left: 3px solid #777;
-    padding: 10px;
-    margin: 20px 0;
-    overflow-x: auto;
-}
-
-pre {
-    margin: 0;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.section {
-    margin-bottom: 30px;
-}
-
 
 @media (max-width: 768px) {
     .banner {
         padding: 15px 10px;
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
-    #main-doc {
+    .profile-container {
         padding: 15px;
         margin: 10px;
     }
 
-    h1 {
+    .profile-header h2 {
         font-size: 1.5em;
     }
 
-    h2 {
-        font-size: 1.2em;
-    }
-
-    h3 {
+    .profile-header .username {
         font-size: 1em;
     }
 
-    p, ul, ol {
-        font-size: 0.9em;
+    .profile-details p {
+        font-size: 1em;
     }
 }
 
 @media (max-width: 480px) {
     .banner {
         padding: 10px 5px;
-        font-size: 0.9em;
-    }
-
-    #main-doc {
-        padding: 10px;
-        margin: 0 5px; 
-    }
-
-    h1 {
-        font-size: 1.2em;
-    }
-
-    h2 {
         font-size: 1em;
     }
 
-    h3 {
+    .profile-container {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .profile-header h2 {
+        font-size: 1.2em;
+    }
+
+    .profile-header .username {
         font-size: 0.9em;
     }
 
-    p, ul, ol {
-        font-size: 0.8em;
+    .profile-details p {
+        font-size: 0.9em;
     }
 }
