@@ -2,12 +2,31 @@
 {% load static %}
 
 {% block content %}
-  <link rel="stylesheet" href="{% static 'newsfeed/css/style.css' %}">
+<link rel="stylesheet" href="{% static 'newsfeed/css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'newsfeed/css/newsfeed.css' %}">
   <div class="banner">
-    <p>Lastest News and Events</p>
+    <p class="header">Lastest News and Events</p>
   </div>
    
   <!-- Implement the newsfeed content here -->
+
+  <div class="manage">
+
+    <div class="news">
+      {% for item in news %}
+      <div class="card">
+        <h2 class="title">{{ item.title }}</h2>
+        <!-- <p class="content">{{ item.content }}</p> -->
+        <p class="date">{{ item.created_at }}</p>
+        <p><a href="{% url 'news_detail' item.id %}">Read More</a></p>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="useful-info">
+      <p>Contribute to the project to help the community grow</p>
+    </div>
+    
+  </div>
 
 
 {% endblock content %}

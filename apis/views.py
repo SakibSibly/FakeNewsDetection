@@ -5,7 +5,6 @@ from django.utils.http import urlencode
 from newsfeed.models import News
 from accounts.models import CustomUser
 from .models import APIRequest
-from django.utils import timezone
 
 
 class PopulateAPIDatabase():

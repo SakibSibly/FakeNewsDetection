@@ -2,12 +2,23 @@
 {% load static %}
 
 {% block content %}
-  <link rel="stylesheet" href="{% static 'newsfeed/css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'newsfeed/css/individual_newsfeed.css' %}">
   <div class="banner">
     <p>Lastest News and Events</p>
   </div>
    
   <!-- Implement the INDIVIDUAL newsfeed content here -->
+  <div>
+    <a class="back-button" href="{% url 'news_feed' %}">Back</a>
+  </div>
+
+  <div class="news">
+    <div class="card">
+      <h2 class="title">{{ news.title }}</h2>
+      <p class="content">{{ news.content | linebreaksbr }}</p>
+      <p class="author">Posted by: {{ news.author }} </p>
+      <p class="date">{{ news.created_at }}</p>
+    </div>
 
   
 {% endblock content %}

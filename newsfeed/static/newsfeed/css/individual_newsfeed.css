@@ -1,0 +1,56 @@
+.manage {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    gap: 20px; /* Adds space between columns */
+    justify-content: space-between;
+}
+  
+.news {
+    flex: 1 1 48%; /* Each div takes up 48% width with space between */
+    box-sizing: border-box; /* Prevents padding from increasing width */
+}
+  
+.useful-info {
+    flex: 1 1 48%; /* Each div takes up 48% width with space between */
+    box-sizing: border-box; /* Prevents padding from increasing width */
+    text-align: center;
+    font-size: large;
+}
+  
+.card {
+    /* background-color: #f9f9f9; */
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+  
+.title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-size: 1em;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.back-button {
+    margin-left: 2rem;
+    font: inherit;
+}
+  
+.date {
+    font-size: 0.9em;
+    color: gray;
+    margin-top: 1rem;
+}
+  
+@media (max-width: 768px) {
+    .news, .useful-info {
+      flex: 1 1 100%; /* Full width on smaller screens */
+    }
+}
+  

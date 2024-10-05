@@ -5,7 +5,8 @@ from .models import News
 
 class NewsFeedView(View):
     def get(self, request):
-        return render(request, 'newsfeed/newsfeed.html')
+        news = News.objects.all().order_by('-created_at')
+        return render(request, 'newsfeed/newsfeed.html', {'news': news})
 
 
 class NewsDetailView(View):
