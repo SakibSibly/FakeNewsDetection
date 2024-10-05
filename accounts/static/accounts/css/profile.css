@@ -53,3 +53,51 @@ body {
 .profile-details p b {
     color: #777;
 }
+
+@media (max-width: 768px) {
+    .banner {
+        padding: 15px 10px;
+        font-size: 1.2em;
+    }
+
+    .profile-container {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .profile-header h2 {
+        font-size: 1.5em;
+    }
+
+    .profile-header .username {
+        font-size: 1em;
+    }
+
+    .profile-details p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner {
+        padding: 10px 5px;
+        font-size: 1em;
+    }
+
+    .profile-container {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .profile-header h2 {
+        font-size: 1.2em;
+    }
+
+    .profile-header .username {
+        font-size: 0.9em;
+    }
+
+    .profile-details p {
+        font-size: 0.9em;
+    }
+}
