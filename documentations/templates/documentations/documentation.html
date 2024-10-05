@@ -4,9 +4,112 @@
 {% block content %}
   <link rel="stylesheet" href="{% static 'documentations/css/documentation.css' %}">
   <div class="banner">
-    <p>Updated on Sep 29, 2024</p>
+    <p>Updated on October 05, 2024</p>
   </div>
   
-   <!-- Implement the documentation content here -->
+  <div id="main-doc">
+
+    <h1>Fake News Detection Documentation</h1>
+    <p>This documentation provides a brief understanding of the Fake News Detection system and its usage. The project is designed to detect whether a news article is fake or real based on the input provided.</p>
+    <br>
+
+    <div class="section">
+        <h2>Overview</h2>
+        <p>The Fake News Detection project uses machine learning models to classify news articles as "fake" or "real". The system analyzes the textual content of a news article and predicts its validity. We have used a large language model <b>(LLM)</b> such as <b>BERT</b> for training and prediction.</p>
+        <br>
+        <p>Also their is scrapping approach for more recent news that have not been covered during the mdoel training process.</p>
+    </div>
+
+    <div class="section">
+        <h2>How It Works</h2><br>
+        <h3>The Training Model Approach works as follows:</h3>
+        <ol>
+          <li><b>Input:</b> User submits a news article.</li>
+          <li><b>Preprocessing:</b> The text is cleaned, tokenized, and transformed for model input.</li>
+          <li><b>Model:</b> A pre-trained model (e.g., BERT) is used to predict the class of the news as 'Fake' or 'Real'.</li>
+          <li><b>Output:</b> The result (Fake/Real) is displayed to the user.</li>
+        </ol>
+        <br><br>
+        <h3>The Scrapping Approach works as follows:</h3>
+        <ol>
+          <li><b>Input:</b> User submits a news article.</li>
+          <li><b>Scrapping:</b> Scrapping is done by using the Google Custom Search Engine API</li>
+          <li><b>Output:</b> The scrapped result is displayed to the user with context similarity score using <b>Spacy</b> model <b>en_core_web_lg</b> model which facilitates named entity recognition <b>(NER)</b>.</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>Technology Stack</h2>
+        <ul>
+            <li>Backend: Django Framework</li>
+            <li>Machine Learning: spaCy, BERT</li>
+            <li>Database: SQLite3 with ORM</li>
+            <li>Frontend: HTML, CSS, JavaScript</li>
+            <li>Deployment: Docker</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Installation Guide</h2>
+        <p>Follow these steps to set up the project on your local machine:</p>
+        <div class="code">
+            <pre>
+# Clone the repository
+git clone https://github.com/SakibSibly/FakeNewsDetection.git
+
+# Navigate into the project directory
+cd FakeNewsDetection
+
+# Install required dependencies
+pip install -r requirements.txt
+
+# Run migrations and apply them
+python manage.py makemigrations
+python manage.py migrate
+
+# Start the Django server
+python manage.py runserver
+
+# Create a superuser for admin access
+python manage.py createsuperuser
+            </pre>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 id="api">API Endpoints</h2>
+        <p>The following API endpoints are available for interacting with the Fake News Detection system:</p>
+        <ul>
+            <li><strong>GET /</strong> - JSON response from the server which includes newsfeed and public details of user profile.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Usage</h2>
+        <p>To use the Fake News Detection system:</p>
+        <ol>
+          <li>Open your account</li>
+            <li>Visit the home page and input the news article text in the provided form.</li>
+            <li>Click "Analyze" to analyze the news.</li>
+            <li>The system will display the result: either "Fake" or "Real".</li>
+            <li>Or user the scrapping approach</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>Resources</h2>
+        <p>For more information on the Machine Learning technologies used:</p>
+        <ul>
+            <li><a href="https://spacy.io/">spaCy Documentation</a></li>
+            <li><a href="https://huggingface.co/transformers/model_doc/bert.html">BERT Model Documentation</a></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Contact</h2>
+        <p>If you have any questions or need support, feel free to reach out at <a href="mailto:sakibsibly@gmail.com">Gmail</a>.</p>
+    </div>
+
+  </div>
 
 {% endblock content %}

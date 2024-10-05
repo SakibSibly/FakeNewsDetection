@@ -15,3 +15,14 @@ class AboutView(View):
 class OverviewView(View):
     def get(self, request):
         return render(request, 'documentations/overview.html')
+
+
+
+class CodeOfConductView(View):
+    def get(self, request):
+        return render(request, 'documentations/code_of_conduct.html')
+
+
+class CookiePolicyView(View):
+    def get(self, request):
+        return render(request, 'documentations/cookie_policy.html')
