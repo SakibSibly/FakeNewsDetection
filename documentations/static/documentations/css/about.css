@@ -66,3 +66,43 @@ h1::after {
 .department p:last-child {
     margin-bottom: 0;
 }
+
+@media (max-width: 768px) {
+    .banner {
+        padding: 15px 10px;
+        font-size: 1.2em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .team-member, .department {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .team-member p, .department p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner {
+        padding: 10px 5px;
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .team-member, .department {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .team-member p, .department p {
+        font-size: 0.9em;
+    }
+}
