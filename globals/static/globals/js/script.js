@@ -53,3 +53,36 @@ function checkWindowSize() {
 
 window.addEventListener('resize', checkWindowSize);
 window.addEventListener('load', checkWindowSize);
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const links = document.querySelectorAll("nav a");
+
+   
+    links.forEach(link => {
+        link.addEventListener("click", function () {
+            
+            links.forEach(link => link.classList.remove("active"));
+            this.classList.add("active");
+        });
+    });
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const links = document.querySelectorAll("nav a");
+
+    
+    const currentUrl = window.location.href;
+
+    links.forEach(link => {
+        if (link.href === currentUrl) {
+            link.classList.add("active");
+        }
+
+        link.addEventListener("click", function () {
+            links.forEach(link => link.classList.remove("active"));
+            this.classList.add("active");
+        });
+    });
+});
