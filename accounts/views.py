@@ -105,6 +105,8 @@ class PrintReportView(View):
 
         elif verdict == '0':
             verdict = "Analysis Result:\n" + "Real News!"
+        else:
+            verdict = "Analysis Result:\n" + "Not Applicable for srapping data!"
 
         response = HttpResponse(content_type='application/pdf')
         response['Content-Disposition'] = 'attachment; filename="News_Detection_Result.pdf"'

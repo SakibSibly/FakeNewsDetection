@@ -20,6 +20,8 @@ class CustomScraper:
             'num' : 10,
             'start' : 1
         }
+        file = open(self.FILE_PATH, 'w+', encoding='utf-8')
+        file.close()
 
     def getNews(self) -> None:
         cnt = 0

@@ -15,7 +15,7 @@ class SimilarityFinder:
 
     def findSimilarity(self):
         result_text = open('ml/result.txt', 'r', encoding='utf-8')
-        final_output = open('ml/final_output.txt', 'a', encoding='utf-8')
+        final_output = open('ml/final_output.txt', 'w+', encoding='utf-8')
         count = 0
         similarity_score_list = []
         temporary_sentence = ""

@@ -5,6 +5,7 @@ from django.urls import reverse
 from django.utils.http import urlencode
 from accounts.models import SearchData
 import torch
+import os
 import torch.nn as nn
 from transformers import AutoModel, BertTokenizerFast
 import numpy as np
@@ -90,7 +91,7 @@ class HomeView(View):
                 customScraper.getNews()
                 similarityFinder = SF.SimilarityFinder(query)
                 similarityFinder.findSimilarity()
-                output = open('ml/final_output.txt', 'r', encoding='utf-8')
+                output = open('ml/final_output.txt', 'r', encoding='utf-8').read()
                 
                 searched_data = SearchData(user=request.user, search_data=query, scrap_data=output, analysis_type="1", verdict="2")
                 searched_data.save()
@@ -105,9 +106,12 @@ class HomeView(View):
 
                 context = {
                     'scrapped_result': temp,
-                    'report_number': 1
+                    'report_number': searched_data.id
                 }
                 
+                os.remove('ml/result.txt')
+                os.remove('ml/final_output.txt')
+
                 return render(request, 'home/scrapped_result.html', context)
             return HttpResponse('Invalid Request')
         login_url = reverse('login') + '?' + urlencode({'next': request.path})
