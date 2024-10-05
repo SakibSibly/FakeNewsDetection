@@ -43,6 +43,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
 class SearchData(models.Model):
     user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
     search_data = models.TextField()
+    scrap_data = models.TextField(null=True)
     analysis_type = models.CharField(max_length=100)
     verdict = models.CharField(max_length=100)
     date = models.DateTimeField(auto_now_add=True)
