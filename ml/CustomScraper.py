@@ -29,7 +29,7 @@ class CustomScraper:
             res = requests.get(self.URL, params=self.params)
             if res.status_code == 200:
                 res = res.json()
-                items = res['items']
+                items = res.get('items')
 
                 for item in items:
                     cnt+=1

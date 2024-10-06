@@ -25,4 +25,4 @@ urlpatterns = [
     path('api/', include('apis.urls')),
     path('newsfeed/', include('newsfeed.urls')),
     path('project/', include('documentations.urls')),
-] + debug_toolbar_urls()
+]# + debug_toolbar_urls()
